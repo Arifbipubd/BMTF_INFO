@@ -29,10 +29,8 @@ const blog3 = "/img/blog/3.jpg";
 export default function Index() {
   return (
     <>
-      <Title title='Home' />
       <Layout className={"transdark"}>
-        <Title title='Home Delta' />
-
+        <Title title='Home' />
         <Slider />
         {/* <!-- Principles Modern --> */}
         <div className='fn_cs_principles_modern'>
@@ -49,11 +47,13 @@ export default function Index() {
                       <Link href='/principles'>
                         <a></a>
                       </Link>
-                      <h3>Honesty</h3>
+                      <h3>Mission</h3>
                       <p>
-                        Be humble in all dealings with our partners, clients and
-                        team members. True wisdom and understanding belong to
-                        the humble.
+                        BMTF leads Bangladesh's industrial progress, emphasizing
+                        innovation, sustainability, and social responsibility.
+                        With visionary leadership, we drive economic
+                        transformation and national prosperity, aligning with
+                        critical development initiatives.
                       </p>
                       <span className='icon'>
                         <Arrow_r className='fn__svg' />
@@ -68,11 +68,13 @@ export default function Index() {
                       <Link href='/principles'>
                         <a></a>
                       </Link>
-                      <h3>Passion</h3>
+                      <h3>Vision</h3>
                       <p>
-                        Success is when we can achieve results in the things we
-                        are passionate about and feel as though we are making a
-                        difference.
+                        BMTF aspire to lead Bangladesh's industry, setting new
+                        manufacturing standards, fostering economic growth, and
+                        global recognition through innovation, diversification,
+                        and strategic partnerships, driving resilience and
+                        prosperity.
                       </p>
                       <span className='icon'>
                         <Arrow_r className='fn__svg' />
@@ -87,11 +89,13 @@ export default function Index() {
                       <Link href='/principles'>
                         <a></a>
                       </Link>
-                      <h3>Quality Work</h3>
+                      <h3>Core Values</h3>
                       <p>
-                        We ensure that all projects are done with utmost
-                        professionalism using quality materials while offering
-                        clients the support and accessibility.
+                        BMTF is unwavering in its commitment to align its core
+                        values with the high standards of its clients. We place
+                        a premium on innovation, community engagement, and
+                        sustainable practices, all aimed at delivering customer
+                        satisfaction through customized solutions.
                       </p>
                       <span className='icon'>
                         <Arrow_r className='fn__svg' />
@@ -114,25 +118,25 @@ export default function Index() {
               <div className='a_inner'>
                 <div className='leftpart'>
                   <div className='title_holder'>
-                    <h3 className='title'>We are Industify</h3>
+                    <h3 className='title'>About BMTF</h3>
                     <p>
-                      Industify is a pioneer in design-build specializing in
-                      engineering, architecture and construction services to
-                      both domestic and international customers. Founded in
-                      1960, Industify is a family-owned company headquartered in
-                      Lexington, Ky. with offices across the U.S., Canada and
-                      Japan.
+                      Bangladesh Machine Tools Factory Limited (BMTF) is a
+                      prominent state-owned entity operating under the
+                      Bangladesh Army's supervision. BMTF located in Gazipur,
+                      spans 260 acres and serves as a leading industrial
+                      conglomerate. BMTF, led by the Chief of Army Staff as the
+                      Board Chairman and a capable Managing Director, boasts a
+                      strong leadership that has propelled it to global
+                      recognition.
                     </p>
                     <p>
-                      To provide exceptional services to the insurance industry
-                      and thier clients, the property owner. We are committed to
-                      providing the highest level of professionalism, service
-                      response, and quality workmanship.
+                      With a blend of military and civilian officers and a
+                      dedicated workforce, BMTF is committed to contributing to
+                      Bangladesh's economic transformation, aligning with the
+                      'Delta Plan 2100.' Its consistent revenue generation plays
+                      a pivotal role in shaping the nation's progress and
+                      development.
                     </p>
-                  </div>
-                  <div className='sign_holder'>
-                    <h3 className='name'>Alan Michaelis</h3>
-                    <p className='occ'>Chief Executive</p>
                   </div>
                 </div>
                 <div className='rightpart'>

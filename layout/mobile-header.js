@@ -99,7 +99,7 @@ export default function MobileHeader() {
             <div className='menu_logo'>
               <Link href='/'>
                 <a>
-                  <img src='img/logo-light.png' alt='Industry Template' />
+                  <img src='logo-light.svg' alt='Industry Template' />
                 </a>
               </Link>
             </div>
@@ -133,6 +133,21 @@ export default function MobileHeader() {
                     <li>
                       <Link href='/about-us'>
                         <a>About Us</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/our-history'>
+                        <a>Our History</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/organogram'>
+                        <a>Organogram</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/csr'>
+                        <a>Corporate Social Responsibility(CSR)</a>
                       </Link>
                     </li>
                     <li>

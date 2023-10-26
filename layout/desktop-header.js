@@ -82,12 +82,12 @@ export default function DesktopHeader() {
               <a>
                 <img
                   className='desktop_logo'
-                  src='img/logo-light.png'
+                  src='logo-light.svg'
                   alt='Industry HTML Template'
                 />
                 <img
                   className='desktop_logo_dark'
-                  src='img/logo-dark.png'
+                  src='logo-dark.svg'
                   alt='Industry HTML Template'
                 />
               </a>
@@ -103,6 +103,21 @@ export default function DesktopHeader() {
                   <li>
                     <Link href='/about-us'>
                       <a>About Us</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/our-history'>
+                      <a>Our History</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/organogram'>
+                      <a>Organogram</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/csr'>
+                      <a>Corporate Social Responsibility(CSR)</a>
                     </Link>
                   </li>
                   <li>
