@@ -5,7 +5,13 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import PhotoGallery from "../components/Gallery/PhotoGallery";
 import { Check } from "../public/svg/icon";
+import {
+  Drawing,
+  Learning,
+  TowerCrane,
+} from "../public/svg/service/IconService";
 
 export default function ServiceSingle1() {
   return (
@@ -15,7 +21,7 @@ export default function ServiceSingle1() {
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
-            <div className='title_holder'>
+            <div className='title_holder singleVerticalBreadcrumb'>
               <h3>Footwear & Leather</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
@@ -72,6 +78,7 @@ export default function ServiceSingle1() {
                       and effective risk management is applied at every step of
                       the way.
                     </p>
+                    <h3>Our Aim</h3>
                     <p>
                       At Industry, we offer your organisation the guidance it
                       needs to reinforce your vital construction and engineering
@@ -91,7 +98,7 @@ export default function ServiceSingle1() {
 
                   {/* Check List Shortcode  */}
                   <div className='fn_cs_check_list'>
-                    <h3>Service Features</h3>
+                    <h3>Our Promises Are</h3>
                     <div className='list'>
                       <ul>
                         <li>
@@ -239,6 +246,82 @@ export default function ServiceSingle1() {
                 {/* /Get Sidebar  */}
               </div>
               {/* Main Sidebar: Right  */}
+
+              {/* Manufacturing Process Start  */}
+
+              <div className='fn_cs_services_classic manufacture_process'>
+                <div className=''>
+                  <div className='list'>
+                    <h3>Our Manufacturing Process</h3>
+                    <ul>
+                      <li>
+                        <div className='item'>
+                          <span className='bg1'></span>
+                          <span className='bg2'></span>
+                          <span className='icon'>
+                            <Learning className='fn__svg' />
+                          </span>
+                          <h3>Preconstruction Estimating</h3>
+                          <p>
+                            During this phase, we will work to provide a
+                            detailed analysis of the project and we will
+                            establish project expectations along with our
+                            clients.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <span className='bg1'></span>
+                          <span className='bg2'></span>
+                          <span className='icon'>
+                            <Drawing className='fn__svg' />
+                          </span>
+                          <h3>
+                            General <br />
+                            Contracting
+                          </h3>
+                          <p>
+                            The client retains an architect or engineer to
+                            design the project and to prepare the necessary
+                            drawings and specifications for new project.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <span className='bg1'></span>
+                          <span className='bg2'></span>
+                          <span className='icon'>
+                            <TowerCrane className='fn__svg' />
+                          </span>
+                          <h3>Construction Management</h3>
+                          <p>
+                            Under a Construction Management contract, the client
+                            secures the services of a construction manager to
+                            work with the design team.
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Manufacturing Process End  */}
+
+              {/* Gallery Section Start */}
+
+              <div
+                className='fn_cs_gallery_grid fn_cs_lightgallery imageGalleryDiv singleVerticalGallery'
+                data-cols='4'
+              >
+                <div className='inner'>
+                  <PhotoGallery />
+                </div>
+              </div>
+
+              {/* Gallery Section End */}
             </div>
           </div>
         </div>

@@ -1266,14 +1266,14 @@ a:focus {
   width: -webkit-calc(100% - 300px);
   float: left;
   padding-right: 50px;
-  padding-top: 120px;
-  padding-bottom: 147px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .industify_fn_rightsidebar {
   width: 300px;
   float: right;
-  padding-top: 120px;
-  padding-bottom: 147px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 @media (max-width: 1200px) {
   .industify_fn_leftsidebar {
@@ -10177,6 +10177,8 @@ blockquote {
   }
 }
 
+/************Custom Code***********/
+
 /**********Image Gallery************/
 .imageGalleryDiv {
   padding: 25px 0;
@@ -10218,4 +10220,33 @@ blockquote {
   .video-card {
     width: calc(100% - 20px);
   }
+}
+
+/*****************Single Vertical******************/
+.singleVerticalBreadcrumb {
+  padding-top: 50px !important;
+}
+.desc_holder h3 {
+  margin: 25px 0;
+  padding: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.manufacture_process {
+  margin: 50px 0 !important;
+}
+.manufacture_process li {
+  width: 33.33% !important;
+}
+.manufacture_process h3 {
+  margin: 0 0 25px 0;
+  padding: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.singleVerticalGallery {
+  padding: 0 !important;
+  margin-bottom: 50px;
 }
