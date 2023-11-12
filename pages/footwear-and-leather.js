@@ -5,6 +5,8 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import CategoryCard from "../components/verticals/category";
+import { footwear } from "../lib/productCategory.json";
 import PhotoGallery from "../components/Gallery/PhotoGallery";
 import { Check } from "../public/svg/icon";
 import {
@@ -65,34 +67,35 @@ export default function ServiceSingle1() {
 
                   <div className='desc_holder'>
                     <p>
-                      Ensure the strength, integrity and conformity of your
-                      construction and engineering processes and products by
-                      using Industry’s specialised services.
+                      The BMTF Footwear & Leather Factory stands as one of the
+                      largest military shoe manufacturing shops in Bangladesh.
+                      They introduced their brand 'Signature' in 2007 and have
+                      been proudly serving many prestigious customers ever
+                      since. The factory is equipped with modern machinery
+                      capable of producing millions of pairs of shoes and
+                      leather products annually. Their dedicated team employs
+                      special artisanal techniques to ensure high-quality shoes
+                      at every stage of production.
                     </p>
                     <p>
-                      The construction and engineering industries face a unique
-                      set of challenges such as ensuring projects are completed
-                      on schedule, that the products used are both safe and of a
-                      certain quality, costs do not overrun, compliance to
-                      corporate social responsibility standards are adhered to
-                      and effective risk management is applied at every step of
-                      the way.
+                      Approximately 1,000 skilled workers operate in shifts to
+                      craft up to 4,000 pairs of shoes daily, amounting to
+                      around 100,000 pairs per month. These craftsmen
+                      meticulously handle the leather, paying close attention to
+                      every detail to guarantee top-notch quality. They hold
+                      quality in the highest regard and never compromise on it.
+                      'Signature' is renowned for its distinctive designs,
+                      competitive prices, excellent quality, punctual delivery,
+                      and efficient service.
                     </p>
                     <h3>Our Aim</h3>
                     <p>
-                      At Industry, we offer your organisation the guidance it
-                      needs to reinforce your vital construction and engineering
-                      plans. Assisting our clients in streamlining and securing
-                      supply chains and manufacturing processes, our services
-                      enable product and project optimisation. Additionally, our
-                      programmes and services, such as our ETL and Warnock
-                      Hersey marks, can bring your business industry recognition
-                      and validation.
-                    </p>
-                    <p>
-                      We are your partner in assuring your products and
-                      processes are strong, viable, and prepared to meet the
-                      market demands wherever you do business.
+                      Our aim is to achieve maximum client satisfaction and
+                      surpass their expectations with motivated and contented
+                      staff, generating sustainable results. Our business
+                      objective is to grow as a commercially viable production
+                      house and contribute significantly to the socio-economic
+                      development of the country.
                     </p>
                   </div>
 
@@ -104,43 +107,37 @@ export default function ServiceSingle1() {
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Preconstruction &amp; Consulting</p>
+                            <p>High standard of products</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Small Projects &amp; Maintenance</p>
+                            <p>High-quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Leed &amp; Green Building</p>
+                            <p>Proper quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Design Build</p>
+                            <p>Reasonable prices</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Adaptive Reuse</p>
+                            <p>Timely delivery</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>New Construction</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Interiors</p>
+                            <p>Standard compliance</p>
                           </div>
                         </li>
                       </ul>
@@ -148,6 +145,16 @@ export default function ServiceSingle1() {
                   </div>
                   {/* Check List Shortcode  */}
 
+                  {/* Category card start */}
+                  <div className=''>
+                    <h3 className='categorySectionTitle'>Product Categories</h3>
+                    <div className='clientDiv'>
+                      {footwear.map((client) => (
+                        <CategoryCard key={client.id} data={client} />
+                      ))}
+                    </div>
+                  </div>
+                  {/* Category card End */}
                   {/* Call to Action Shortcode (with corner)  */}
                   <div className='fn_cs_call_to_action corner'>
                     <div className='container'>
@@ -177,6 +184,81 @@ export default function ServiceSingle1() {
                     data-count='2'
                   ></div>
                   {/* /Get Random Services  */}
+
+                  {/* Manufacturing Process Start  */}
+
+                  <div className='fn_cs_services_classic manufacture_process'>
+                    <div className=''>
+                      <div className='list'>
+                        <h3>Our Manufacturing Process</h3>
+                        <ul>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Learning className='fn__svg' />
+                              </span>
+                              <h3>Rubber Outsole Pressing</h3>
+                              <p>
+                                Our shoe molds consist of two parts — the insole
+                                and outsole. First, the outsole is prepped with
+                                color for a logo as well as a background color.
+                                The middle plate is closed with the colors
+                                added, and then raw rubber is placed into the
+                                mold.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Drawing className='fn__svg' />
+                              </span>
+                              <h3>Rubber Insole Pressing</h3>
+                              <p>
+                                During the insole pressing process, we add raw
+                                rubber to shape the forefront and place the mold
+                                back into the heat to form the insole.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>Fusing</h3>
+                              <p>
+                                The insole and outsole are later efficiently
+                                fused to form a finished rubber sole,
+                                prioritizing comfort for the feet.
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Manufacturing Process End  */}
+
+                  {/* Gallery Section Start */}
+
+                  <div
+                    className='fn_cs_gallery_grid fn_cs_lightgallery imageGalleryDiv singleVerticalGallery'
+                    data-cols='4'
+                  >
+                    <div className='inner'>
+                      <PhotoGallery />
+                    </div>
+                  </div>
+
+                  {/* Gallery Section End */}
                 </div>
                 {/* /Single Service  */}
               </div>
@@ -246,82 +328,6 @@ export default function ServiceSingle1() {
                 {/* /Get Sidebar  */}
               </div>
               {/* Main Sidebar: Right  */}
-
-              {/* Manufacturing Process Start  */}
-
-              <div className='fn_cs_services_classic manufacture_process'>
-                <div className=''>
-                  <div className='list'>
-                    <h3>Our Manufacturing Process</h3>
-                    <ul>
-                      <li>
-                        <div className='item'>
-                          <span className='bg1'></span>
-                          <span className='bg2'></span>
-                          <span className='icon'>
-                            <Learning className='fn__svg' />
-                          </span>
-                          <h3>Preconstruction Estimating</h3>
-                          <p>
-                            During this phase, we will work to provide a
-                            detailed analysis of the project and we will
-                            establish project expectations along with our
-                            clients.
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className='item'>
-                          <span className='bg1'></span>
-                          <span className='bg2'></span>
-                          <span className='icon'>
-                            <Drawing className='fn__svg' />
-                          </span>
-                          <h3>
-                            General <br />
-                            Contracting
-                          </h3>
-                          <p>
-                            The client retains an architect or engineer to
-                            design the project and to prepare the necessary
-                            drawings and specifications for new project.
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className='item'>
-                          <span className='bg1'></span>
-                          <span className='bg2'></span>
-                          <span className='icon'>
-                            <TowerCrane className='fn__svg' />
-                          </span>
-                          <h3>Construction Management</h3>
-                          <p>
-                            Under a Construction Management contract, the client
-                            secures the services of a construction manager to
-                            work with the design team.
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Manufacturing Process End  */}
-
-              {/* Gallery Section Start */}
-
-              <div
-                className='fn_cs_gallery_grid fn_cs_lightgallery imageGalleryDiv singleVerticalGallery'
-                data-cols='4'
-              >
-                <div className='inner'>
-                  <PhotoGallery />
-                </div>
-              </div>
-
-              {/* Gallery Section End */}
             </div>
           </div>
         </div>
