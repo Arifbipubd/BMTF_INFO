@@ -62,9 +62,14 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    <img src='img/service/single/1.jpg' alt='' />
+                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
+                    <iframe
+                      width='100%'
+                      src='https://www.youtube.com/embed/NwBF-LlN_hM'
+                      frameborder='0'
+                      allowfullscreen
+                    ></iframe>
                   </div>
-
                   <div className='desc_holder'>
                     <p>
                       The BMTF Footwear & Leather Factory stands as one of the
@@ -98,7 +103,6 @@ export default function ServiceSingle1() {
                       development of the country.
                     </p>
                   </div>
-
                   {/* Check List Shortcode  */}
                   <div className='fn_cs_check_list'>
                     <h3>Our Promises Are</h3>
@@ -144,7 +148,6 @@ export default function ServiceSingle1() {
                     </div>
                   </div>
                   {/* Check List Shortcode  */}
-
                   {/* Category card start */}
                   <div className=''>
                     <h3 className='categorySectionTitle'>Product Categories</h3>
@@ -156,7 +159,7 @@ export default function ServiceSingle1() {
                   </div>
                   {/* Category card End */}
                   {/* Call to Action Shortcode (with corner)  */}
-                  <div className='fn_cs_call_to_action corner'>
+                  {/* <div className='fn_cs_call_to_action corner'>
                     <div className='container'>
                       <div className='cta_holder'>
                         <div className='title_holder'>
@@ -173,24 +176,14 @@ export default function ServiceSingle1() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* /Call to Action Shortcode (with corner)  */}
 
-                  {/* Get Random Services  */}
-                  {/* You can change data-index value to exclude 1st service single from the service list. You can also change data-count value to set including services count.  */}
-                  <div
-                    data-html='includes/random-service.html'
-                    data-index='1'
-                    data-count='2'
-                  ></div>
-                  {/* /Get Random Services  */}
-
                   {/* Manufacturing Process Start  */}
-
                   <div className='fn_cs_services_classic manufacture_process'>
                     <div className=''>
                       <div className='list'>
-                        <h3>Our Manufacturing Process</h3>
+                        <h3 className='title'>Our Manufacturing Process</h3>
                         <ul>
                           <li>
                             <div className='item'>
@@ -244,21 +237,7 @@ export default function ServiceSingle1() {
                       </div>
                     </div>
                   </div>
-
                   {/* Manufacturing Process End  */}
-
-                  {/* Gallery Section Start */}
-
-                  <div
-                    className='fn_cs_gallery_grid fn_cs_lightgallery imageGalleryDiv singleVerticalGallery'
-                    data-cols='4'
-                  >
-                    <div className='inner'>
-                      <PhotoGallery />
-                    </div>
-                  </div>
-
-                  {/* Gallery Section End */}
                 </div>
                 {/* /Single Service  */}
               </div>
@@ -269,7 +248,7 @@ export default function ServiceSingle1() {
                 {/* Service List  */}
                 <div className='service_list_as_function'>
                   <div className='title'>
-                    <h3>Full list of Services</h3>
+                    <h3>All Industries of BMTF</h3>
                   </div>
                   <div className='list_holder'>
                     <ul>

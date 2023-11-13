@@ -3,32 +3,32 @@
     {
       "id": 1,
       "name": "Military Boots",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     },
     {
       "id": 2,
       "name": "Sports Shoes",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     },
     {
       "id": 3,
       "name": "Dress Shoes",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     },
     {
       "id": 4,
       "name": "Routine Shoes",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     },
     {
       "id": 5,
       "name": "Sandals",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     },
     {
       "id": 6,
       "name": "Ladies' and Men’s Shoes",
-      "image": "https://bmtf.com.bd/website/our%20clients/ArmyLogo.jpg"
+      "image": "/demoTest.png"
     }
   ]
 }

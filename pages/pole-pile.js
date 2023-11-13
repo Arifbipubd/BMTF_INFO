@@ -5,7 +5,15 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import CategoryCard from "../components/verticals/category";
+import { footwear } from "../lib/productCategory.json";
+import PhotoGallery from "../components/Gallery/PhotoGallery";
 import { Check } from "../public/svg/icon";
+import {
+  Drawing,
+  Learning,
+  TowerCrane,
+} from "../public/svg/service/IconService";
 
 export default function ServiceSingle1() {
   return (
@@ -15,7 +23,7 @@ export default function ServiceSingle1() {
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
-            <div className='title_holder'>
+            <div className='title_holder singleVerticalBreadcrumb'>
               <h3>Pole & Pile</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
@@ -54,95 +62,118 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    <img src='img/service/single/1.jpg' alt='' />
+                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
+                    <iframe
+                      width='100%'
+                      src='https://www.youtube.com/embed/NwBF-LlN_hM'
+                      frameborder='0'
+                      allowfullscreen
+                    ></iframe>
                   </div>
-
                   <div className='desc_holder'>
                     <p>
-                      Ensure the strength, integrity and conformity of your
-                      construction and engineering processes and products by
-                      using Industry’s specialised services.
+                      The Pole and Pile Factory is a prominent division of the
+                      state-owned BMTF, one of the largest manufacturing
+                      entities. In April 2016, the Chief of Army Staff, who also
+                      serves as the Chairman of the BMTF Board of Directors,
+                      approved the establishment of this factory. On February
+                      14, 2017, the BMTF Pole Factory commenced operations with
+                      a mission to support the government's 'Vision 2041' by
+                      providing quality lighting solutions for every home.
                     </p>
                     <p>
-                      The construction and engineering industries face a unique
-                      set of challenges such as ensuring projects are completed
-                      on schedule, that the products used are both safe and of a
-                      certain quality, costs do not overrun, compliance to
-                      corporate social responsibility standards are adhered to
-                      and effective risk management is applied at every step of
-                      the way.
+                      Since its inception, the factory has been producing a wide
+                      range of durable Concrete Electric Poles. It has the
+                      capacity to manufacture over 1,400 poles daily, thanks to
+                      the dedicated efforts of a large team of officers,
+                      employees, and workers. These poles are renowned for their
+                      strength and resistance to corrosion. In addition to
+                      standard products, our experts specialize in designing
+                      poles capable of withstanding extreme heat and natural
+                      disasters. We also offer Earthing Electrodes with
+                      excellent electrical conductivity, thermal stability, low
+                      maintenance requirements, and a long working life.
                     </p>
                     <p>
-                      At Industry, we offer your organisation the guidance it
-                      needs to reinforce your vital construction and engineering
-                      plans. Assisting our clients in streamlining and securing
-                      supply chains and manufacturing processes, our services
-                      enable product and project optimisation. Additionally, our
-                      programmes and services, such as our ETL and Warnock
-                      Hersey marks, can bring your business industry recognition
-                      and validation.
+                      Our infrastructure includes a warehouse and an R&D unit
+                      alongside the main production facility. We leverage the
+                      latest manufacturing techniques developed by our research
+                      department to create our product range. We maintain a
+                      rigorous quality control process, adhering to ISO
+                      standards, to ensure that our products meet stringent
+                      quality criteria at every stage.
                     </p>
                     <p>
-                      We are your partner in assuring your products and
-                      processes are strong, viable, and prepared to meet the
-                      market demands wherever you do business.
+                      To meet the high demand of our satisfied customers, we
+                      have expanded our production capacity by establishing
+                      additional units equipped with advanced machinery. We also
+                      manufacture SPC piles for building construction to the
+                      highest standards.
+                    </p>
+                    <h3>Our Aim</h3>
+                    <p>
+                      The aim of the factory is to enhance efficiency by
+                      upgrading technology and adhering to the entity's spirit
+                      of integrity and innovation.
                     </p>
                   </div>
-
                   {/* Check List Shortcode  */}
                   <div className='fn_cs_check_list'>
-                    <h3>Service Features</h3>
+                    <h3>Our Promises Are</h3>
                     <div className='list'>
                       <ul>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Preconstruction &amp; Consulting</p>
+                            <p>High standard of products</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Small Projects &amp; Maintenance</p>
+                            <p>High-quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Leed &amp; Green Building</p>
+                            <p>Proper quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Design Build</p>
+                            <p>Reasonable prices</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Adaptive Reuse</p>
+                            <p>Timely delivery</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>New Construction</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Interiors</p>
+                            <p>Standard compliance</p>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
                   {/* Check List Shortcode  */}
-
+                  {/* Category card start */}
+                  <div className=''>
+                    <h3 className='categorySectionTitle'>Product Categories</h3>
+                    <div className='clientDiv'>
+                      {footwear.map((client) => (
+                        <CategoryCard key={client.id} data={client} />
+                      ))}
+                    </div>
+                  </div>
+                  {/* Category card End */}
                   {/* Call to Action Shortcode (with corner)  */}
-                  <div className='fn_cs_call_to_action corner'>
+                  {/* <div className='fn_cs_call_to_action corner'>
                     <div className='container'>
                       <div className='cta_holder'>
                         <div className='title_holder'>
@@ -159,17 +190,133 @@ export default function ServiceSingle1() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* /Call to Action Shortcode (with corner)  */}
 
-                  {/* Get Random Services  */}
-                  {/* You can change data-index value to exclude 1st service single from the service list. You can also change data-count value to set including services count.  */}
-                  <div
-                    data-html='includes/random-service.html'
-                    data-index='1'
-                    data-count='2'
-                  ></div>
-                  {/* /Get Random Services  */}
+                  {/* Manufacturing Process Start  */}
+                  <div className='fn_cs_services_classic manufacture_process'>
+                    <div className=''>
+                      <div className='list'>
+                        <h3 className='title'>Our Manufacturing Process</h3>
+                        <ul>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Learning className='fn__svg' />
+                              </span>
+                              <h3>Cage Making and Setting</h3>
+                              <p>
+                                Reinforcement circumferential spiral wire coil
+                                is placed on the lower steel mold. All
+                                accessories and prestressed strand are inserted
+                                longitudinally through the tension plate, spiral
+                                wire coils, and anchor plate. Retaining rings at
+                                regular intervals are inserted to ensure correct
+                                concrete cover, and the cage is positioned in
+                                the lower half of the steel molds.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Drawing className='fn__svg' />
+                              </span>
+                              <h3>Concrete Mixing and Pouring</h3>
+                              <p>
+                                Poles made in steel molds are specially
+                                manufactured from high-quality concrete mix
+                                designed to achieve the concrete strength of
+                                C55/67 and durability. The high-strength
+                                concrete is poured into the lower half of the
+                                mold. Then, the upper half of the mold is bolted
+                                on to the lower half. The prestressed strand is
+                                tensioned. The mold is then shifted to the
+                                spinning machine.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>Spinning</h3>
+                              <p>
+                                Once the mold is placed on the spinning machine,
+                                it is rotated for a specific designed time. The
+                                pole derives its extra strength properties from
+                                the unique centrifugal manufacturing process,
+                                which gives uniform densely compacted concrete
+                                along the whole length of the pole. The final
+                                stage of the spinning cycle also removes excess
+                                water.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>Steam Curing</h3>
+                              <p>
+                                After the spinning process is completed, the
+                                concrete pole is placed in the curing chamber
+                                for steam curing. Steam curing is carried out at
+                                controlled temperature and for a specific time
+                                period.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>De-molding</h3>
+                              <p>
+                                Then the concrete pole is shifted to the
+                                de-molding work station. The pole is carefully
+                                de-molded and shifted to the finishing work
+                                station for further finishing, final inspection,
+                                and testing.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>Finishing, Inspection, and Testing</h3>
+                              <p>
+                                Finishing of poles is carried out by cutting the
+                                exposed strand, applying concrete capping at the
+                                bottom, and applying Nitocote. Physical and
+                                dimensional checks are conducted. All concrete
+                                poles are delivered to the customers with a
+                                product test certificate and delivery note.
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Manufacturing Process End  */}
                 </div>
                 {/* /Single Service  */}
               </div>
@@ -180,7 +327,7 @@ export default function ServiceSingle1() {
                 {/* Service List  */}
                 <div className='service_list_as_function'>
                   <div className='title'>
-                    <h3>Full list of Services</h3>
+                    <h3>All Industries of BMTF</h3>
                   </div>
                   <div className='list_holder'>
                     <ul>

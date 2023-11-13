@@ -192,6 +192,21 @@ export default function DesktopHeader() {
                       <a>Health Care & Hygiene</a>
                     </Link>
                   </li>
+                  <li>
+                    <Link href='/central-tooling-factory'>
+                      <a>Central Tooling Department</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/forge-shop'>
+                      <a>Forge Shop</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/foundry-shop'>
+                      <a>Foundry Shop</a>
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>

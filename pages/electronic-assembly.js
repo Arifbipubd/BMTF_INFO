@@ -5,7 +5,15 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import CategoryCard from "../components/verticals/category";
+import { footwear } from "../lib/productCategory.json";
+import PhotoGallery from "../components/Gallery/PhotoGallery";
 import { Check } from "../public/svg/icon";
+import {
+  Drawing,
+  Learning,
+  TowerCrane,
+} from "../public/svg/service/IconService";
 
 export default function ServiceSingle1() {
   return (
@@ -15,7 +23,7 @@ export default function ServiceSingle1() {
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
-            <div className='title_holder'>
+            <div className='title_holder singleVerticalBreadcrumb'>
               <h3>Electronic Assembly</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
@@ -54,95 +62,96 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    <img src='img/service/single/1.jpg' alt='' />
+                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
+                    <iframe
+                      width='100%'
+                      src='https://www.youtube.com/embed/NwBF-LlN_hM'
+                      frameborder='0'
+                      allowfullscreen
+                    ></iframe>
                   </div>
-
                   <div className='desc_holder'>
                     <p>
-                      Ensure the strength, integrity and conformity of your
-                      construction and engineering processes and products by
-                      using Industry’s specialised services.
+                      The BMTF Electronic Assembly Shop is a hub for high-tech
+                      electronics and projects aimed at advancing Bangladesh's
+                      digital landscape. It plays a pivotal role in numerous
+                      government projects focused on automating both public and
+                      private organizations within the country. The team
+                      possesses expertise in assembling various electronic
+                      devices, including laptops, notebooks, and tablets.
+                      Furthermore, they are engaged in specialized projects such
+                      as the manufacturing of Electronic Voting Machines (EVMs),
+                      National ID Smart Cards, Vehicle Number Plates, and
+                      Digital Driver's Licenses vital initiatives for the
+                      nation. They are at the forefront of incorporating modern
+                      technology and innovating to further develop and expand
+                      their operations
                     </p>
+                    <h3>Our Aim</h3>
                     <p>
-                      The construction and engineering industries face a unique
-                      set of challenges such as ensuring projects are completed
-                      on schedule, that the products used are both safe and of a
-                      certain quality, costs do not overrun, compliance to
-                      corporate social responsibility standards are adhered to
-                      and effective risk management is applied at every step of
-                      the way.
-                    </p>
-                    <p>
-                      At Industry, we offer your organisation the guidance it
-                      needs to reinforce your vital construction and engineering
-                      plans. Assisting our clients in streamlining and securing
-                      supply chains and manufacturing processes, our services
-                      enable product and project optimisation. Additionally, our
-                      programmes and services, such as our ETL and Warnock
-                      Hersey marks, can bring your business industry recognition
-                      and validation.
-                    </p>
-                    <p>
-                      We are your partner in assuring your products and
-                      processes are strong, viable, and prepared to meet the
-                      market demands wherever you do business.
+                      The aim of this shop is to assemble or produce the latest
+                      technological products of national interest and contribute
+                      to the digitalization of Bangladesh. They work today for a
+                      better tomorrow.
                     </p>
                   </div>
-
                   {/* Check List Shortcode  */}
                   <div className='fn_cs_check_list'>
-                    <h3>Service Features</h3>
+                    <h3>Our Promises Are</h3>
                     <div className='list'>
                       <ul>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Preconstruction &amp; Consulting</p>
+                            <p>High standard of products</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Small Projects &amp; Maintenance</p>
+                            <p>High-quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Leed &amp; Green Building</p>
+                            <p>Proper quality raw materials</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Design Build</p>
+                            <p>Reasonable prices</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Adaptive Reuse</p>
+                            <p>Timely delivery</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>New Construction</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Interiors</p>
+                            <p>Standard compliance</p>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
                   {/* Check List Shortcode  */}
-
+                  {/* Category card start */}
+                  <div className=''>
+                    <h3 className='categorySectionTitle'>Product Categories</h3>
+                    <div className='clientDiv'>
+                      {footwear.map((client) => (
+                        <CategoryCard key={client.id} data={client} />
+                      ))}
+                    </div>
+                  </div>
+                  {/* Category card End */}
                   {/* Call to Action Shortcode (with corner)  */}
-                  <div className='fn_cs_call_to_action corner'>
+                  {/* <div className='fn_cs_call_to_action corner'>
                     <div className='container'>
                       <div className='cta_holder'>
                         <div className='title_holder'>
@@ -159,17 +168,68 @@ export default function ServiceSingle1() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* /Call to Action Shortcode (with corner)  */}
 
-                  {/* Get Random Services  */}
-                  {/* You can change data-index value to exclude 1st service single from the service list. You can also change data-count value to set including services count.  */}
-                  <div
-                    data-html='includes/random-service.html'
-                    data-index='1'
-                    data-count='2'
-                  ></div>
-                  {/* /Get Random Services  */}
+                  {/* Manufacturing Process Start  */}
+                  <div className='fn_cs_services_classic manufacture_process'>
+                    <div className=''>
+                      <div className='list'>
+                        <h3 className='title'>Our Manufacturing Process</h3>
+                        <ul>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Learning className='fn__svg' />
+                              </span>
+                              <h3>Rubber Outsole Pressing</h3>
+                              <p>
+                                Our shoe molds consist of two parts — the insole
+                                and outsole. First, the outsole is prepped with
+                                color for a logo as well as a background color.
+                                The middle plate is closed with the colors
+                                added, and then raw rubber is placed into the
+                                mold.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <Drawing className='fn__svg' />
+                              </span>
+                              <h3>Rubber Insole Pressing</h3>
+                              <p>
+                                During the insole pressing process, we add raw
+                                rubber to shape the forefront and place the mold
+                                back into the heat to form the insole.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div className='item'>
+                              <span className='bg1'></span>
+                              <span className='bg2'></span>
+                              <span className='icon'>
+                                <TowerCrane className='fn__svg' />
+                              </span>
+                              <h3>Fusing</h3>
+                              <p>
+                                The insole and outsole are later efficiently
+                                fused to form a finished rubber sole,
+                                prioritizing comfort for the feet.
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Manufacturing Process End  */}
                 </div>
                 {/* /Single Service  */}
               </div>
@@ -180,7 +240,7 @@ export default function ServiceSingle1() {
                 {/* Service List  */}
                 <div className='service_list_as_function'>
                   <div className='title'>
-                    <h3>Full list of Services</h3>
+                    <h3>All Industries of BMTF</h3>
                   </div>
                   <div className='list_holder'>
                     <ul>
