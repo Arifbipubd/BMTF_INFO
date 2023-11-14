@@ -143,18 +143,8 @@ export default function DesktopHeader() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/packaging'>
-                      <a>Packaging</a>
-                    </Link>
-                  </li>
-                  <li>
                     <Link href='/furniture'>
                       <a>Furniture</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='/line-hardware'>
-                      <a>Line Hardware / Major Engineering</a>
                     </Link>
                   </li>
                   <li>
@@ -188,11 +178,6 @@ export default function DesktopHeader() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/health-care-hygiene'>
-                      <a>Health Care & Hygiene</a>
-                    </Link>
-                  </li>
-                  <li>
                     <Link href='/central-tooling-factory'>
                       <a>Central Tooling Department</a>
                     </Link>
@@ -205,6 +190,21 @@ export default function DesktopHeader() {
                   <li>
                     <Link href='/foundry-shop'>
                       <a>Foundry Shop</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/galvanizing-plant'>
+                      <a>Galvanizing Plant</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/heat-and-surface'>
+                      <a>Heat and Surface Treatment</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/machine-shop'>
+                      <a>Machine Shop</a>
                     </Link>
                   </li>
                 </ul>

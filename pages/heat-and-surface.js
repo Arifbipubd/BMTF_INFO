@@ -8,13 +8,13 @@ import Title from "../layout/title";
 export default function ServiceSingle1() {
   return (
     <>
-      <Title title='Electronic Assembly' />
+      <Title title='Heat And Surface Treatment' />
       <Layout>
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
             <div className='title_holder singleVerticalBreadcrumb'>
-              <h3>Electronic Assembly</h3>
+              <h3>Heat And Surface Treatment</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
                   <li>
@@ -34,7 +34,9 @@ export default function ServiceSingle1() {
                     <span></span>
                   </li>
                   <li>
-                    <span className='bread-current'>Electronic Assembly</span>
+                    <span className='bread-current'>
+                      Heat And Surface Treatment
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -52,73 +54,42 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
-                    <iframe
+                    <img src='img/service/single/1.jpg' alt='' />
+                    {/* <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/yXkKfTnGpmI'
+                      src='https://www.youtube.com/embed/FGOEmtRJOjU'
                       frameborder='0'
                       allowfullscreen
-                    ></iframe>
+                    ></iframe> */}
                   </div>
                   <div className='desc_holder'>
                     <p>
-                      The BMTF Electronic Assembly Shop is a hub for high-tech
-                      electronics and projects aimed at advancing Bangladesh's
-                      digital landscape. It plays a pivotal role in numerous
-                      government projects focused on automating both public and
-                      private organizations within the country. The team
-                      possesses expertise in assembling various electronic
-                      devices, including laptops, notebooks, and tablets.
-                      Furthermore, they are engaged in specialized projects such
-                      as the manufacturing of Electronic Voting Machines (EVMs),
-                      National ID Smart Cards, Vehicle Number Plates, and
-                      Digital Driver's Licenses vital initiatives for the
-                      nation. They are at the forefront of incorporating modern
-                      technology and innovating to further develop and expand
-                      their operations
+                      Since 1980, the BMTF Heat and Surface Treatment Plant has
+                      been offering a comprehensive range of thermal processing
+                      services. We have a strong track record of producing
+                      high-quality products and have earned an ISO Certificate
+                      in recognition of our stringent quality standards. Our
+                      facilities are equipped to handle a wide variety of
+                      components, consistently delivering dependable results.
+                      Experienced engineers and technicians oversee our heat
+                      treatment processes, ensuring they are aligned with the
+                      specific needs of our customers.
+                    </p>
+                    <p>
+                      In addition to heat treatment, our plant provides
+                      automatic production systems, along with standard services
+                      such as anodizing, electroplating, phosphate cleaning, and
+                      etching. We also offer manual and semi-automatic processes
+                      for immersing various products in chemical solutions
                     </p>
                     <h3>Our Aim</h3>
                     <p>
-                      The aim of this shop is to assemble or produce the latest
-                      technological products of national interest and contribute
-                      to the digitalization of Bangladesh. They work today for a
-                      better tomorrow.
+                      The aim of the plant is to enhance the quality with
+                      advanced solutions that maximize the effectiveness of the
+                      products and meet customer requirements.
                     </p>
-                    <h3>Activities of the Electronic Assembly Shop</h3>
-                    <p>
-                      The BMTF Electronic Assembly Shop, particularly the laptop
-                      department, is involved in a range of tasks, which include
-                      creating computer hardware, configuring computer networks,
-                      developing computer software, and assembling computer
-                      components. They employ highly advanced technology to
-                      craft laptops with robust graphics, processors, and ample
-                      memory.
-                    </p>
-                    <p>
-                      In addition to laptops, they are experts in the
-                      manufacturing of Electronic Voting Machines (EVMs), which
-                      are more secure and advanced compared to traditional
-                      voting systems. Their EVMs are of top-notch quality and
-                      incorporate the latest technology.
-                    </p>
-                    <p>
-                      The shop is also responsible for producing National ID
-                      Smart Cards with the highest available security features.
-                      They provide blank cards for our country's National IDs.
-                    </p>
-                    <p>
-                      Moreover, the shop manufactures modern and highly advanced
-                      vehicle number plates known as "Vehicle Digital Number
-                      Plates." These plates incorporate a unique system that
-                      utilizes radio waves to automatically identify and track
-                      vehicles.
-                    </p>
-                    <p>
-                      Furthermore, they produce Digital Driver's Licenses, which
-                      are in high demand and make a significant contribution to
-                      the country. The Electronic Assembly Shop is actively
-                      contributing to the nation's progress..
-                    </p>
+                    <h3>Motto</h3>
+                    <p>Quality and Durable Surfaces</p>
                   </div>
                 </div>
                 {/* /Single Service  */}
@@ -159,7 +130,7 @@ export default function ServiceSingle1() {
                           <a>Steel Structure Manufacturing</a>
                         </Link>
                       </li>
-                      <li className='active'>
+                      <li>
                         <Link href='/electronic-assembly'>
                           <a>Electronic Assembly</a>
                         </Link>
@@ -194,7 +165,7 @@ export default function ServiceSingle1() {
                           <a>Galvanizing Plant</a>
                         </Link>
                       </li>
-                      <li>
+                      <li className='active'>
                         <Link href='/heat-and-surface'>
                           <a>Heat and Surface Treatment</a>
                         </Link>

@@ -5,10 +5,6 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
-import CategoryCard from "../components/verticals/category";
-import { footwear } from "../lib/productCategory.json";
-import PhotoGallery from "../components/Gallery/PhotoGallery";
-import { Check } from "../public/svg/icon";
 import {
   Drawing,
   Learning,
@@ -65,7 +61,7 @@ export default function ServiceSingle1() {
                     {/* <img src='img/service/single/1.jpg' alt='' /> */}
                     <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/NwBF-LlN_hM'
+                      src='https://www.youtube.com/embed/buIr3Ft7iLo'
                       frameborder='0'
                       allowfullscreen
                     ></iframe>
@@ -116,83 +112,28 @@ export default function ServiceSingle1() {
                       upgrading technology and adhering to the entity's spirit
                       of integrity and innovation.
                     </p>
+                    <h3>Our Initiatives</h3>
+                    <p>
+                      We are committed to providing a safe work environment and
+                      enforcing safe work practices. We insist on minimal
+                      environmental impact from our manufacturing processes,
+                      adhering to environmental regulations and conducting
+                      regular site audits to ensure compliance. We monitor our
+                      energy consumption patterns and seek opportunities for
+                      conservation.
+                    </p>
+                    <h3>BMTF Pile</h3>
+                    <p>
+                      In addition, we are also expanding our expertise in
+                      concrete pile manufacturing. Our centrifugal method of
+                      pile forming produces high-strength dense concrete,
+                      resulting in larger bearing capacity. Our piles also
+                      possess large bending moment capacity and high structural
+                      strength, allowing for axial load capacity, tensile
+                      capacity, and bending capacity. They are highly resistant
+                      to sulfate attack and steel reinforcement corrosion.
+                    </p>
                   </div>
-                  {/* Check List Shortcode  */}
-                  <div className='fn_cs_check_list'>
-                    <h3>Our Promises Are</h3>
-                    <div className='list'>
-                      <ul>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>High standard of products</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>High-quality raw materials</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Proper quality raw materials</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Reasonable prices</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Timely delivery</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Standard compliance</p>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* Check List Shortcode  */}
-                  {/* Category card start */}
-                  <div className=''>
-                    <h3 className='categorySectionTitle'>Product Categories</h3>
-                    <div className='clientDiv'>
-                      {footwear.map((client) => (
-                        <CategoryCard key={client.id} data={client} />
-                      ))}
-                    </div>
-                  </div>
-                  {/* Category card End */}
-                  {/* Call to Action Shortcode (with corner)  */}
-                  {/* <div className='fn_cs_call_to_action corner'>
-                    <div className='container'>
-                      <div className='cta_holder'>
-                        <div className='title_holder'>
-                          <h3>Industify LLC</h3>
-                          <p>
-                            We build your dream house. Contact us for detailed
-                            information.
-                          </p>
-                        </div>
-                        <div className='link_holder'>
-                          <Link href='/contact'>
-                            <a>Our Responsibility</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                  {/* /Call to Action Shortcode (with corner)  */}
-
                   {/* Manufacturing Process Start  */}
                   <div className='fn_cs_services_classic manufacture_process'>
                     <div className=''>
@@ -332,48 +273,73 @@ export default function ServiceSingle1() {
                   <div className='list_holder'>
                     <ul>
                       <li>
-                        <Link href='/service-single-9'>
-                          <a>Aerospace and Defense</a>
+                        <Link href='/footwear-and-leather'>
+                          <a>Footwear & Leather</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-8'>
-                          <a>Automative Manufacturing</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-7'>
-                          <a>Chemical Industry</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-6'>
-                          <a>Oil and Gas Industry</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-5'>
-                          <a>Energy &amp; Commodities</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-4'>
-                          <a>Medical Devices</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-3'>
-                          <a>Housewares &amp; Home Decor</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-2'>
-                          <a>Textiles &amp; Apparel</a>
+                        <Link href='/furniture'>
+                          <a>Furniture</a>
                         </Link>
                       </li>
                       <li className='active'>
-                        <Link href='/service-single-1'>
-                          <a>Construction &amp; Engineering</a>
+                        <Link href='/pole-pile'>
+                          <a>Pole & Pile</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/vehicle-assembly'>
+                          <a>Vehicle Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/steel-structure-manufacturing'>
+                          <a>Steel Structure Manufacturing</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/electronic-assembly'>
+                          <a>Electronic Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/bmtf-crafties'>
+                          <a>BMTF Crafties</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/cfl-led-bulb'>
+                          <a>CFL & LED Bulb</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/central-tooling-factory'>
+                          <a>Central Tooling Department</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/forge-shop'>
+                          <a>Forge Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/foundry-shop'>
+                          <a>Foundry Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/galvanizing-plant'>
+                          <a>Galvanizing Plant</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/heat-and-surface'>
+                          <a>Heat and Surface Treatment</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/machine-shop'>
+                          <a>Machine Shop</a>
                         </Link>
                       </li>
                     </ul>

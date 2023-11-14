@@ -5,9 +5,6 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
-import CategoryCard from "../components/verticals/category";
-import { footwear } from "../lib/productCategory.json";
-import { Check } from "../public/svg/icon";
 import {
   Drawing,
   Learning,
@@ -17,13 +14,13 @@ import {
 export default function ServiceSingle1() {
   return (
     <>
-      <Title title='Footwear & Leather' />
+      <Title title='Forge Shop' />
       <Layout>
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
             <div className='title_holder singleVerticalBreadcrumb'>
-              <h3>Footwear & Leather</h3>
+              <h3>Forge Shop</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
                   <li>
@@ -43,7 +40,7 @@ export default function ServiceSingle1() {
                     <span></span>
                   </li>
                   <li>
-                    <span className='bread-current'>Footwear & Leather</span>
+                    <span className='bread-current'>Forge Shop</span>
                   </li>
                 </ul>
               </div>
@@ -61,123 +58,41 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
-                    <iframe
+                    <img src='img/service/single/1.jpg' alt='' />
+                    {/* <iframe
                       width='100%'
                       src='https://www.youtube.com/embed/FGOEmtRJOjU'
                       frameborder='0'
                       allowfullscreen
-                    ></iframe>
+                    ></iframe> */}
                   </div>
                   <div className='desc_holder'>
                     <p>
-                      The BMTF Footwear & Leather Factory stands as one of the
-                      largest military shoe manufacturing shops in Bangladesh.
-                      They introduced their brand 'Signature' in 2007 and have
-                      been proudly serving many prestigious customers ever
-                      since. The factory is equipped with modern machinery
-                      capable of producing millions of pairs of shoes and
-                      leather products annually. Their dedicated team employs
-                      special artisanal techniques to ensure high-quality shoes
-                      at every stage of production.
-                    </p>
-                    <p>
-                      Approximately 1,000 skilled workers operate in shifts to
-                      craft up to 4,000 pairs of shoes daily, amounting to
-                      around 100,000 pairs per month. These craftsmen
-                      meticulously handle the leather, paying close attention to
-                      every detail to guarantee top-notch quality. They hold
-                      quality in the highest regard and never compromise on it.
-                      'Signature' is renowned for its distinctive designs,
-                      competitive prices, excellent quality, punctual delivery,
-                      and efficient service.
+                      BMTF Forge Shop is a renowned brand in the country's
+                      forging industry. Since 1980, the shop has been
+                      consistently producing high-quality products for the
+                      nation. We specialize in the manufacturing and marketing
+                      of die, cold and open die, rolled ring forged, and
+                      machined components. Our daily production capacity stands
+                      at approximately 10 tons. Over the years, we have
+                      experienced exponential growth, representing values of
+                      quality, dedication, and innovation. Our forging process
+                      ensures parts possess appropriate mechanical properties,
+                      and we maintain stringent quality control at every step.
+                      We are committed to continuous and systematic development
+                      of our skills, processes, and services, ensuring long-term
+                      sustainability and customer satisfaction. Our production
+                      quality has been ISO 9001:2015 certified.
                     </p>
                     <h3>Our Aim</h3>
                     <p>
-                      Our aim is to achieve maximum client satisfaction and
-                      surpass their expectations with motivated and contented
-                      staff, generating sustainable results. Our business
-                      objective is to grow as a commercially viable production
-                      house and contribute significantly to the socio-economic
-                      development of the country.
+                      The aim of the Forging Shop is to manufacture products
+                      with the highest quality of forging, enabling us to expand
+                      our current market and explore new business opportunities,
+                      thereby contributing to the strengthening of the national
+                      economy.
                     </p>
                   </div>
-                  {/* Check List Shortcode  */}
-                  <div className='fn_cs_check_list'>
-                    <h3>Our Promises Are</h3>
-                    <div className='list'>
-                      <ul>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>High standard of products</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>High-quality raw materials</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Proper quality raw materials</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Reasonable prices</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Timely delivery</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Standard compliance</p>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* Check List Shortcode  */}
-                  {/* Category card start */}
-                  <div className=''>
-                    <h3 className='categorySectionTitle'>Product Categories</h3>
-                    <div className='clientDiv'>
-                      {footwear.map((client) => (
-                        <CategoryCard key={client.id} data={client} />
-                      ))}
-                    </div>
-                  </div>
-                  {/* Category card End */}
-                  {/* Call to Action Shortcode (with corner)  */}
-                  {/* <div className='fn_cs_call_to_action corner'>
-                    <div className='container'>
-                      <div className='cta_holder'>
-                        <div className='title_holder'>
-                          <h3>Industify LLC</h3>
-                          <p>
-                            We build your dream house. Contact us for detailed
-                            information.
-                          </p>
-                        </div>
-                        <div className='link_holder'>
-                          <Link href='/contact'>
-                            <a>Our Responsibility</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                  {/* /Call to Action Shortcode (with corner)  */}
-
                   {/* Manufacturing Process Start  */}
                   <div className='fn_cs_services_classic manufacture_process'>
                     <div className=''>
@@ -191,14 +106,12 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <Learning className='fn__svg' />
                               </span>
-                              <h3>Rubber Outsole Pressing</h3>
+                              <h3>Hammer Machine</h3>
                               <p>
-                                Our shoe molds consist of two parts — the insole
-                                and outsole. First, the outsole is prepped with
-                                color for a logo as well as a background color.
-                                The middle plate is closed with the colors
-                                added, and then raw rubber is placed into the
-                                mold.
+                                Our modern drop hammer machine provides a rapid
+                                high-energy transfer of force for forging works.
+                                We also possess two forging dies that expedite
+                                the process.
                               </p>
                             </div>
                           </li>
@@ -209,11 +122,12 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <Drawing className='fn__svg' />
                               </span>
-                              <h3>Rubber Insole Pressing</h3>
+                              <h3>Press Machine</h3>
                               <p>
-                                During the insole pressing process, we add raw
-                                rubber to shape the forefront and place the mold
-                                back into the heat to form the insole.
+                                Our heavy press machine is capable of performing
+                                trimming, bending, punching, piercing, and
+                                forming with great precision to meet our
+                                customer’s demands.
                               </p>
                             </div>
                           </li>
@@ -224,11 +138,10 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <TowerCrane className='fn__svg' />
                               </span>
-                              <h3>Fusing</h3>
+                              <h3>Copy Milling</h3>
                               <p>
-                                The insole and outsole are later efficiently
-                                fused to form a finished rubber sole,
-                                prioritizing comfort for the feet.
+                                Our high-tech copy-milling machine precisely
+                                replicates any job for forging work.
                               </p>
                             </div>
                           </li>
@@ -251,7 +164,7 @@ export default function ServiceSingle1() {
                   </div>
                   <div className='list_holder'>
                     <ul>
-                      <li className='active'>
+                      <li>
                         <Link href='/footwear-and-leather'>
                           <a>Footwear & Leather</a>
                         </Link>
@@ -296,7 +209,7 @@ export default function ServiceSingle1() {
                           <a>Central Tooling Department</a>
                         </Link>
                       </li>
-                      <li>
+                      <li className='active'>
                         <Link href='/forge-shop'>
                           <a>Forge Shop</a>
                         </Link>

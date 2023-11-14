@@ -5,15 +5,7 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
-import CategoryCard from "../components/verticals/category";
-import { footwear } from "../lib/productCategory.json";
-import PhotoGallery from "../components/Gallery/PhotoGallery";
 import { Check } from "../public/svg/icon";
-import {
-  Drawing,
-  Learning,
-  TowerCrane,
-} from "../public/svg/service/IconService";
 
 export default function ServiceSingle1() {
   return (
@@ -65,7 +57,7 @@ export default function ServiceSingle1() {
                     {/* <img src='img/service/single/1.jpg' alt='' /> */}
                     <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/NwBF-LlN_hM'
+                      src='https://www.youtube.com/embed/Sf1SDoOmfwc'
                       frameborder='0'
                       allowfullscreen
                     ></iframe>
@@ -102,6 +94,67 @@ export default function ServiceSingle1() {
                       to continued business growth and contributing to the
                       national economy.
                     </p>
+                    <h3>Categories of Services</h3>
+                    <p>
+                      The factory comprises three main sections: one for
+                      crafting metal furniture, one for producing wooden
+                      furniture, and another dedicated to manufacturing medical
+                      furniture. This enables us to create a wide variety of
+                      furniture, including combinations of wood and metal, with
+                      various designs and styles. Our design team employs the
+                      latest software for 2D and 3D modeling, ensuring our
+                      designs meet international standards and align with global
+                      technology trends. We take great pride in our quality,
+                      woodworking skills, and on-time delivery, making us highly
+                      competitive in the market.
+                    </p>
+                    <h3>Wooden Section</h3>
+                    <p>
+                      We employ green technology in the manufacturing process,
+                      minimizing carbon emissions and their impact on the
+                      environment. We are attuned to your needs and committed to
+                      a sustainable future.
+                    </p>
+                    <h3>Metal Section</h3>
+                    <p>
+                      The BMTF stainless steel series caters to the demands of
+                      the modern era, offering lighter and space-defining
+                      options. Through the use of ultra-high-strength stainless
+                      steel sheets, we enhance the appearance to be more
+                      gorgeous and fashionable.
+                    </p>
+                    <h3>Medical Furniture Section</h3>
+                    <p>
+                      BMTF Furniture provides modern and functional hospital
+                      furniture, designed with meticulous attention to ensure
+                      the comfort of patients, visitors, and staff. We offer
+                      furniture for patient wards, emergency rooms, operating
+                      rooms, staff offices, and waiting areas. Employing a
+                      unique approach, we provide high-quality and affordable
+                      furniture, facilitating healthcare facilities in
+                      delivering excellent care. Additionally, we offer custom
+                      solutions tailored to meet the specific needs of our
+                      customers.
+                    </p>
+                    <h3>Our Values</h3>
+                    <p>
+                      We rigorously adhere to due diligence procedures to ensure
+                      the timber we use complies with Bangladesh Timber
+                      Regulations.
+                    </p>
+                    <p>
+                      Our quality products are designed to provide years of
+                      service before replacement, contributing to waste
+                      reduction.
+                    </p>
+                    <p>
+                      We minimize our environmental impact by utilizing every
+                      segment of cut-off or left-over timber to create beautiful
+                      souvenirs.
+                    </p>
+                    <p>
+                      Our work environment meets international safety standards.
+                    </p>
                   </div>
                   {/* Check List Shortcode  */}
                   <div className='fn_cs_check_list'>
@@ -111,133 +164,48 @@ export default function ServiceSingle1() {
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>High standard of products</p>
+                            <p>Qualitative Array of Products</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>High-quality raw materials</p>
+                            <p>Stringent Quality Control</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Proper quality raw materials</p>
+                            <p>High-tech Infrastructure</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Reasonable prices</p>
+                            <p>Dedicated Workforce</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Timely delivery</p>
+                            <p>Prompt Delivery of Orders</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Standard compliance</p>
+                            <p>Competitive Prices</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='item'>
+                            <Check className='fn__svg' />
+                            <p>Customized Solutions</p>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  {/* Check List Shortcode  */}
-                  {/* Category card start */}
-                  <div className=''>
-                    <h3 className='categorySectionTitle'>Product Categories</h3>
-                    <div className='clientDiv'>
-                      {footwear.map((client) => (
-                        <CategoryCard key={client.id} data={client} />
-                      ))}
-                    </div>
-                  </div>
-                  {/* Category card End */}
-                  {/* Call to Action Shortcode (with corner)  */}
-                  {/* <div className='fn_cs_call_to_action corner'>
-                    <div className='container'>
-                      <div className='cta_holder'>
-                        <div className='title_holder'>
-                          <h3>Industify LLC</h3>
-                          <p>
-                            We build your dream house. Contact us for detailed
-                            information.
-                          </p>
-                        </div>
-                        <div className='link_holder'>
-                          <Link href='/contact'>
-                            <a>Our Responsibility</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                  {/* /Call to Action Shortcode (with corner)  */}
-
-                  {/* Manufacturing Process Start  */}
-                  <div className='fn_cs_services_classic manufacture_process'>
-                    <div className=''>
-                      <div className='list'>
-                        <h3 className='title'>Our Manufacturing Process</h3>
-                        <ul>
-                          <li>
-                            <div className='item'>
-                              <span className='bg1'></span>
-                              <span className='bg2'></span>
-                              <span className='icon'>
-                                <Learning className='fn__svg' />
-                              </span>
-                              <h3>Rubber Outsole Pressing</h3>
-                              <p>
-                                Our shoe molds consist of two parts — the insole
-                                and outsole. First, the outsole is prepped with
-                                color for a logo as well as a background color.
-                                The middle plate is closed with the colors
-                                added, and then raw rubber is placed into the
-                                mold.
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div className='item'>
-                              <span className='bg1'></span>
-                              <span className='bg2'></span>
-                              <span className='icon'>
-                                <Drawing className='fn__svg' />
-                              </span>
-                              <h3>Rubber Insole Pressing</h3>
-                              <p>
-                                During the insole pressing process, we add raw
-                                rubber to shape the forefront and place the mold
-                                back into the heat to form the insole.
-                              </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div className='item'>
-                              <span className='bg1'></span>
-                              <span className='bg2'></span>
-                              <span className='icon'>
-                                <TowerCrane className='fn__svg' />
-                              </span>
-                              <h3>Fusing</h3>
-                              <p>
-                                The insole and outsole are later efficiently
-                                fused to form a finished rubber sole,
-                                prioritizing comfort for the feet.
-                              </p>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Manufacturing Process End  */}
                 </div>
                 {/* /Single Service  */}
               </div>
@@ -253,48 +221,73 @@ export default function ServiceSingle1() {
                   <div className='list_holder'>
                     <ul>
                       <li>
-                        <Link href='/service-single-9'>
-                          <a>Aerospace and Defense</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-8'>
-                          <a>Automative Manufacturing</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-7'>
-                          <a>Chemical Industry</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-6'>
-                          <a>Oil and Gas Industry</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-5'>
-                          <a>Energy &amp; Commodities</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-4'>
-                          <a>Medical Devices</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-3'>
-                          <a>Housewares &amp; Home Decor</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href='/service-single-2'>
-                          <a>Textiles &amp; Apparel</a>
+                        <Link href='/footwear-and-leather'>
+                          <a>Footwear & Leather</a>
                         </Link>
                       </li>
                       <li className='active'>
-                        <Link href='/service-single-1'>
-                          <a>Construction &amp; Engineering</a>
+                        <Link href='/furniture'>
+                          <a>Furniture</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/pole-pile'>
+                          <a>Pole & Pile</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/vehicle-assembly'>
+                          <a>Vehicle Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/steel-structure-manufacturing'>
+                          <a>Steel Structure Manufacturing</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/electronic-assembly'>
+                          <a>Electronic Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/bmtf-crafties'>
+                          <a>BMTF Crafties</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/cfl-led-bulb'>
+                          <a>CFL & LED Bulb</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/central-tooling-factory'>
+                          <a>Central Tooling Department</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/forge-shop'>
+                          <a>Forge Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/foundry-shop'>
+                          <a>Foundry Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/galvanizing-plant'>
+                          <a>Galvanizing Plant</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/heat-and-surface'>
+                          <a>Heat and Surface Treatment</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/machine-shop'>
+                          <a>Machine Shop</a>
                         </Link>
                       </li>
                     </ul>

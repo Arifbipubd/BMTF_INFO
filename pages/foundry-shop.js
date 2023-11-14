@@ -5,8 +5,6 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
-import CategoryCard from "../components/verticals/category";
-import { footwear } from "../lib/productCategory.json";
 import { Check } from "../public/svg/icon";
 import {
   Drawing,
@@ -17,13 +15,13 @@ import {
 export default function ServiceSingle1() {
   return (
     <>
-      <Title title='Footwear & Leather' />
+      <Title title='Foundry Shop' />
       <Layout>
         {/* Page Title  */}
         <div className='industify_fn_pagetitle'>
           <div className='container'>
             <div className='title_holder singleVerticalBreadcrumb'>
-              <h3>Footwear & Leather</h3>
+              <h3>Foundry Shop</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
                   <li>
@@ -43,7 +41,7 @@ export default function ServiceSingle1() {
                     <span></span>
                   </li>
                   <li>
-                    <span className='bread-current'>Footwear & Leather</span>
+                    <span className='bread-current'>Foundry Shop</span>
                   </li>
                 </ul>
               </div>
@@ -64,42 +62,35 @@ export default function ServiceSingle1() {
                     {/* <img src='img/service/single/1.jpg' alt='' /> */}
                     <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/FGOEmtRJOjU'
+                      src='https://www.youtube.com/embed/6gAQhiQGRwA'
                       frameborder='0'
                       allowfullscreen
                     ></iframe>
                   </div>
                   <div className='desc_holder'>
                     <p>
-                      The BMTF Footwear & Leather Factory stands as one of the
-                      largest military shoe manufacturing shops in Bangladesh.
-                      They introduced their brand 'Signature' in 2007 and have
-                      been proudly serving many prestigious customers ever
-                      since. The factory is equipped with modern machinery
-                      capable of producing millions of pairs of shoes and
-                      leather products annually. Their dedicated team employs
-                      special artisanal techniques to ensure high-quality shoes
-                      at every stage of production.
+                      The Foundry Shop, established in 1967, has been providing
+                      clients with a diverse range of casting solutions ever
+                      since. It stands as one of the most versatile shops of its
+                      kind in Bangladesh, offering a variety of services in
+                      conjunction with its sister shops. We manufacture
+                      different products using both Ferrous and Non-Ferrous
+                      metals, each with various chemical compositions.
                     </p>
                     <p>
-                      Approximately 1,000 skilled workers operate in shifts to
-                      craft up to 4,000 pairs of shoes daily, amounting to
-                      around 100,000 pairs per month. These craftsmen
-                      meticulously handle the leather, paying close attention to
-                      every detail to guarantee top-notch quality. They hold
-                      quality in the highest regard and never compromise on it.
-                      'Signature' is renowned for its distinctive designs,
-                      competitive prices, excellent quality, punctual delivery,
-                      and efficient service.
+                      In alignment with BMTF's vision and values, the Foundry
+                      Shop is committed to meeting new challenges to ensure the
+                      highest customer satisfaction. Our team of engineers,
+                      tooling specialists, and dedicated manufacturing staff
+                      leverage the latest technologies to create innovative and
+                      cost-effective, long-lasting products.
                     </p>
                     <h3>Our Aim</h3>
                     <p>
-                      Our aim is to achieve maximum client satisfaction and
-                      surpass their expectations with motivated and contented
-                      staff, generating sustainable results. Our business
-                      objective is to grow as a commercially viable production
-                      house and contribute significantly to the socio-economic
-                      development of the country.
+                      The aim of the Foundry Shop is to produce castings with
+                      cost-effective, time-efficient, waste-reducing solutions
+                      that help minimize a foundry's bottom line and reduce
+                      negative impact on the environment.
                     </p>
                   </div>
                   {/* Check List Shortcode  */}
@@ -110,74 +101,46 @@ export default function ServiceSingle1() {
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>High standard of products</p>
+                            <p>Non-Ferrous Metal Casting Process</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>High-quality raw materials</p>
+                            <p>Ferrous Metal Casting Process</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Proper quality raw materials</p>
+                            <p>
+                              Crucible Furnace Production Process for ferrous
+                              casting
+                            </p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Reasonable prices</p>
+                            <p>Cutting</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Timely delivery</p>
+                            <p>Grinding</p>
                           </div>
                         </li>
                         <li>
                           <div className='item'>
                             <Check className='fn__svg' />
-                            <p>Standard compliance</p>
+                            <p>Fitting</p>
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
                   {/* Check List Shortcode  */}
-                  {/* Category card start */}
-                  <div className=''>
-                    <h3 className='categorySectionTitle'>Product Categories</h3>
-                    <div className='clientDiv'>
-                      {footwear.map((client) => (
-                        <CategoryCard key={client.id} data={client} />
-                      ))}
-                    </div>
-                  </div>
-                  {/* Category card End */}
-                  {/* Call to Action Shortcode (with corner)  */}
-                  {/* <div className='fn_cs_call_to_action corner'>
-                    <div className='container'>
-                      <div className='cta_holder'>
-                        <div className='title_holder'>
-                          <h3>Industify LLC</h3>
-                          <p>
-                            We build your dream house. Contact us for detailed
-                            information.
-                          </p>
-                        </div>
-                        <div className='link_holder'>
-                          <Link href='/contact'>
-                            <a>Our Responsibility</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                  {/* /Call to Action Shortcode (with corner)  */}
-
                   {/* Manufacturing Process Start  */}
                   <div className='fn_cs_services_classic manufacture_process'>
                     <div className=''>
@@ -191,14 +154,12 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <Learning className='fn__svg' />
                               </span>
-                              <h3>Rubber Outsole Pressing</h3>
+                              <h3>Cupola Blast Furnace Machine</h3>
                               <p>
-                                Our shoe molds consist of two parts — the insole
-                                and outsole. First, the outsole is prepped with
-                                color for a logo as well as a background color.
-                                The middle plate is closed with the colors
-                                added, and then raw rubber is placed into the
-                                mold.
+                                Capable of melting a wide range of materials,
+                                reducing production costs. It efficiently
+                                removes slag from the iron and operates at high
+                                melting temperatures to produce liquid metal.
                               </p>
                             </div>
                           </li>
@@ -209,11 +170,12 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <Drawing className='fn__svg' />
                               </span>
-                              <h3>Rubber Insole Pressing</h3>
+                              <h3>Sand Mixer Machine</h3>
                               <p>
-                                During the insole pressing process, we add raw
-                                rubber to shape the forefront and place the mold
-                                back into the heat to form the insole.
+                                Our diversified molding machines can provide
+                                standard models and tailor-made foundry
+                                equipment according to the client’s
+                                requirements.
                               </p>
                             </div>
                           </li>
@@ -224,11 +186,12 @@ export default function ServiceSingle1() {
                               <span className='icon'>
                                 <TowerCrane className='fn__svg' />
                               </span>
-                              <h3>Fusing</h3>
+                              <h3>Molding Machine</h3>
                               <p>
-                                The insole and outsole are later efficiently
-                                fused to form a finished rubber sole,
-                                prioritizing comfort for the feet.
+                                Our high-tech sand mixer machine is suitable for
+                                various high-quality foundry applications,
+                                offering excellent followability, breathability,
+                                compatibility, and minimal water content.
                               </p>
                             </div>
                           </li>
@@ -251,7 +214,7 @@ export default function ServiceSingle1() {
                   </div>
                   <div className='list_holder'>
                     <ul>
-                      <li className='active'>
+                      <li>
                         <Link href='/footwear-and-leather'>
                           <a>Footwear & Leather</a>
                         </Link>
@@ -301,7 +264,7 @@ export default function ServiceSingle1() {
                           <a>Forge Shop</a>
                         </Link>
                       </li>
-                      <li>
+                      <li className='active'>
                         <Link href='/foundry-shop'>
                           <a>Foundry Shop</a>
                         </Link>
