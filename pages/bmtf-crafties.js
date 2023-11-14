@@ -5,6 +5,8 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import CategoryCard from "../components/verticals/category";
+import { crafties } from "../lib/productCategory.json";
 import { Check } from "../public/svg/icon";
 export default function ServiceSingle1() {
   return (
@@ -135,49 +137,16 @@ export default function ServiceSingle1() {
                     </div>
                   </div>
                   {/* Check List Shortcode  */}
-                  <div className='fn_cs_check_list'>
-                    <h3>We Manufacture</h3>
-                    <div className='list'>
-                      <ul>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Uniform Ranks</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Metal and Embroidered Badges</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Insignia</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Flags</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Epaulettes/Badges</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className='item'>
-                            <Check className='fn__svg' />
-                            <p>Medals</p>
-                          </div>
-                        </li>
-                      </ul>
+                  {/* Category card start */}
+                  <div className=''>
+                    <h3 className='categorySectionTitle'>We Manufacture</h3>
+                    <div className='clientDiv'>
+                      {crafties.map((client) => (
+                        <CategoryCard key={client.id} data={client} />
+                      ))}
                     </div>
                   </div>
+                  {/* Category card End */}
 
                   <div className='desc_holder'>
                     <h3>Safety</h3>

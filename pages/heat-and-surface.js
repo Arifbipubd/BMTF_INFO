@@ -5,6 +5,7 @@ import React from "react";
 import Layout from "../layout/layout";
 import Sidebar from "../layout/sidebar";
 import Title from "../layout/title";
+import { Check } from "../public/svg/icon";
 export default function ServiceSingle1() {
   return (
     <>
@@ -92,6 +93,92 @@ export default function ServiceSingle1() {
                     <p>Quality and Durable Surfaces</p>
                   </div>
                 </div>
+
+                {/* Check List Shortcode  */}
+                <div className='fn_cs_check_list'>
+                  <h3 className='title'>Our Promises Are</h3>
+                  <p>
+                    The plant has experience in building process lines for
+                    treatments that include:
+                  </p>
+                  <div className='list'>
+                    <ul>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Anodizing</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Precious Metal Plating</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Nickel</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Metal Etching</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Metal Cleaning</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>
+                            Copper Nickel Chrome Plating of both Metal and
+                            Plastic Substrates
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Pilot Plants for R&D and Small Batch Production</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>PCB</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Urea</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='item'>
+                          <Check className='fn__svg' />
+                          <p>Zinc Alloys</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <p>
+                      The BMTF H&ST Shop integrates the latest available
+                      technologies into our array of manual and semi-automatic
+                      process lines. We prioritize treatments designed for the
+                      21st century. Our equipment is robust, and, significantly,
+                      we place a strong emphasis on the aesthetics of our
+                      products.
+                    </p>
+                  </div>
+                </div>
+                {/* Check List Shortcode  */}
+
                 {/* /Single Service  */}
               </div>
               {/* /Main Sidebar: Left  */}

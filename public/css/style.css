@@ -7945,8 +7945,8 @@ blockquote {
   z-index: 5;
   top: 0px;
 }
-.fn_cs_services_classic li:nth-of-type(4n) .bg1,
-.fn_cs_services_classic li:nth-of-type(4n) .bg2 {
+.fn_cs_services_classic li:nth-of-type(3n) .bg1,
+.fn_cs_services_classic li:nth-of-type(3n) .bg2 {
   display: none;
 }
 
@@ -9888,6 +9888,14 @@ blockquote {
   font-weight: 400;
   letter-spacing: 0px;
   margin-bottom: 33px;
+}
+.fn_cs_check_list .title {
+  margin-bottom: 10px !important;
+}
+.fn_cs_check_list p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .fn_cs_check_list .list {
   width: 100%;
