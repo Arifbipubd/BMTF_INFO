@@ -16,7 +16,7 @@ const slider1 = "/Home/homeSl1.jpg";
 const slider2 = "/Home/homeSl2.jpg";
 const slider3 = "/Home/homeSl3.jpg";
 const slider4 = "/Home/homeSl4.jpg";
-const slider5 = "/Home/homeSl5.png";
+const slider5 = "/Home/homeSl5.jpg";
 
 export default function HomeSlider() {
   return (
