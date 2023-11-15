@@ -22,9 +22,9 @@ const portfolio2 = "/img/portfolio/2.jpg";
 const portfolio3 = "/img/portfolio/3.jpg";
 const portfolio4 = "/img/portfolio/4.jpg";
 const map = "/img/blog/map.png";
-const blog1 = "/img/blog/1.jpg";
-const blog2 = "/img/blog/2.jpg";
-const blog3 = "/img/blog/3.jpg";
+const blog1 = "/News/BMTF_News_1.jpg";
+const blog2 = "/News/BMTF_News_2.jpg";
+const blog3 = "/News/BMTF_News_3.jpg";
 
 export default function Index() {
   return (
@@ -620,7 +620,7 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <img src='img/thumb/370-250.jpg' alt='' />
+                        <img src='News/BMTF_News_1.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
                         <h3>
@@ -650,7 +650,7 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <img src='img/thumb/370-250.jpg' alt='' />
+                        <img src='News/BMTF_News_2.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
                         <h3>
@@ -681,7 +681,7 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <img src='img/thumb/370-250.jpg' alt='' />
+                        <img src='News/BMTF_News_3.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
                         <h3>

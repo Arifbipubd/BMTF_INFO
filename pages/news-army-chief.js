@@ -47,7 +47,7 @@ export default function BlogSingle1() {
                 {/* Single Blog */}
                 <div className='industify_fn_blog_single'>
                   <div className='img_holder'>
-                    <img src='img/blog/1.jpg' alt='' />
+                    <img src='News/BMTF_News_2.jpg' alt='' />
                   </div>
 
                   <div className='desc_holder'>
@@ -81,14 +81,6 @@ export default function BlogSingle1() {
                       of the top pharmaceutical companies in the country within
                       the shortest possible time.
                     </p>
-                    <blockquote>
-                      “Seymour Whyte is a company that resembles us, with a
-                      strong entrepreneurial culture. This acquisition will
-                      enable us to expand synergies with VINCI Construction’s
-                      existing expertise in Australia and more broadly in the
-                      Pacific area,” said Jérôme Stubler, Chairman and Chief
-                      Executive Officer of VINCI Construction.
-                    </blockquote>
                   </div>
                 </div>
                 {/* /Single Blog */}
