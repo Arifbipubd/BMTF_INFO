@@ -12,11 +12,11 @@ import "swiper/css/pagination";
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 // Images imported
-const slider1 = "/img/slider/1.jpg";
-const slider2 = "/img/slider/4.jpg";
-const slider3 = "/img/slider/3.jpg";
-const slider4 = "/img/slider/4.jpg";
-const slider5 = "/img/slider/5.jpg";
+const slider1 = "/Home/homeSl1.jpg";
+const slider2 = "/Home/homeSl2.jpg";
+const slider3 = "/Home/homeSl3.jpg";
+const slider4 = "/Home/homeSl4.jpg";
+const slider5 = "/Home/homeSl5.png";
 
 export default function HomeSlider() {
   return (

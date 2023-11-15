@@ -196,8 +196,10 @@ export default function Index() {
                       <img src='img/thumb/500-560.jpg' alt='' />
                       <div
                         className='abs_img'
-                        data-bg-img='img/about/right.jpg'
-                        style={{ backgroundImage: "url(img/about/right.jpg)" }}
+                        data-bg-img='Home/About-BMTF_Web.jpg'
+                        style={{
+                          backgroundImage: "url(Home/About-BMTF_Web.jpg)",
+                        }}
                       ></div>
                     </div>
                     <div
@@ -237,24 +239,30 @@ export default function Index() {
                   <div className='title_holder'>
                     <h3>Why choose our services?</h3>
                     <p>
-                      At Industify Company, we rely on honesty, discipline and
-                      hard work and believe our success can be attributed to
-                      upholding a simple set of core values that date back to
-                      the beginning of the company.
-                    </p>
-                    <p>
-                      Industify is an integrated design-build firm offering
-                      engineering, architecture and construction services to
-                      domestic and international customers throughout the U.S.
-                      Unique to Industify is the fact that we conduct all
-                      disciplines in-house in a collaborative environment.
+                      At BMTF, we stand as a beacon of excellence in the
+                      machinery and tools industry. Our unwavering commitment to
+                      quality, innovation, and customer satisfaction sets us
+                      apart. With a rich heritage in precision engineering,
+                      cutting-edge technology, and a highly skilled workforce,
+                      we offer unparalleled products and services. When you
+                      choose BMTF, you're selecting reliability, durability, and
+                      the promise of a brighter industrial future. Join us in
+                      shaping tomorrow's success with the trusted expertise of
+                      BMTF by your side.
                     </p>
                   </div>
                   <div className='signature'>
                     <Certificate className='fn__svg' />
                     <p>
-                      We have a<br />
-                      ISO Certificate.
+                      BMTF is <br />
+                      ISO 9001:2015 Qualified.
+                    </p>
+                  </div>
+                  <div className='signature'>
+                    <Certificate className='fn__svg' />
+                    <p>
+                      BMTF is <br />
+                      ISO 45001:2018 Qualified.
                     </p>
                   </div>
                 </div>
@@ -265,13 +273,13 @@ export default function Index() {
                         <div className='badge_left'>
                           <div className='b_title'>
                             <h3>
-                              World&apos;s Leading Industry
+                              State Owned Largest Production Facility of
                               <br />
-                              Corporation
+                              Bangladesh
                             </h3>
                           </div>
                           <div className='b_desc'>
-                            <span className='year'>47</span>
+                            <span className='year'>44</span>
                             <span className='text'>Years of Experience</span>
                           </div>
                         </div>
@@ -280,7 +288,7 @@ export default function Index() {
                           style={{ backgroundImage: `url(${rightImage})` }}
                         ></div>
                       </div>
-                      <div className='rating_holder'>
+                      {/* <div className='rating_holder'>
                         <div className='r_header'></div>
                         <div className='r_footer'></div>
                         <Link href='#'>
@@ -289,7 +297,7 @@ export default function Index() {
                         <Stars className='fn__svg' />
                         <h3 className='rating_number'>9.7</h3>
                         <h3 className='rating_text'>Customer Rating</h3>
-                      </div>
+                      </div> */}
                     </div>
                     <div className='bottom_section'>
                       <div className='list'>
@@ -299,7 +307,7 @@ export default function Index() {
                               <span className='icon'>
                                 <Checked className='fn__svg' />
                               </span>
-                              <p>Best talent in the industry business.</p>
+                              <p>Biggest State Owned Production facility.</p>
                             </div>
                           </li>
                           <li>
@@ -307,7 +315,7 @@ export default function Index() {
                               <span className='icon'>
                                 <Checked className='fn__svg' />
                               </span>
-                              <p>One of the most expirienced company.</p>
+                              <p>Successfully serving 50+ Clients.</p>
                             </div>
                           </li>
                           <li>
@@ -315,7 +323,7 @@ export default function Index() {
                               <span className='icon'>
                                 <Checked className='fn__svg' />
                               </span>
-                              <p>We have completed over 3000 projects.</p>
+                              <p>DIgital & Smart Integrated Factory.</p>
                             </div>
                           </li>
                           <li>
@@ -323,7 +331,7 @@ export default function Index() {
                               <span className='icon'>
                                 <Checked className='fn__svg' />
                               </span>
-                              <p>Most dedicated and passionate team.</p>
+                              <p>Most dedicated & passionate team.</p>
                             </div>
                           </li>
                           <li>
@@ -331,7 +339,7 @@ export default function Index() {
                               <span className='icon'>
                                 <Checked className='fn__svg' />
                               </span>
-                              <p>Company has over 2000 workers.</p>
+                              <p>No compromise in quality control. </p>
                             </div>
                           </li>
                         </ul>
@@ -351,10 +359,10 @@ export default function Index() {
           <div className='container'>
             <div className='cta_holder'>
               <div className='title_holder'>
-                <h3>We will Make Your Dream Come True</h3>
+                <h3>BMTF Corporate Social Responsibility</h3>
                 <p>
-                  We are focused on sustainable business that delivers the best
-                  possible project results.
+                  Our Commitment is to make Made in Bangladesh a Global
+                  Preferred Choice.
                 </p>
               </div>
               <div className='link_holder'>
@@ -406,17 +414,17 @@ export default function Index() {
               <div className='fn_cs_sticky_section'>
                 <h3>Our latest projects.</h3>
                 <p>
-                  At Industify Company, we rely on honesty, discipline and hard
-                  work and believe our success can be attributed to upholding a
-                  simple set of core values that date back to the beginning of
-                  the company.
-                </p>
-                <p>
-                  Industify is an integrated design-build firm offering
-                  engineering, architecture and construction services to
-                  domestic and international customers throughout the U.S.
-                  Unique to Industify is the fact that we conduct all
-                  disciplines in-house in a collaborative environment.
+                  BMTF has embarked on several projects and remains dedicated to
+                  consistently advancing its initiatives. With a commitment to
+                  fostering self-sufficiency and supporting local industries,
+                  BMTF’s projects reflect its ongoing efforts to contribute to
+                  the economic development of Bangladesh. These endeavors aim to
+                  address the evolving needs of various sectors, including
+                  agriculture, construction, and manufacturing, by producing
+                  high-quality machinery and tools to bolster the nation's
+                  self-reliance and progress. BMTF's dedication to these
+                  projects underscores its role as a pivotal player in advancing
+                  industrial and agricultural sectors in Bangladesh.
                 </p>
                 <Link href='/portfolio'>
                   <a>View All Projects</a>
@@ -589,7 +597,7 @@ export default function Index() {
           <div className='fn_cs_main_title'>
             <div className='container'>
               <div className='title_holder'>
-                <h3>Thoughts &amp; Experiments</h3>
+                <h3>News</h3>
               </div>
             </div>
           </div>
@@ -612,29 +620,18 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <Link href='/blog-single-1'>
-                          <a></a>
-                        </Link>
                         <img src='img/thumb/370-250.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
-                        <p className='t_header'>
-                          By{" "}
-                          <Link href='#'>
-                            <a>Frenify</a>
-                          </Link>{" "}
-                          — In{" "}
-                          <Link href='#'>
-                            <a>Australia</a>
-                          </Link>
-                        </p>
                         <h3>
-                          <Link href='/blog-single-1'>
-                            <a>Laing O’Rourke: Moves, projects and bids</a>
+                          <Link href='/news-bmtf'>
+                            <a>
+                              BMTF to provide 3 crore blank smart cards to EC
+                            </a>
                           </Link>
                         </h3>
                         <p className='t_footer'>
-                          <Link href='/blog-single-1'>
+                          <Link href='/news-bmtf'>
                             <a>Read More</a>
                           </Link>
                         </p>
@@ -653,29 +650,19 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <Link href='/blog-single-2'>
-                          <a></a>
-                        </Link>
                         <img src='img/thumb/370-250.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
-                        <p className='t_header'>
-                          By{" "}
-                          <Link href='#'>
-                            <a>Frenify</a>
-                          </Link>{" "}
-                          — In{" "}
-                          <Link href='#'>
-                            <a>Australia</a>
-                          </Link>
-                        </p>
                         <h3>
-                          <Link href='/blog-single-2'>
-                            <a>How to turn Victorian gasholders apartments</a>
+                          <Link href='/news-army-chief'>
+                            <a>
+                              Army chief inaugurates Army Pharma Limited in
+                              Gazipur
+                            </a>
                           </Link>
                         </h3>
                         <p className='t_footer'>
-                          <Link href='/blog-single-2'>
+                          <Link href='/news-army-chief'>
                             <a>Read More</a>
                           </Link>
                         </p>
@@ -694,29 +681,19 @@ export default function Index() {
                           <h5>Aug</h5>
                           <h5>2018</h5>
                         </div>
-                        <Link href='/blog-single-3'>
-                          <a></a>
-                        </Link>
                         <img src='img/thumb/370-250.jpg' alt='' />
                       </div>
                       <div className='title_holder'>
-                        <p className='t_header'>
-                          By{" "}
-                          <Link href='#'>
-                            <a>Frenify</a>
-                          </Link>{" "}
-                          — In{" "}
-                          <Link href='#'>
-                            <a>Australia</a>
-                          </Link>
-                        </p>
                         <h3>
-                          <Link href='/blog-single-3'>
-                            <a>CITB appoints Peter Lauener as new chairman</a>
+                          <Link href='/news-bangladesh-machine'>
+                            <a>
+                              Bangladesh Machine Tools Factory Limited wins
+                              global ISO certification
+                            </a>
                           </Link>
                         </h3>
                         <p className='t_footer'>
-                          <Link href='/blog-single-3'>
+                          <Link href='/news-bangladesh-machine'>
                             <a>Read More</a>
                           </Link>
                         </p>
