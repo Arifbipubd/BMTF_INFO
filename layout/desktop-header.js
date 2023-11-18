@@ -237,7 +237,7 @@ export default function DesktopHeader() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/noc'>
+                    <Link href='/noc-and-notice'>
                       <a>NOC & Notices</a>
                     </Link>
                   </li>
