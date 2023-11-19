@@ -91,12 +91,20 @@ export default function Contact() {
                               </span>
                               <span className='shape'></span>
                             </span>
-                            <h3>Washington Office</h3>
+                            <h3>Corporate Office</h3>
                           </div>
                           <div className='content_holder'>
                             <ul>
-                              <li>100-120 Ft.Drive NE, Washington, DC 20011</li>
-                              <li>Phone: +1 202-415-7234</li>
+                              <li>
+                                House # 41, Road # 7 , Dhaka Cantonment,
+                                Bangladesh
+                              </li>
+                              <li>
+                                Phone:{" "}
+                                <Link href='tel:+880-2-8871150'>
+                                  +880-2-8871150
+                                </Link>
+                              </li>
                               <li>
                                 Email:{" "}
                                 <Link href='mailto:w.industify@gmail.com'>
@@ -115,7 +123,7 @@ export default function Contact() {
                           scrolling='no'
                           marginHeight='0'
                           marginWidth='0'
-                          src='https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
+                          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1166.219177620229!2d90.39452243966895!3d23.801534085008726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7226ed7f097%3A0x9082763e2ff3deb4!2sBMTF%20Corporate%20Office!5e0!3m2!1sen!2sbd!4v1700329688808!5m2!1sen!2sbd'
                         ></iframe>
                       </div>
 
@@ -128,12 +136,17 @@ export default function Contact() {
                               </span>
                               <span className='shape'></span>
                             </span>
-                            <h3>New-York Office</h3>
+                            <h3>Factory Office</h3>
                           </div>
                           <div className='content_holder'>
                             <ul>
-                              <li>110-115 Ft.Consort NE, New-York, DC 20031</li>
-                              <li>Phone: +1 272-436-4524</li>
+                              <li>Joydebpur Gazipur – 1700, Bangladesh</li>
+                              <li>
+                                Phone:{" "}
+                                <Link href='tel:+880-2-996618072-7'>
+                                  +880-2-996618072-7
+                                </Link>
+                              </li>
                               <li>
                                 Email:{" "}
                                 <Link href='mailto:n.industify@gmail.com'>
@@ -152,7 +165,7 @@ export default function Contact() {
                           scrolling='no'
                           marginHeight='0'
                           marginWidth='0'
-                          src='https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
+                          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3644.1282355433414!2d90.41913!3d24.0265427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755da37c87e69cb%3A0xd9fb6d3b7e4b012f!2sBangladesh%20Machine%20Tools%20Factory!5e0!3m2!1sen!2sbd!4v1700329752544!5m2!1sen!2sbd'
                         ></iframe>
                       </div>
                       <li className='location_item'>
@@ -164,16 +177,23 @@ export default function Contact() {
                               </span>
                               <span className='shape'></span>
                             </span>
-                            <h3>Boston Office</h3>
+                            <h3>Packaging Unit (BMTF-2)</h3>
                           </div>
                           <div className='content_holder'>
                             <ul>
-                              <li>100-120 Ft.Albemarle NE, Boston, DC 20017</li>
-                              <li>Phone: +1 252-925-7564</li>
+                              <li>
+                                Kholishajani, Fulbaria, Kaliakoir, Gazipur.
+                              </li>
+                              <li>
+                                Phone:{" "}
+                                <Link href='tel:+880 1769041207'>
+                                  +880 1769041207
+                                </Link>
+                              </li>
                               <li>
                                 Email:{" "}
-                                <Link href='mailto:b.industify@gmail.com'>
-                                  <a>b.industify@gmail.com</a>
+                                <Link href='mailto:bmtfpackagingfactory@gmail.comm'>
+                                  <a>bmtfpackagingfactory@gmail.com</a>
                                 </Link>
                               </li>
                             </ul>
@@ -188,7 +208,7 @@ export default function Contact() {
                           scrolling='no'
                           marginHeight='0'
                           marginWidth='0'
-                          src='https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
+                          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d87918.7032159503!2d90.35371691245776!3d24.16766873050415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3756753a03c6500b%3A0x28aa972e95269d62!2sBMTF-2!5e0!3m2!1sen!2sbd!4v1700329808842!5m2!1sen!2sbd'
                         ></iframe>
                       </div>
                     </ul>

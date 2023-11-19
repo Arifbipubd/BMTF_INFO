@@ -7,6 +7,7 @@ import {
   Instagram,
   Linkedin,
   Twitter,
+  Youtube,
   Vk,
 } from "../public/svg/social/IconSocial";
 
@@ -23,47 +24,33 @@ export default function DesktopHeader() {
         <div className='industify_fn_toppanel'>
           <div className='left_panel'>
             <div className='info'>
-              <Link href='tel:07787744741'>
-                <a>(0778) 774 - 474 -1</a>
+              <Link href='tel:+880-2-8871150'>
+                <a>+880-2-8871150</a>
               </Link>
             </div>
             <div className='info'>
-              <Link href='mailto:rendycoder.com@gmail.com'>
-                <a>trendycoder.com@gmail.com</a>
+              <Link href='mailto:mkt@bmtf.com.bd'>
+                <a>mkt@bmtf.com.bd</a>
               </Link>
             </div>
             <div className='industify_fn_social_list'>
               <ul>
                 <li>
-                  <Link href='#'>
+                  <Link href='https://www.facebook.com/BMTF.Bangladesh'>
                     <a target='_blank' rel='noreferrer'>
                       <Facebook className='fn__svg' />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href='#'>
+                  <Link href='https://www.youtube.com/@BMTFofficial/'>
                     <a target='_blank' rel='noreferrer'>
-                      <Twitter className='fn__svg' />
+                      <Youtube className='fn__svg' />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href='#'>
-                    <a target='_blank' rel='noreferrer'>
-                      <Instagram className='fn__svg' />
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#'>
-                    <a target='_blank' rel='noreferrer'>
-                      <Vk className='fn__svg' />
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#'>
+                  <Link href='https://www.linkedin.com/company/98842722/'>
                     <a target='_blank' rel='noreferrer'>
                       <Linkedin className='fn__svg' />
                     </a>

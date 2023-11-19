@@ -10391,3 +10391,9 @@ blockquote {
     text-align: right;
   }
 }
+
+/******Accreditations***********/
+.accreditationDiv {
+  padding-top: 80px !important;
+  margin-bottom: 30px !important;
+}
