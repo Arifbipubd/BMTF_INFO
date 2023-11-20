@@ -10397,3 +10397,80 @@ blockquote {
   padding-top: 80px !important;
   margin-bottom: 30px !important;
 }
+
+/***********Contact***********/
+.contactFax {
+  margin: 35px 0;
+}
+.contactFax span {
+  color: white;
+  font-size: 18px;
+}
+
+.contactSocial ul {
+  margin: 10px 0 !important;
+  display: flex;
+}
+
+.contactSocial ul li {
+  list-style: none;
+}
+
+.contactSocial ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+
+.contactSocial ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.contactSocial ul li a .fab {
+  widht: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.5s;
+}
+
+.contactSocial ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+.contactSocial ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+.contactSocial ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+.contactSocial ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+.contactSocial ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
+
+/*************Vertical***************/
+.verticalSubmenu {
+  display: flex;
+  min-width: 400px;
+}

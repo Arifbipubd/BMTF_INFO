@@ -4,6 +4,7 @@ import React from "react";
 import Layout from "../layout/layout";
 import Title from "../layout/title";
 import { Location } from "../public/svg/icon";
+import { Facebook, Linkedin, Youtube } from "../public/svg/social/IconSocial";
 import Link from "next/link";
 
 export default function Contact() {
@@ -77,6 +78,33 @@ export default function Contact() {
                         </Link>
                       </div>
                     </div>
+                    <div className='contactFax'>
+                      <div>
+                        <span>Factory Office: +880-2-996618078</span>
+                      </div>
+                      <div>
+                        <span>Corporate Office: +880-2-8871893</span>
+                      </div>
+                    </div>
+                    <div className='contactSocial'>
+                      {/* <ul>
+                        <li>
+                          <a href='#'>
+                            <Facebook className='fab' />
+                          </a>
+                        </li>
+                        <li>
+                          <a href='#'>
+                            <i class='fab fa-linkedin' aria-hidden='true'></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href='#'>
+                            <i class='fab fa-linkedin' aria-hidden='true'></i>
+                          </a>
+                        </li>
+                      </ul> */}
+                    </div>
                   </form>
                 </div>
                 <div className='contact_right'>
@@ -107,8 +135,8 @@ export default function Contact() {
                               </li>
                               <li>
                                 Email:{" "}
-                                <Link href='mailto:w.industify@gmail.com'>
-                                  <a>w.industify@gmail.com</a>
+                                <Link href='mailto:bmtfpackagingfactory@gmail.com'>
+                                  <a>bmtfpackagingfactory@gmail.com</a>
                                 </Link>
                               </li>
                             </ul>
@@ -145,12 +173,6 @@ export default function Contact() {
                                 Phone:{" "}
                                 <Link href='tel:+880-2-996618072-7'>
                                   +880-2-996618072-7
-                                </Link>
-                              </li>
-                              <li>
-                                Email:{" "}
-                                <Link href='mailto:n.industify@gmail.com'>
-                                  <a>n.industify@gmail.com</a>
                                 </Link>
                               </li>
                             </ul>
