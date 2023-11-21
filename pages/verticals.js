@@ -53,25 +53,24 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/9.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-9'>
+                          <Link href='/footwear-and-leather'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-9'>
-                              <a>Aerospace and Defense</a>
+                            <Link href='/footwear-and-leather'>
+                              <a>Footwear Industry and Leather Industry</a>
                             </Link>
                           </h3>
                           <p>
-                            Our manufacturing services provide assurance to
-                            clients that their people, processes, and products
-                            are as safe and efficient as possible. From
-                            logistics and compliance, to
+                            The BMTF Footwear & Leather Factory stands as one of
+                            the largest military shoe manufacturing shops in
+                            Bangladesh. They introduced their
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-9'>
+                          <Link href='/footwear-and-leather'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -88,25 +87,24 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/8.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-8'>
+                          <Link href='/furniture'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-8'>
-                              <a>Automative Manufacturing</a>
+                            <Link href='/furniture'>
+                              <a>Furniture</a>
                             </Link>
                           </h3>
                           <p>
-                            Our manufacturing services provide assurance to
-                            clients that their people, processes, and products
-                            are as safe and efficient as possible. From
-                            logistics and compliance, to
+                            The BMTF Furniture Factory is renowned for its
+                            distinctive style and high-quality furniture.
+                            Utilizing cutting-edge technology
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-8'>
+                          <Link href='/furniture'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -123,25 +121,24 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/7.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-7'>
+                          <Link href='/pole-pile'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-7'>
-                              <a>Chemical Industry</a>
+                            <Link href='/pole-pile'>
+                              <a>Pole and Pile</a>
                             </Link>
                           </h3>
                           <p>
-                            Helping our customers go to market and maintain
-                            expensive machinery with lubricants, fluids and
-                            additives testing plus inspection and certification
-                            for technical, performance and lifecycle
+                            The Pole and Pile Factory is a prominent division of
+                            the state-owned BMTF, one of the largest
+                            manufacturing entities. In April 2016
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-7'>
+                          <Link href='/pole-pile'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -158,25 +155,24 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/6.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-6'>
+                          <Link href='/vehicle-assembly'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-6'>
-                              <a>Oil and Gas Industry</a>
+                            <Link href='/vehicle-assembly'>
+                              <a>Vehicle Assembly</a>
                             </Link>
                           </h3>
                           <p>
-                            The Shale Oil and Gas Revolution has changed the
-                            energy world. Industify has kept pace by providing
-                            crucial and timely exploration, production, quality,
-                            quantity inventory,
+                            In 2001, the Bangladesh Machine Tools Factory (BMTF)
+                            established a state-of-the-art Vehicle Assembly
+                            Shop, equipped
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-6'>
+                          <Link href='/vehicle-assembly'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -193,25 +189,24 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/5.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-5'>
+                          <Link href='/steel-structure-manufacturing'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-5'>
-                              <a>Energy &amp; Commodities</a>
+                            <Link href='/steel-structure-manufacturing'>
+                              <a>Steel Structure Manufacturing</a>
                             </Link>
                           </h3>
                           <p>
-                            Today’s energy and commodities industries power and
-                            feed the world economy. The efficient and effective
-                            operation of these projects is vital to sustained
-                            energy growth
+                            The Steel Structure Manufacturing Shop at BMTF has
+                            transformed from a vision in the year 2000 to a
+                            reality that
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-5'>
+                          <Link href='/steel-structure-manufacturing'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -228,24 +223,398 @@ export default function Services() {
                               backgroundImage: "url(img/service/single/4.jpg)",
                             }}
                           ></div>
-                          <Link href='/service-single-4'>
+                          <Link href='/electronic-assembly'>
                             <a></a>
                           </Link>
                         </div>
                         <div className='title'>
                           <h3>
-                            <Link href='/service-single-4'>
-                              <a>Medical Devices</a>
+                            <Link href='/electronic-assembly'>
+                              <a>Electronic Assembly</a>
                             </Link>
                           </h3>
                           <p>
-                            Get your medical device tested and into the hands of
-                            your customers faster than ever before. Time to
-                            market starts with partnership, and for more
+                            The BMTF Electronic Assembly Shop is a hub for
+                            high-tech electronics and projects aimed at
+                            advancing Bangladesh's digital
                           </p>
                         </div>
                         <div className='read_more'>
-                          <Link href='/service-single-4'>
+                          <Link href='/electronic-assembly'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/bmtf-crafties'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/bmtf-crafties'>
+                              <a>BMTF Crafties</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            BMTF Crafties began in 2020 with a commitment to
+                            create special designs for military, paramilitary,
+                            and various
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/bmtf-crafties'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/cfl-led-bulb'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/cfl-led-bulb'>
+                              <a>CFL AND LED BULB</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            The BMTF CFL & LED bulb factory is a leading
+                            manufacturer and exporter in the country,
+                            specializing in an impressive
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/cfl-led-bulb'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/central-tooling-factory'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/central-tooling-factory'>
+                              <a>Central Tooling Department</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            The Central Tooling Department (CTD) is a vital
+                            component of the Machine Shop at BMTF. This
+                            department is equipped
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/central-tooling-factory'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/forge-shop'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/forge-shop'>
+                              <a>Forge Shop</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            BMTF Forge Shop is a renowned brand in the country's
+                            forging industry. Since 1980, the shop has been
+                            consistently
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/forge-shop'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/foundry-shop'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/foundry-shop'>
+                              <a>Foundry Shop</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            The Foundry Shop, established in 1967, has been
+                            providing clients with a diverse range of casting
+                            solutions ever since.
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/foundry-shop'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/galvanizing-plant'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/galvanizing-plant'>
+                              <a>Galvanizing Plant</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            The BMTF Galvanizing Shop is committed to
+                            strengthening and enhancing the durability of steel.
+                            Established in 2018
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/galvanizing-plant'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/heat-and-surface'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/heat-and-surface'>
+                              <a>Heat and Surface Treatment</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            Since 1980, the BMTF Heat and Surface Treatment
+                            Plant has been offering a comprehensive range of
+                            thermal processing services.
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/heat-and-surface'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/machine-shop'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/machine-shop'>
+                              <a>Machine Shop</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            Since 1980, the BMTF Heat and Surface Treatment
+                            Plant has been offering a comprehensive range of
+                            thermal processing services.
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/machine-shop'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/army-pharma'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/army-pharma'>
+                              <a>Army Pharma</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            Army Pharma Ltd., a state-owned pharmaceutical
+                            company, commenced operations in June 2019 under
+                            Bangladesh Machine Tools
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/army-pharma'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/packaging-unit'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/packaging-unit'>
+                              <a>Packaging Unit</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            BMTF Packaging Unit (BMTF-2) stands as a
+                            distinguished entity in the manufacturing and export
+                            of square bottom brown paper bags.
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/packaging-unit'>
+                            <a>Read More</a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='item'>
+                      <div className='item_in'>
+                        <div className='img_holder'>
+                          <div
+                            className='img_abs'
+                            style={{
+                              backgroundImage: "url(img/service/single/4.jpg)",
+                            }}
+                          ></div>
+                          <Link href='/pattern-shop'>
+                            <a></a>
+                          </Link>
+                        </div>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/pattern-shop'>
+                              <a>Pattern Shop</a>
+                            </Link>
+                          </h3>
+                          <p>
+                            The BMTF Pattern Shop specializes in crafting a
+                            diverse range of patterns to accommodate various
+                            molding techniques.
+                          </p>
+                        </div>
+                        <div className='read_more'>
+                          <Link href='/pattern-shop'>
                             <a>Read More</a>
                           </Link>
                         </div>
@@ -255,89 +624,98 @@ export default function Services() {
                 </ul>
 
                 <div className='clearfix'></div>
-
-                <div className='industify_fn_pagination'>
-                  <ul>
-                    <li className='active'>
-                      <span className='current'>1</span>
-                    </li>
-                    <li>
-                      <Link href='#'>
-                        <a>2</a>
-                      </Link>
-                    </li>
-                    <li className='view'>
-                      <p>Viewing page 1 of 2</p>
-                    </li>
-                  </ul>
-                </div>
               </div>
               {/* /Main Sidebar: Left */}
 
-              {/* Main Sidebar: Right */}
+              {/* Main Sidebar: Right  */}
               <div className='industify_fn_rightsidebar'>
-                {/* Service List */}
+                {/* Service List  */}
                 <div className='service_list_as_function'>
                   <div className='title'>
-                    <h3>Full list of Services</h3>
+                    <h3>All Industries of BMTF</h3>
                   </div>
                   <div className='list_holder'>
                     <ul>
                       <li>
-                        <Link href='/service-single-9'>
-                          <a>Aerospace and Defense</a>
+                        <Link href='/footwear-and-leather'>
+                          <a>Footwear & Leather</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-8'>
-                          <a>Automative Manufacturing</a>
+                        <Link href='/furniture'>
+                          <a>Furniture</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-7'>
-                          <a>Chemical Industry</a>
+                        <Link href='/pole-pile'>
+                          <a>Pole & Pile</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-6'>
-                          <a>Oil and Gas Industry</a>
+                        <Link href='/vehicle-assembly'>
+                          <a>Vehicle Assembly</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-5'>
-                          <a>Energy &amp; Commodities</a>
+                        <Link href='/steel-structure-manufacturing'>
+                          <a>Steel Structure Manufacturing</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-4'>
-                          <a>Medical Devices</a>
+                        <Link href='/electronic-assembly'>
+                          <a>Electronic Assembly</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-3'>
-                          <a>Housewares &amp; Home Decor</a>
+                        <Link href='/bmtf-crafties'>
+                          <a>BMTF Crafties</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-2'>
-                          <a>Textiles &amp; Apparel</a>
+                        <Link href='/cfl-led-bulb'>
+                          <a>CFL & LED Bulb</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href='/service-single-1'>
-                          <a>Construction &amp; Engineering</a>
+                        <Link href='/central-tooling-factory'>
+                          <a>Central Tooling Department</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/forge-shop'>
+                          <a>Forge Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/foundry-shop'>
+                          <a>Foundry Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/galvanizing-plant'>
+                          <a>Galvanizing Plant</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/heat-and-surface'>
+                          <a>Heat and Surface Treatment</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/machine-shop'>
+                          <a>Machine Shop</a>
                         </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
-                {/* /Service List */}
+                {/* /Service List  */}
 
-                {/* Get Sidebar */}
+                {/* Get Sidebar  */}
                 <Sidebar />
-                {/* /Get Sidebar */}
+                {/* /Get Sidebar  */}
               </div>
-              {/* Main Sidebar: Right */}
+              {/* Main Sidebar: Right  */}
             </div>
           </div>
         </div>

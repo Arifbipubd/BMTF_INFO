@@ -76,19 +76,19 @@ export default function Footer() {
                           <ul>
                             <li>
                               <div className='day_item'>
-                                <span className='day'>Monday-Friday:</span>
-                                <span className='hours'>9am to 5pm</span>
+                                <span className='day'>Sunday-Thursday: </span>
+                                <span className='hours'>8 Am to 2 PM</span>
+                              </div>
+                            </li>
+                            <li>
+                              <div className='day_item'>
+                                <span className='day'>Friday:</span>
+                                <span className='hours'>Closed</span>
                               </div>
                             </li>
                             <li>
                               <div className='day_item'>
                                 <span className='day'>Saturday:</span>
-                                <span className='hours'>10am to 3pm</span>
-                              </div>
-                            </li>
-                            <li>
-                              <div className='day_item'>
-                                <span className='day'>Sunday:</span>
                                 <span className='hours'>Closed</span>
                               </div>
                             </li>
@@ -105,28 +105,28 @@ export default function Footer() {
                       <div className='widget_nav_menu'>
                         <ul className='menu'>
                           <li>
-                            <Link href='/services'>
-                              <a>Our Services</a>
+                            <Link href='/verticals'>
+                              <a>Our Verticals</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='#'>
-                              <a>Disclaimer</a>
+                            <Link href='/about-us'>
+                              <a>About Us</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='#'>
-                              <a>Showcase</a>
+                            <Link href='/organogram'>
+                              <a>Organogram</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='#'>
-                              <a>Privacy Policy</a>
+                            <Link href='/noc-and-notice'>
+                              <a>NOC & Notice</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='#'>
-                              <a>Affliates</a>
+                            <Link href='/news-tenders'>
+                              <a>News & Tender</a>
                             </Link>
                           </li>
                         </ul>

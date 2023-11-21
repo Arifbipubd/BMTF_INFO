@@ -389,16 +389,20 @@ export default function Index() {
                 <Quotes className='fn__svg' />
                 <div className='content_holder'>
                   <p>
-                    Hiday Motors needed to build a brand new 28,000 sf facility
-                    that would both meet our needs and comply with GMs standards
-                    - which seemed daunting, to say the least. Industify
-                    alleviated all of our concerns and communicated with us
-                    every step of the way. We have received dozens of
-                    compliments from our customers, and our employees love the
-                    new store!
+                    Under the banner of Bangladesh Machine Tools Factory Limited
+                    (BMTF), we stand at the forefront of innovation and
+                    industrial excellence. Spanning across 260 acres in Gazipur,
+                    BMTF is more than an industrial conglomerate; it's a
+                    testament to our commitment to Bangladesh's economic ascent.
+                    Guided by the visionary leadership of the Chief of Army
+                    Staff as the Board Chairman and supported by a skilled team,
+                    we've earned global recognition through our relentless
+                    pursuit of excellence.
                   </p>
-                  <h3>Steve Lehman</h3>
-                  <h5>CEO of Hiday Motors.</h5>
+                  <h3>
+                    Major General Sultanuzzaman Md Saleh Uddin, OSP, SGP, ndc
+                  </h3>
+                  <h5>Managing Director, BMTF Ltd</h5>
                 </div>
               </div>
             </div>

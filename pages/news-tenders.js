@@ -52,48 +52,32 @@ export default function Blog() {
                         <h5>2021</h5>
                       </div>
                       <div className='img_holder'>
-                        <Link href='blog-single-1'>
-                          <a>
-                            <img src='img/blog/1.jpg' alt='' />
-                          </a>
-                        </Link>
+                        <a>
+                          <img src='/News/BMTF_News_1.jpg' alt='' />
+                        </a>
                         <span className='shape1'></span>
                         <span className='shape2'></span>
                       </div>
                       <div className='content_holder'>
-                        <div className='info_holder'>
-                          <p>
-                            <span className='t_author'>
-                              By{" "}
-                              <Link href='https://frenify.com/' ink>
-                                <a target='_blank' rel='noreferrer'>
-                                  Frenify
-                                </a>
-                              </Link>
-                            </span>
-                            <span className='t_category'>In Australia</span>
-                          </p>
-                        </div>
                         <div className='title'>
                           <h3>
-                            <Link href='blog-single-1'>
-                              <a>Laing O’Rourke: Moves, projects and bids</a>
+                            <Link href='/news-bmtf'>
+                              <a>
+                                BMTF to provide 3 crore blank smart cards to EC
+                              </a>
                             </Link>
                           </h3>
                         </div>
                         <div className='excerpt_holder'>
                           <p>
-                            Seymour Whyte employs 475 people and generated
-                            revenue of A$433 million in the fiscal year ended on
-                            30 June 2017. Founded in 1987, Seymour Whyte is a
-                            well-known Australian company operating in the
-                            fields of civil engineering. Acquisition of 100% of
-                            Seymour Whyte’s shares 2017
+                            Bangladesh Army-run Bangladesh Machine Tools Factory
+                            Limited will supply 3 crore blank smart cards to
+                            Bangladesh Election Commission.
                           </p>
                         </div>
                         <div className='read_holder'>
                           <p>
-                            <Link href='blog-single-1'>
+                            <Link href='/news-bmtf'>
                               <a>Read More</a>
                             </Link>
                           </p>
@@ -110,48 +94,33 @@ export default function Blog() {
                         <h5>2021</h5>
                       </div>
                       <div className='img_holder'>
-                        <Link href='blog-single-2'>
-                          <a>
-                            <img src='img/blog/2.jpg' alt='' />
-                          </a>
-                        </Link>
+                        <a>
+                          <img src='/News/BMTF_News_2.jpg' alt='' />
+                        </a>
                         <span className='shape1'></span>
                         <span className='shape2'></span>
                       </div>
                       <div className='content_holder'>
-                        <div className='info_holder'>
-                          <p>
-                            <span className='t_author'>
-                              By{" "}
-                              <Link href='https://frenify.com/'>
-                                <a target='_blank' rel='noreferrer'>
-                                  Frenify
-                                </a>
-                              </Link>
-                            </span>
-                            <span className='t_category'>In Discussion</span>
-                          </p>
-                        </div>
                         <div className='title'>
                           <h3>
-                            <Link href='blog-single-2'>
-                              <a>How to turn Victorian gasholders apartments</a>
+                            <Link href='/news-army-chief'>
+                              <a>
+                                Army chief inaugurates Army Pharma Limited in
+                                Gazipur
+                              </a>
                             </Link>
                           </h3>
                         </div>
                         <div className='excerpt_holder'>
                           <p>
-                            Seymour Whyte employs 475 people and generated
-                            revenue of A$433 million in the fiscal year ended on
-                            30 June 2017. Founded in 1987, Seymour Whyte is a
-                            well-known Australian company operating in the
-                            fields of civil engineering. Acquisition of 100% of
-                            Seymour Whyte’s shares 2017
+                            Chief of Army Staff General Aziz Ahmed inaugurated
+                            Army Pharma Limited at Shimultali under Joydebpur in
+                            the Gazipur district on Thursday.
                           </p>
                         </div>
                         <div className='read_holder'>
                           <p>
-                            <Link href='blog-single-2'>
+                            <Link href='/news-army-chief'>
                               <a>Read More</a>
                             </Link>
                           </p>
@@ -168,97 +137,34 @@ export default function Blog() {
                         <h5>2021</h5>
                       </div>
                       <div className='img_holder'>
-                        <Link href='blog-single-3'>
-                          <a>
-                            <img src='img/blog/3.jpg' alt='' />
-                          </a>
-                        </Link>
+                        <a>
+                          <img src='/News/BMTF_News_3.jpg' alt='' />
+                        </a>
                         <span className='shape1'></span>
                         <span className='shape2'></span>
                       </div>
                       <div className='content_holder'>
-                        <div className='info_holder'>
-                          <p>
-                            <span className='t_author'>
-                              By{" "}
-                              <Link href='https://frenify.com/'>
-                                <a target='_blank' rel='noreferrer'>
-                                  Frenify
-                                </a>
-                              </Link>
-                            </span>
-                            <span className='t_category'>In Industry</span>
-                          </p>
-                        </div>
                         <div className='title'>
                           <h3>
-                            <Link href='blog-single-3'>
-                              <a>CITB appoints Peter Lauener as new chairman</a>
+                            <Link href='/news-bangladesh-machine'>
+                              <a>
+                                Bangladesh Machine Tools Factory Limited wins
+                                global ISO certification
+                              </a>
                             </Link>
                           </h3>
                         </div>
                         <div className='excerpt_holder'>
                           <p>
-                            Seymour Whyte employs 475 people and generated
-                            revenue of A$433 million in the fiscal year ended on
-                            30 June 2017. Founded in 1987, Seymour Whyte is a
-                            well-known Australian company operating in the
-                            fields of civil engineering. Acquisition of 100% of
-                            Seymour Whyte’s shares 2017
+                            Bangladesh Machine Tools Factory Limited (BMTF), a
+                            state-owned limited company under the management of
+                            Bangladesh Army has been awarded the global ISO
+                            standard certification recently.
                           </p>
                         </div>
                         <div className='read_holder'>
                           <p>
-                            <Link href='blog-single-3'>
-                              <a>Read More</a>
-                            </Link>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className='post'>
-                      <div className='time'>
-                        <span></span>
-                        <h3>25</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
-                      </div>
-                      <div className='content_holder'>
-                        <div className='info_holder'>
-                          <p>
-                            <span className='t_author'>
-                              By{" "}
-                              <Link href='https://frenify.com/'>
-                                <a target='_blank' rel='noreferrer'>
-                                  Frenify
-                                </a>
-                              </Link>
-                            </span>
-                            <span className='t_category'>In Planning</span>
-                          </p>
-                        </div>
-                        <div className='title'>
-                          <h3>
-                            <Link href='blog-single-4'>
-                              <a>New Tower in the Centre of Warsaw</a>
-                            </Link>
-                          </h3>
-                        </div>
-                        <div className='excerpt_holder'>
-                          <p>
-                            Seymour Whyte employs 475 people and generated
-                            revenue of A$433 million in the fiscal year ended on
-                            30 June 2017. Founded in 1987, Seymour Whyte is a
-                            well-known Australian company operating in the
-                            fields of civil engineering. Acquisition of 100% of
-                            Seymour Whyte’s shares 2017
-                          </p>
-                        </div>
-                        <div className='read_holder'>
-                          <p>
-                            <Link href='blog-single-4'>
+                            <Link href='/news-bangladesh-machine'>
                               <a>Read More</a>
                             </Link>
                           </p>
@@ -269,22 +175,6 @@ export default function Blog() {
                 </ul>
 
                 <div className='clearfix'></div>
-
-                <div className='industify_fn_pagination'>
-                  <ul>
-                    <li className='active'>
-                      <span className='current'>1</span>
-                    </li>
-                    <li>
-                      <Link href='#'>
-                        <a>2</a>
-                      </Link>
-                    </li>
-                    <li className='view'>
-                      <p>Viewing page 1 of 2</p>
-                    </li>
-                  </ul>
-                </div>
               </div>
               {/* /Main Sidebar: Left */}
 

@@ -61,7 +61,7 @@ export default function BlogSingle1() {
                         {data.date}
                       </div>
                       <div class='col col-1' data-label='File :'>
-                        <a href={data.view} className='view'>
+                        <a href={data.view} target='_blank' className='view'>
                           View
                         </a>
                       </div>
