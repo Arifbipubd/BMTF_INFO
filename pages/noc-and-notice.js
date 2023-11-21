@@ -61,10 +61,14 @@ export default function BlogSingle1() {
                         {data.date}
                       </div>
                       <div class='col col-1' data-label='File :'>
-                        <button className='view'>View</button>
+                        <a href={data.view} className='view'>
+                          View
+                        </a>
                       </div>
                       <div class='col col-1' data-label='Action :'>
-                        <button className='download'>Download</button>
+                        <a href={data.action} download className='download'>
+                          Download
+                        </a>
                       </div>
                     </li>
                   ))}

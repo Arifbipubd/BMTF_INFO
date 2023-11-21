@@ -10360,7 +10360,8 @@ blockquote {
 .nocAndNotice .responsive-table .col-4 {
   flex-basis: 25%;
 }
-.nocAndNotice button {
+.nocAndNotice a {
+  text-decoration: none;
   padding: 8px 10px;
   cursor: pointer;
   border: none;
