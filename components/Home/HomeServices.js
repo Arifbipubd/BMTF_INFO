@@ -10,98 +10,108 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Arrow_r } from "../../public/svg/icon";
 
-// Import images
-const service1 = "/img/service/single/1.jpg";
-const service2 = "/img/service/single/2.jpg";
-const service3 = "/img/service/single/3.jpg";
-const service4 = "/img/service/single/4.jpg";
-const service5 = "/img/service/single/5.jpg";
-const service6 = "/img/service/single/6.jpg";
-
 const services = [
   {
     link: "/footwear-and-leather",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/1.jpg",
+    img: "/allVerticals/Footwear-and-leather.jpg",
+    bg: "/allVerticals/Footwear-and-leather.jpg",
     title: "Footwear & Leather",
   },
   {
     link: "/furniture",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/2.jpg",
+    img: "/allVerticals/Furniture.jpg",
+    bg: "/allVerticals/Furniture.jpg",
     title: "Furniture",
   },
   {
     link: "/pole-pile",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/3.jpg",
+    img: "/allVerticals/Pole-n-pile.jpg",
+    bg: "/allVerticals/Pole-n-pile.jpg",
     title: "Pole & Pile",
   },
   {
     link: "/vehicle-assembly",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/4.jpg",
+    img: "/allVerticals/vehicle-assembly.jpg",
+    bg: "/allVerticals/vehicle-assembly.jpg",
     title: "Vehicle Assembly",
   },
   {
     link: "/steel-structure-manufacturing",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/5.jpg",
+    img: "/allVerticals/Steel-structure.jpg",
+    bg: "/allVerticals/Steel-structure.jpg",
     title: "Steel Structure Manufacturing",
   },
   {
     link: "/electronic-assembly",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/Electronic-Assembly.jpg",
+    bg: "/allVerticals/Electronic-Assembly.jpg",
     title: "Electronic Assembly",
   },
   {
     link: "/bmtf-crafties",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/crafties.jpg",
+    bg: "/allVerticals/crafties.jpg",
     title: "BMTF Crafties",
   },
   {
     link: "/cfl-led-bulb",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/CFL-and-LED.jpg",
+    bg: "/allVerticals/CFL-and-LED.jpg",
     title: "CFL & LED Bulb",
   },
   {
     link: "/central-tooling-factory",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/CTD.jpg",
+    bg: "/allVerticals/CTD.jpg",
     title: "Central Tooling Department",
   },
   {
     link: "/forge-shop",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/Forge-shop.jpg",
+    bg: "/allVerticals/Forge-shop.jpg",
     title: "Forge Shop",
   },
   {
     link: "/foundry-shop",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/Foundry-shop.png",
+    bg: "/allVerticals/Foundry-shop.png",
     title: "Foundry Shop",
   },
   {
     link: "/galvanizing-plant",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/galvanizing-shop.jpg",
+    bg: "/allVerticals/galvanizing-shop.jpg",
     title: "Galvanizing Plant",
   },
   {
     link: "/heat-and-surface",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/heat-n-surface.jpg",
+    bg: "/allVerticals/heat-n-surface.jpg",
     title: "Heat and Surface Treatment",
   },
   {
     link: "/machine-shop",
-    img: "img/thumb/480-700.jpg",
-    bg: "/img/service/single/6.jpg",
+    img: "/allVerticals/Machine-shop.jpg",
+    bg: "/allVerticals/Machine-shop.jpg",
     title: "Machine Shop",
+  },
+  {
+    link: "/army-pharma",
+    img: "/allVerticals/Pharma.png",
+    bg: "/allVerticals/Pharma.png",
+    title: "Army Pharma",
+  },
+  {
+    link: "/packaging-unit",
+    img: "/allVerticals/Packaging.jpg",
+    bg: "/allVerticals/Packaging.jpg",
+    title: "Packaging Unit",
+  },
+  {
+    link: "/pattern-shop",
+    img: "/allVerticals/Pattern-shop.jpg",
+    bg: "/allVerticals/Pattern-shop.jpg",
+    title: "Pattern Shop",
   },
 ];
 

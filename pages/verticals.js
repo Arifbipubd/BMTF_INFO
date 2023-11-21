@@ -50,7 +50,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/9.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Footwear-and-leather.jpg)",
                             }}
                           ></div>
                           <Link href='/footwear-and-leather'>
@@ -84,7 +85,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/8.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Furniture.jpg)",
                             }}
                           ></div>
                           <Link href='/furniture'>
@@ -118,7 +120,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/7.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Pole-n-pile.jpg)",
                             }}
                           ></div>
                           <Link href='/pole-pile'>
@@ -152,7 +155,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/6.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/vehicle-assembly.jpg)",
                             }}
                           ></div>
                           <Link href='/vehicle-assembly'>
@@ -186,7 +190,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/5.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Steel-structure.jpg)",
                             }}
                           ></div>
                           <Link href='/steel-structure-manufacturing'>
@@ -220,7 +225,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Electronic-Assembly.jpg)",
                             }}
                           ></div>
                           <Link href='/electronic-assembly'>
@@ -254,7 +260,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/crafties.jpg)",
                             }}
                           ></div>
                           <Link href='/bmtf-crafties'>
@@ -288,7 +295,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/CFL-and-LED.jpg)",
                             }}
                           ></div>
                           <Link href='/cfl-led-bulb'>
@@ -322,7 +330,7 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage: "url(/allVerticals/CTD.jpg)",
                             }}
                           ></div>
                           <Link href='/central-tooling-factory'>
@@ -356,7 +364,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Forge-shop.jpg)",
                             }}
                           ></div>
                           <Link href='/forge-shop'>
@@ -390,7 +399,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Foundry-shop.png)",
                             }}
                           ></div>
                           <Link href='/foundry-shop'>
@@ -424,7 +434,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/galvanizing-shop.jpg)",
                             }}
                           ></div>
                           <Link href='/galvanizing-plant'>
@@ -458,7 +469,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/heat-n-surface.jpg)",
                             }}
                           ></div>
                           <Link href='/heat-and-surface'>
@@ -492,7 +504,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Machine-shop.jpg)",
                             }}
                           ></div>
                           <Link href='/machine-shop'>
@@ -526,7 +539,7 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage: "url(/allVerticals/Pharma.png)",
                             }}
                           ></div>
                           <Link href='/army-pharma'>
@@ -560,7 +573,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Packaging.jpg)",
                             }}
                           ></div>
                           <Link href='/packaging-unit'>
@@ -594,7 +608,8 @@ export default function Services() {
                           <div
                             className='img_abs'
                             style={{
-                              backgroundImage: "url(img/service/single/4.jpg)",
+                              backgroundImage:
+                                "url(/allVerticals/Pattern-shop.jpg)",
                             }}
                           ></div>
                           <Link href='/pattern-shop'>
