@@ -15,8 +15,8 @@ import {
 } from "../public/svg/icon";
 
 const right = "/img/about/right.jpg";
-const rightImage = "/img/service/right-image.jpg";
-const testimonial = "/img/testimonial/bg.jpg";
+const rightImage = "/Home/home-specialty.jpg";
+const testimonial = "/Home/Quote-bg.jpg";
 const portfolio1 = "/img/portfolio/1.jpg";
 const portfolio2 = "/img/portfolio/2.jpg";
 const portfolio3 = "/img/portfolio/3.jpg";

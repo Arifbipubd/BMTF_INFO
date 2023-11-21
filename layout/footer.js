@@ -10,7 +10,7 @@ export default function Footer() {
         <div className='top_footer'>
           <div
             className='top_footer_img'
-            style={{ background: "url(img/footer/bg.jpg)" }}
+            style={{ background: "url(/Home/footer-bg.jpg)" }}
           ></div>
           {/* <!-- SUBSCRIBE --> */}
           <div className='subscribe_f'>
