@@ -7175,8 +7175,12 @@ blockquote {
   margin-bottom: 10px;
 }
 .fn_cs_project_sticky .right_part .title_holder h3 a {
+  background: #006a4d;
   color: #eee;
+  padding: 5px 20px 5px 10px;
   text-decoration: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .fn_cs_project_sticky .right_part .title_holder p {
   margin: 0px;
@@ -7272,7 +7276,7 @@ blockquote {
   right: 30px;
   height: 15px;
   bottom: 0px;
-  background-color: #137629;
+  background-color: #d3aa14;
   content: "";
   position: absolute;
   z-index: -1;
@@ -10472,5 +10476,12 @@ blockquote {
 /*************Vertical***************/
 .verticalSubmenu {
   display: flex;
-  min-width: 400px;
+  min-width: 600px;
+}
+
+.contactFax .contactFaxTitle {
+  margin-bottom: 20px;
+}
+.contactFax .contactFaxTitle span {
+  color: white;
 }

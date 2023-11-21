@@ -65,13 +65,17 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Accreditation/tax2021-22.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>
+                              Highest Tax Payer in Engineering Sector in
+                              2021-2022
+                            </a>
                           </h3>
                         </div>
                       </div>
@@ -83,13 +87,17 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Accreditation/tax2020-21.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>
+                              2nd Highest Tax Payer in Engineering Sector in
+                              2020-2021
+                            </a>
                           </h3>
                         </div>
                       </div>
@@ -101,13 +109,39 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Accreditation/tax2019-20.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>
+                              4th Highest Tax Payer in Engineering Sector in
+                              2019-2020
+                            </a>
+                          </h3>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='item'>
+                        <div className='img_holder'>
+                          <img src='/img/thumb/560-375.jpg' alt='' />
+                          <div
+                            className='abs_img'
+                            style={{
+                              backgroundImage:
+                                "url(/Accreditation/tax2018-19.jpg)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className='title_holder'>
+                          <h3>
+                            <a>
+                              Highest Tax Payer in Engineering Sector in
+                              2018-2019
+                            </a>
                           </h3>
                         </div>
                       </div>
@@ -120,7 +154,7 @@ export default function BlogSingle1() {
         </div>
         {/* Accreditation Page */}
         {/* Certificate Page */}
-        <div className='fn_cs_project_sticky accreditationDiv'>
+        <div className='fn_cs_project_sticky accreditationDiv' id='certificate'>
           <div className='container'>
             <div className='inner'>
               <div className='left_part'>

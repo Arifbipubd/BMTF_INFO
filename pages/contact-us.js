@@ -79,6 +79,10 @@ export default function Contact() {
                       </div>
                     </div>
                     <div className='contactFax'>
+                      <div className='contactFaxTitle'>
+                        <span>Fax</span>
+                        <hr />
+                      </div>
                       <div>
                         <span>Factory Office: +880-2-996618078</span>
                       </div>

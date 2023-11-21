@@ -216,17 +216,17 @@ export default function DesktopHeader() {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <Link href='/accreditations'>
+                <Link href='/accreditation-and-certificate'>
                   <a>Accreditations</a>
                 </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link href='/accreditations'>
+                    <Link href='/accreditation-and-certificate'>
                       <a>Accreditations</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/certifications'>
+                    <Link href='/accreditation-and-certificate#certificate'>
                       <a>Certifications</a>
                     </Link>
                   </li>
