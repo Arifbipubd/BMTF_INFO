@@ -277,7 +277,7 @@ export default function DesktopHeader() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/careers'>
+                    <Link href='/career'>
                       <a>Career Opportunities</a>
                     </Link>
                   </li>

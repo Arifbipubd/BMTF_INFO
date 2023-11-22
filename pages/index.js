@@ -17,10 +17,9 @@ import {
 const right = "/img/about/right.jpg";
 const rightImage = "/Home/home-specialty.jpg";
 const testimonial = "/Home/Quote-bg.jpg";
-const portfolio1 = "/img/portfolio/1.jpg";
-const portfolio2 = "/img/portfolio/2.jpg";
-const portfolio3 = "/img/portfolio/3.jpg";
-const portfolio4 = "/img/portfolio/4.jpg";
+const portfolio1 = "/project-image/DNCC-LED.jpg";
+const portfolio2 = "/project-image/Jhilmil-Residential-Park.jpg";
+const portfolio3 = "/project-image/Solar-Home-System.jpg";
 const map = "/img/blog/map.png";
 const blog1 = "/News/BMTF_News_1.jpg";
 const blog2 = "/News/BMTF_News_2.jpg";
@@ -447,23 +446,24 @@ export default function Index() {
                           className='abs_img'
                           style={{ backgroundImage: `url(${portfolio1})` }}
                         ></div>
-                        <Link href='/portfolio-single-1'>
+                        <Link href='/dncc-led-light'>
                           <a></a>
                         </Link>
                       </div>
                       <div className='title_holder'>
                         <h3>
-                          <Link href='/portfolio-single-1'>
-                            <a>Industify Gas and Oil Organization</a>
+                          <Link href='/dncc-led-light'>
+                            <a>DNCC LED Lights Supply & Installation</a>
                           </Link>
                         </h3>
                         <span className='desc'>
-                          We go beyond testing, inspecting and certifying
-                          products; we are a Total Quality Assurance provider to
-                          industries worldwide.…
+                          The Dhaka North City Corporation (DNCC) will complete
+                          installing 46,410 LED lights in the city streets by
+                          2021 under the 'LED Light Supply and Installation in
+                          DNCC Streets' project.
                         </span>
                         <p>
-                          <Link href='/portfolio-single-1'>
+                          <Link href='/dncc-led-light'>
                             <a>
                               <span className='text'>More Details</span>
                               <span className='arrow'>
@@ -483,23 +483,24 @@ export default function Index() {
                           className='abs_img'
                           style={{ backgroundImage: `url(${portfolio2})` }}
                         ></div>
-                        <Link href='/portfolio-single-2'>
+                        <Link href='/jhilmil-residential-park'>
                           <a></a>
                         </Link>
                       </div>
                       <div className='title_holder'>
                         <h3>
-                          <Link href='/portfolio-single-2'>
-                            <a>Industify Gas and Oil Organization</a>
+                          <Link href='/jhilmil-residential-park'>
+                            <a>Jhilmil Residential Park</a>
                           </Link>
                         </h3>
                         <span className='desc'>
-                          We go beyond testing, inspecting and certifying
-                          products; we are a Total Quality Assurance provider to
-                          industries worldwide.…
+                          SVC Jhilmil Residential BD Limited and Bangladesh
+                          Machine Tools Factory Limited (BMTF) have collaborated
+                          for the 'Jhilmil Residential Park Technology
+                          Transfer'.
                         </span>
                         <p>
-                          <Link href='/portfolio-single-2'>
+                          <Link href='/jhilmil-residential-park'>
                             <a>
                               <span className='text'>More Details</span>
                               <span className='arrow'>
@@ -519,14 +520,14 @@ export default function Index() {
                           className='abs_img'
                           style={{ backgroundImage: `url(${portfolio3})` }}
                         ></div>
-                        <Link href='/portfolio-single-3'>
+                        <Link href='/solar-home-system'>
                           <a></a>
                         </Link>
                       </div>
                       <div className='title_holder'>
                         <h3>
-                          <Link href='/portfolio-single-3'>
-                            <a>Industify Gas and Oil Organization</a>
+                          <Link href='/solar-home-system'>
+                            <a>Solar Home System Supply & Installation</a>
                           </Link>
                         </h3>
                         <span className='desc'>
@@ -535,43 +536,7 @@ export default function Index() {
                           industries worldwide.…
                         </span>
                         <p>
-                          <Link href='/portfolio-single-3'>
-                            <a>
-                              <span className='text'>More Details</span>
-                              <span className='arrow'>
-                                <Arrow_r className='fn__svg' />
-                              </span>
-                            </a>
-                          </Link>
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className='item'>
-                      <div className='img_holder'>
-                        <img src='img/thumb/700-500.jpg' alt='' />
-                        <div
-                          className='abs_img'
-                          style={{ backgroundImage: `url(${portfolio4})` }}
-                        ></div>
-                        <Link href='/portfolio-single-4'>
-                          <a></a>
-                        </Link>
-                      </div>
-                      <div className='title_holder'>
-                        <h3>
-                          <Link href='/portfolio-single-4'>
-                            <a>Industify Gas and Oil Organization</a>
-                          </Link>
-                        </h3>
-                        <span className='desc'>
-                          We go beyond testing, inspecting and certifying
-                          products; we are a Total Quality Assurance provider to
-                          industries worldwide.…
-                        </span>
-                        <p>
-                          <Link href='/portfolio-single-4'>
+                          <Link href='/solar-home-system'>
                             <a>
                               <span className='text'>More Details</span>
                               <span className='arrow'>

@@ -172,6 +172,135 @@ export default function Blog() {
                       </div>
                     </div>
                   </li>
+                  <li>
+                    <div className='post has-post-thumbnail'>
+                      <div className='time'>
+                        <span></span>
+                        <h3>26</h3>
+                        <h5>Aug</h5>
+                        <h5>2021</h5>
+                      </div>
+                      <div className='img_holder'>
+                        <a>
+                          <img src='/project-image/DNCC-LED.jpg' alt='' />
+                        </a>
+                        <span className='shape1'></span>
+                        <span className='shape2'></span>
+                      </div>
+                      <div className='content_holder'>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/dncc-led-light'>
+                              <a>DNCC LED Lights Supply & Installation</a>
+                            </Link>
+                          </h3>
+                        </div>
+                        <div className='excerpt_holder'>
+                          <p>
+                            The Dhaka North City Corporation (DNCC) will
+                            complete installing 46,410 LED lights in the city
+                            streets by 2021 under the 'LED Light Supply and
+                            Installation in DNCC Streets' project.
+                          </p>
+                        </div>
+                        <div className='read_holder'>
+                          <p>
+                            <Link href='/dncc-led-light'>
+                              <a>Read More</a>
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='post has-post-thumbnail'>
+                      <div className='time'>
+                        <span></span>
+                        <h3>26</h3>
+                        <h5>Aug</h5>
+                        <h5>2021</h5>
+                      </div>
+                      <div className='img_holder'>
+                        <a>
+                          <img
+                            src='/project-image/Jhilmil-Residential-Park.jpg'
+                            alt=''
+                          />
+                        </a>
+                        <span className='shape1'></span>
+                        <span className='shape2'></span>
+                      </div>
+                      <div className='content_holder'>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/jhilmil-residential-park'>
+                              <a>Jhilmil Residential Park</a>
+                            </Link>
+                          </h3>
+                        </div>
+                        <div className='excerpt_holder'>
+                          <p>
+                            SVC Jhilmil Residential BD Limited and Bangladesh
+                            Machine Tools Factory Limited (BMTF) have
+                            collaborated for the 'Jhilmil Residential Park
+                            Technology Transfer'.
+                          </p>
+                        </div>
+                        <div className='read_holder'>
+                          <p>
+                            <Link href='/jhilmil-residential-park'>
+                              <a>Read More</a>
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className='post has-post-thumbnail'>
+                      <div className='time'>
+                        <span></span>
+                        <h3>26</h3>
+                        <h5>Aug</h5>
+                        <h5>2021</h5>
+                      </div>
+                      <div className='img_holder'>
+                        <a>
+                          <img
+                            src='/project-image/Solar-Home-System.jpg'
+                            alt=''
+                          />
+                        </a>
+                        <span className='shape1'></span>
+                        <span className='shape2'></span>
+                      </div>
+                      <div className='content_holder'>
+                        <div className='title'>
+                          <h3>
+                            <Link href='/solar-home-system'>
+                              <a>Solar Home System Supply & Installation</a>
+                            </Link>
+                          </h3>
+                        </div>
+                        <div className='excerpt_holder'>
+                          <p>
+                            The Cabinet Committee on Public Purchase on
+                            Wednesday approved four proposals including one for
+                            installing 42,500 solar systems in the country’s
+                            three hill districts.
+                          </p>
+                        </div>
+                        <div className='read_holder'>
+                          <p>
+                            <Link href='/solar-home-system'>
+                              <a>Read More</a>
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
 
                 <div className='clearfix'></div>
