@@ -180,13 +180,14 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Certificates/certificate1.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>BIDA Certification</a>
                           </h3>
                         </div>
                       </div>
@@ -198,13 +199,14 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Certificates/certificate2.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>ISO 9001:2015 Certification</a>
                           </h3>
                         </div>
                       </div>
@@ -216,13 +218,52 @@ export default function BlogSingle1() {
                           <div
                             className='abs_img'
                             style={{
-                              backgroundImage: "url(/img/portfolio/1.jpg)",
+                              backgroundImage:
+                                "url(/Certificates/certificate3.jpg)",
                             }}
                           ></div>
                         </div>
                         <div className='title_holder'>
                           <h3>
-                            <a>Industify Gas and Oil Organization</a>
+                            <a>ISO 45001:2018 Certification</a>
+                          </h3>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='item'>
+                        <div className='img_holder'>
+                          <img src='/img/thumb/560-375.jpg' alt='' />
+                          <div
+                            className='abs_img'
+                            style={{
+                              backgroundImage:
+                                "url(/Certificates/certificate4.jpg)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className='title_holder'>
+                          <h3>
+                            <a>Factory License</a>
+                          </h3>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className='item'>
+                        <div className='img_holder'>
+                          <img src='/img/thumb/560-375.jpg' alt='' />
+                          <div
+                            className='abs_img'
+                            style={{
+                              backgroundImage:
+                                "url(/Certificates/certificate5.jpg)",
+                            }}
+                          ></div>
+                        </div>
+                        <div className='title_holder'>
+                          <h3>
+                            <a>Fire License</a>
                           </h3>
                         </div>
                       </div>
