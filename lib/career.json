@@ -4,7 +4,7 @@
     "name": "Job Post",
     "authority": "BMTF Ltd.",
     "date": "17-10-2023",
-    "view": "#",
-    "action": "#"
+    "view": "/Career/career.pdf",
+    "action": "/Career/career.pdf"
   }
 ]

@@ -3239,6 +3239,7 @@ blockquote {
   clear: both;
   position: relative;
   overflow: hidden;
+  margin-top: 80px;
 }
 .industify_fn_footer .footer_bottom {
   width: 100%;
@@ -10485,4 +10486,186 @@ blockquote {
 }
 .contactFax .contactFaxTitle span {
   color: white;
+}
+
+/***********About Us******************/
+.aboutUsSection {
+  padding: 30px 0 !important;
+}
+.aboutOurCapability {
+  margin-top: 50px !important;
+}
+.aboutOurCapability h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/**********Our History*************/
+.ourHistory .timeline {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 5% auto;
+}
+.ourHistory .timeline h2 {
+  text-align: center;
+}
+.ourHistory .timeline__event {
+  background: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+.ourHistory .timeline__event__title {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #d3aa14;
+  letter-spacing: 1.5px;
+}
+.ourHistory .timeline__event__content {
+  padding: 20px;
+}
+.ourHistory .timeline__event__date {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ourHistory .timeline__event__icon {
+  border-radius: 8px 0 0 8px;
+  background: #006a4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  font-size: 2rem;
+  color: #d3aa14;
+  padding: 20px;
+}
+.ourHistory .timeline__event__icon .fn__svg {
+  position: absolute;
+  top: 50%;
+  left: -65px;
+  font-size: 2.5rem;
+  transform: translateY(-50%);
+  color: white;
+}
+.ourHistory .timeline__event__description {
+  flex-basis: 60%;
+}
+.ourHistory .timeline__event:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #d3aa14;
+  position: absolute;
+  top: 52%;
+  left: -3.5rem;
+  z-index: -1;
+}
+.ourHistory .timeline__event:before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  background: #d3aa14;
+  border-radius: 100%;
+  left: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #d3aa14;
+}
+.ourHistory .timeline__event--type2:before {
+  background: #d3aa14;
+  border-color: #d3aa14;
+}
+.ourHistory .timeline__event--type2:after {
+  background: #d3aa14;
+}
+.ourHistory .timeline__event--type2 .timeline__event__date {
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type2 .timeline__event__icon {
+  background: #006a4d;
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type2 .timeline__event__title {
+  color: #555ac0;
+}
+.ourHistory .timeline__event--type3:before {
+  background: #d3aa14;
+  border-color: #d3aa14;
+}
+.ourHistory .timeline__event--type3:after {
+  background: #d3aa14;
+}
+.ourHistory .timeline__event--type3 .timeline__event__date {
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type3 .timeline__event__icon {
+  background: #006a4d;
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type4:before {
+  background: #d3aa14;
+  border-color: #d3aa14;
+}
+.ourHistory .timeline__event--type4:after {
+  background: #d3aa14;
+}
+.ourHistory .timeline__event--type4 .timeline__event__date {
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type4 .timeline__event__icon {
+  background: #006a4d;
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type4 .timeline__event__title {
+  color: #24b47e;
+}
+.ourHistory .timeline__event--type5:before {
+  background: #d3aa14;
+  border-color: #d3aa14;
+}
+.ourHistory .timeline__event--type5:after {
+  background: #d3aa14;
+}
+.ourHistory .timeline__event--type5 .timeline__event__date {
+  color: #ffffff;
+}
+.ourHistory .timeline__event--type5 .timeline__event__icon {
+  background: #006a4d;
+  color: #ffffff;
+}
+.ourHistory .timeline__event:last-child:after {
+  content: none;
+}
+@media (max-width: 786px) {
+  .ourHistory .timeline__event {
+    flex-direction: column;
+  }
+  .ourHistory .timeline__event__icon {
+    border-radius: 4px 4px 0 0;
+  }
+  @media (max-width: 699px) {
+    .ourHistory .timeline {
+      width: 85vw;
+    }
+    .ourHistory .timeline__event:after {
+      display: none;
+    }
+    .ourHistory .timeline__event:before {
+      display: none;
+    }
+  }
+}
+
+.csrSection {
+  margin: 50px 0 !important;
 }

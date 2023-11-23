@@ -54,13 +54,13 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    <img src='img/service/single/1.jpg' alt='' />
-                    {/* <iframe
+                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
+                    <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/FGOEmtRJOjU'
+                      src='https://www.youtube.com/embed/yrDpckexiHU'
                       frameborder='0'
                       allowfullscreen
-                    ></iframe> */}
+                    ></iframe>
                   </div>
                   <div className='desc_holder'>
                     <p>
@@ -185,7 +185,7 @@ export default function ServiceSingle1() {
                   </div>
                   <div className='list_holder'>
                     <ul>
-                      <li className='active'>
+                      <li>
                         <Link href='/footwear-and-leather'>
                           <a>Footwear & Leather</a>
                         </Link>
@@ -253,6 +253,21 @@ export default function ServiceSingle1() {
                       <li>
                         <Link href='/machine-shop'>
                           <a>Machine Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/army-pharma'>
+                          <a>Army Pharma</a>
+                        </Link>
+                      </li>
+                      <li className='active'>
+                        <Link href='/packaging-unit'>
+                          <a>Packaging Unit</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/pattern-shop'>
+                          <a>Pattern Shop</a>
                         </Link>
                       </li>
                     </ul>

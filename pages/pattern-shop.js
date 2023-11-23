@@ -165,9 +165,24 @@ export default function ServiceSingle1() {
                           <a>Heat and Surface Treatment</a>
                         </Link>
                       </li>
-                      <li className='active'>
+                      <li>
                         <Link href='/machine-shop'>
                           <a>Machine Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/army-pharma'>
+                          <a>Army Pharma</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/packaging-unit'>
+                          <a>Packaging Unit</a>
+                        </Link>
+                      </li>
+                      <li className='active'>
+                        <Link href='/pattern-shop'>
+                          <a>Pattern Shop</a>
                         </Link>
                       </li>
                     </ul>
