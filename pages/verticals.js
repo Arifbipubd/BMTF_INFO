@@ -519,9 +519,9 @@ export default function Services() {
                             </Link>
                           </h3>
                           <p>
-                            Since 1980, the BMTF Heat and Surface Treatment
-                            Plant has been offering a comprehensive range of
-                            thermal processing services.
+                            The Machine Shop stands as the principal
+                            manufacturing unit within Bangladesh Machine Tools
+                            Factory (BMTF) Limited, under
                           </p>
                         </div>
                         <div className='read_more'>
@@ -719,6 +719,21 @@ export default function Services() {
                       <li>
                         <Link href='/machine-shop'>
                           <a>Machine Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/army-pharma'>
+                          <a>Army Pharma</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/packaging-unit'>
+                          <a>Packaging Unit</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/pattern-shop'>
+                          <a>Pattern Shop</a>
                         </Link>
                       </li>
                     </ul>

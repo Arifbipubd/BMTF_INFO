@@ -10493,7 +10493,7 @@ blockquote {
   padding: 30px 0 !important;
 }
 .aboutOurCapability {
-  margin-top: 50px !important;
+  margin: 150px 0 !important;
 }
 .aboutOurCapability h2 {
   text-align: center;
@@ -10668,4 +10668,18 @@ blockquote {
 
 .csrSection {
   margin: 50px 0 !important;
+}
+
+.aboutMission li .item {
+  height: 380px !important;
+}
+
+.csrSection .left_part {
+  background: transparent !important;
+}
+.csrSection .left_part p {
+  color: black !important;
+}
+.csrSection .left_part:after {
+  background: transparent !important;
 }

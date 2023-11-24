@@ -116,13 +116,57 @@ export default function BlogSingle1() {
               </div>
               {/* /Main Sidebar: Left */}
 
-              {/* Main Sidebar: Right */}
+              {/* Main Sidebar: Right  */}
               <div className='industify_fn_rightsidebar'>
-                {/* Get Sidebar */}
-                <Sidebar />
-                {/* /Get Sidebar */}
+                {/* Service List  */}
+                <div className='service_list_as_function'>
+                  <div className='title'>
+                    <h3>All News of BMTF</h3>
+                  </div>
+                  <div className='list_holder'>
+                    <ul>
+                      <li>
+                        <Link href='/news-bmtf'>
+                          <a>BMTF to provide 3 crore blank smart cards to EC</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/news-army-chief'>
+                          <a>
+                            Army chief inaugurates Army Pharma Limited in
+                            Gazipur
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/news-bangladesh-machine'>
+                          <a>
+                            Bangladesh Machine Tools Factory Limited wins global
+                            ISO certification
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/dncc-led-light'>
+                          <a>DNCC LED Lights Supply & Installation</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/jhilmil-residential-park'>
+                          <a>Jhilmil Residential Park</a>
+                        </Link>
+                      </li>
+                      <li className='active'>
+                        <Link href='/solar-home-system'>
+                          <a>Solar Home System & Installation</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                {/* /Service List  */}
               </div>
-              {/* Main Sidebar: Right */}
+              {/* Main Sidebar: Right  */}
             </div>
           </div>
         </div>

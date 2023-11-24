@@ -17,28 +17,6 @@ export default function BlogSingle1() {
       <Layout>
         {/* Page Title */}
         <Title title='About Us' />
-        <div className='industify_fn_pagetitle'>
-          <div className='container'>
-            <div className='title_holder nocTitle_holder'>
-              <h3>About Us</h3>
-              <div className='industify_fn_breadcrumbs'>
-                <ul>
-                  <li>
-                    <Link href='/'>
-                      <a title='Home'>Home</a>
-                    </Link>
-                  </li>
-                  <li className='separator'>
-                    <span></span>
-                  </li>
-                  <li>
-                    <span className='bread-current'>About Us</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* /Page Title */}
 
         {/* Sidebar Page */}
@@ -118,12 +96,9 @@ export default function BlogSingle1() {
             <div className='fn_cs_services'>
               <div className='container'>
                 <div className='list'>
-                  <ul>
+                  <ul className='aboutMission'>
                     <li>
                       <div className='item'>
-                        <Link href='/service-single-9'>
-                          <a></a>
-                        </Link>
                         <span className='bg1'></span>
                         <span className='bg2'></span>
                         <span className='icon'>
@@ -138,16 +113,10 @@ export default function BlogSingle1() {
                           economic transformation and national prosperity,
                           aligning with critical development initiatives.
                         </p>
-                        <span className='arrow'>
-                          <Arrow_r className='fn__svg' />
-                        </span>
                       </div>
                     </li>
                     <li>
                       <div className='item'>
-                        <Link href='/service-single-8'>
-                          <a></a>
-                        </Link>
                         <span className='bg1'></span>
                         <span className='bg2'></span>
                         <span className='icon'>
@@ -163,16 +132,10 @@ export default function BlogSingle1() {
                           diversification, and strategic partnerships, driving
                           resilience and prosperity.
                         </p>
-                        <span className='arrow'>
-                          <Arrow_r className='fn__svg' />
-                        </span>
                       </div>
                     </li>
                     <li>
                       <div className='item'>
-                        <Link href='/service-single-7'>
-                          <a></a>
-                        </Link>
                         <span className='bg1'></span>
                         <span className='bg2'></span>
                         <span className='icon'>
@@ -188,9 +151,6 @@ export default function BlogSingle1() {
                           and sustainable practices, all aimed at delivering
                           customer satisfaction through customized solutions.
                         </p>
-                        <span className='arrow'>
-                          <Arrow_r className='fn__svg' />
-                        </span>
                       </div>
                     </li>
                   </ul>

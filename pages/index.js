@@ -43,9 +43,6 @@ export default function Index() {
                 <li>
                   <div className='item'>
                     <div className='title_holder'>
-                      <Link href='/principles'>
-                        <a></a>
-                      </Link>
                       <h3>Mission</h3>
                       <p>
                         BMTF leads Bangladesh's industrial progress, emphasizing
@@ -54,9 +51,6 @@ export default function Index() {
                         transformation and national prosperity, aligning with
                         critical development initiatives.
                       </p>
-                      <span className='icon'>
-                        <Arrow_r className='fn__svg' />
-                      </span>
                     </div>
                     <div className='number_holder'>01</div>
                   </div>
@@ -64,9 +58,6 @@ export default function Index() {
                 <li>
                   <div className='item'>
                     <div className='title_holder'>
-                      <Link href='/principles'>
-                        <a></a>
-                      </Link>
                       <h3>Vision</h3>
                       <p>
                         BMTF aspire to lead Bangladesh's industry, setting new
@@ -75,9 +66,6 @@ export default function Index() {
                         and strategic partnerships, driving resilience and
                         prosperity.
                       </p>
-                      <span className='icon'>
-                        <Arrow_r className='fn__svg' />
-                      </span>
                     </div>
                     <div className='number_holder'>02</div>
                   </div>
@@ -85,9 +73,6 @@ export default function Index() {
                 <li>
                   <div className='item'>
                     <div className='title_holder'>
-                      <Link href='/principles'>
-                        <a></a>
-                      </Link>
                       <h3>Core Values</h3>
                       <p>
                         BMTF is unwavering in its commitment to align its core
@@ -96,9 +81,6 @@ export default function Index() {
                         sustainable practices, all aimed at delivering customer
                         satisfaction through customized solutions.
                       </p>
-                      <span className='icon'>
-                        <Arrow_r className='fn__svg' />
-                      </span>
                     </div>
                     <div className='number_holder'>03</div>
                   </div>
@@ -365,7 +347,7 @@ export default function Index() {
                 </p>
               </div>
               <div className='link_holder'>
-                <Link href='/contact'>
+                <Link href='/about-us'>
                   <a>Our Responsibility</a>
                 </Link>
               </div>
@@ -531,9 +513,10 @@ export default function Index() {
                           </Link>
                         </h3>
                         <span className='desc'>
-                          We go beyond testing, inspecting and certifying
-                          products; we are a Total Quality Assurance provider to
-                          industries worldwide.…
+                          The Cabinet Committee on Public Purchase on Wednesday
+                          approved four proposals including one for installing
+                          42,500 solar systems in the country’s three hill
+                          districts.
                         </span>
                         <p>
                           <Link href='/solar-home-system'>

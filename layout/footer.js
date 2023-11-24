@@ -105,28 +105,28 @@ export default function Footer() {
                       <div className='widget_nav_menu'>
                         <ul className='menu'>
                           <li>
-                            <Link href='/verticals'>
-                              <a>Our Verticals</a>
-                            </Link>
-                          </li>
-                          <li>
                             <Link href='/about-us'>
                               <a>About Us</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='/organogram'>
+                            <Link href='/out-history'>
+                              <a>Our History</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href='/about-us'>
                               <a>Organogram</a>
                             </Link>
                           </li>
                           <li>
                             <Link href='/noc-and-notice'>
-                              <a>NOC & Notice</a>
+                              <a>NOC & Notices</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href='/news-tenders'>
-                              <a>News & Tender</a>
+                            <Link href='/accreditation-and-certificate'>
+                              <a>Accreditations</a>
                             </Link>
                           </li>
                         </ul>
@@ -147,18 +147,18 @@ export default function Footer() {
                 <div className='widget_nav_menu'>
                   <ul className='menu'>
                     <li>
-                      <Link href='/services'>
-                        <a>Services</a>
+                      <Link href='/verticals'>
+                        <a>Verticals</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href='#'>
-                        <a>Affliates</a>
+                      <Link href='news-tenders'>
+                        <a>News & Tenders</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href='#'>
-                        <a>Disclaimer</a>
+                      <Link href='contact-us'>
+                        <a>Contact</a>
                       </Link>
                     </li>
                     <li>
@@ -167,7 +167,7 @@ export default function Footer() {
                       </Link>
                     </li>
                     <li>
-                      <Link href='#'>
+                      <Link href='career'>
                         <a>Career</a>
                       </Link>
                     </li>

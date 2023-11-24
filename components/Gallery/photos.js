@@ -26,4 +26,69 @@ export const photos = [
     width: 4,
     height: 3,
   },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 3,
+  },
+  {
+    src: "img/gallery/5.jpg",
+    width: 4,
+    height: 4,
+  },
 ];
