@@ -62,5 +62,99 @@
       "name": "Medals",
       "image": "/demoTest.png"
     }
+  ],
+  "Packaging_Factory": [
+    {
+      "id": 1,
+      "name": "PET bottle",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 2,
+      "name": "HDPE bottle",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 3,
+      "name": "Closer cap",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 4,
+      "name": "Measuring spoon",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 5,
+      "name": "Measuring cup",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 6,
+      "name": " Dispensing pump",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 7,
+      "name": "Preform",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 8,
+      "name": "Toe cap support for foot ware",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 9,
+      "name": " Stopper used in the furniture",
+      "image": "/demoTest.png"
+    }
+  ],
+  "Beauty_Products": [
+    {
+      "id": 1,
+      "name": "PET bottle",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 2,
+      "name": "HDPE bottle",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 3,
+      "name": " Closer cap",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 4,
+      "name": " Measuring spoon",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 5,
+      "name": "Measuring cup",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 6,
+      "name": "Dispensing pump",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 7,
+      "name": "Preform",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 8,
+      "name": "Toe cap support for footwear",
+      "image": "/demoTest.png"
+    },
+    {
+      "id": 9,
+      "name": " Stopper used in the furniture",
+      "image": "/demoTest.png"
+    }
   ]
 }
