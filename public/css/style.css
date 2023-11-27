@@ -10755,3 +10755,16 @@ blockquote {
   font-size: 18px;
   margin: 10px 0;
 }
+
+.customAboutDiv {
+  display: flex;
+}
+
+.customLeftSide {
+  width: 50%;
+  margin-right: 20px;
+}
+.customRightSide {
+  width: 50%;
+  padding: 0 20px;
+}

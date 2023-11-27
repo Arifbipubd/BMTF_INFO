@@ -52,8 +52,8 @@ export default function ServiceSingle1() {
             {/* <!-- About Shortcode --> */}
             <div className='fn_cs_about'>
               <div className='container'>
-                <div className='a_inner'>
-                  <div className='leftpart'>
+                <div className='customAboutDiv'>
+                  <div className='customLeftSide'>
                     <div className='title_holder'>
                       <p>
                         Bangladesh Machine Tools Factory Limited (BMTF) is a
@@ -75,7 +75,7 @@ export default function ServiceSingle1() {
                       </p>
                     </div>
                   </div>
-                  <div className=''>
+                  <div className='customRightSide'>
                     <div>
                       <img
                         src='https://statusneo.com/wp-content/uploads/2023/02/MicrosoftTeams-image551ad57e01403f080a9df51975ac40b6efba82553c323a742b42b1c71c1e45f1.jpg'
