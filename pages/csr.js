@@ -48,64 +48,45 @@ export default function ServiceSingle1() {
         {/* Sidebar Page  */}
         <div className='industify_fn_sidebarpage'>
           {/* <!--CSR --> */}
-          <div className='container'>
-            <div className='fn_cs_info_rating csrSection'>
+          <div className='about_section aboutUsSection'>
+            {/* <!-- About Shortcode --> */}
+            <div className='fn_cs_about'>
               <div className='container'>
-                <div className='inner'>
-                  <div className='left_part'>
+                <div className='a_inner'>
+                  <div className='leftpart'>
                     <div className='title_holder'>
-                      <p className='l_desc'>
-                        Being a state-owned entity we are obliged to play a
-                        central role in society and feel responsible to keep up
-                        this special way of working. We make business decisions
-                        linked to ethical values, compliance with legal
-                        requirements and respect for people, country and the
-                        environment. BMTF has established a high school inside
-                        its premises to help improve educational status of the
-                        children of the employees. For children of low scale
-                        workers, BMTF CSR department exempt their tuition fees.
-                        Apart from all these BMTF patronize different
-                        initiatives for overall wellbeing of its employees. It
-                        has an enormous picnic spot for recreation of the
-                        employees and their family members.
+                      <p>
+                        Bangladesh Machine Tools Factory Limited (BMTF) is a
+                        prominent state-owned entity operating under the
+                        Bangladesh Army's supervision. BMTF located in Gazipur,
+                        spans 260 acres and serves as a leading industrial
+                        conglomerate. BMTF, led by the Chief of Army Staff as
+                        the Board Chairman and a capable Managing Director,
+                        boasts a strong leadership that has propelled it to
+                        global recognition.
                       </p>
                       <p>
-                        Besides, we believe in religious and cultural harmony. A
-                        beautiful mosque is there inside the vast area. During
-                        Covid-19 pandemic BMTF has played a very pivotal role.
-                        It has maintained salaries and wages of its employees’
-                        and workers on a regular basis. During the early phase,
-                        BMTF handed down ventilators to Combined Military
-                        Hospital-CMH to meet the growing demand. Also it has
-                        aided Kuwait Armed Forces with Health Sanitizing
-                        Products.
+                        With a blend of military and civilian officers and a
+                        dedicated workforce, BMTF is committed to contributing
+                        to Bangladesh's economic transformation, aligning with
+                        the 'Delta Plan 2100.' Its consistent revenue generation
+                        plays a pivotal role in shaping the nation's progress
+                        and development.
                       </p>
                     </div>
                   </div>
-                  <div className='middle_part'>
-                    <div className='m_in'>
-                      <div
-                        className='tagline_holder'
-                        style={{ height: "310.969px" }}
-                      >
-                        <div className='tl_inner'>
-                          <span>Corporate Social Responsibility (CSR)</span>
-                        </div>
-                      </div>
+                  <div className=''>
+                    <div>
+                      <img
+                        src='https://statusneo.com/wp-content/uploads/2023/02/MicrosoftTeams-image551ad57e01403f080a9df51975ac40b6efba82553c323a742b42b1c71c1e45f1.jpg'
+                        alt=''
+                      />
                     </div>
-                  </div>
-                  <div className='right_part'>
-                    <div
-                      className='o_img'
-                      style={{
-                        backgroundImage: "url(/csr/school.jpg)",
-                      }}
-                    ></div>
-                    <div className='o_color'></div>
                   </div>
                 </div>
               </div>
             </div>
+            {/* <!-- /About Shortcode --> */}
           </div>
           {/* <!-- CSR --> */}
         </div>

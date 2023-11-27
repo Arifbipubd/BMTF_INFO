@@ -47,9 +47,9 @@ export default function Blog() {
                     <div className='post has-post-thumbnail'>
                       <div className='time'>
                         <span></span>
-                        <h3>28</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
+                        <h3>09</h3>
+                        <h5>May</h5>
+                        <h5>2023</h5>
                       </div>
                       <div className='img_holder'>
                         <a>
@@ -90,7 +90,7 @@ export default function Blog() {
                       <div className='time'>
                         <span></span>
                         <h3>27</h3>
-                        <h5>Aug</h5>
+                        <h5>May</h5>
                         <h5>2021</h5>
                       </div>
                       <div className='img_holder'>
@@ -132,9 +132,9 @@ export default function Blog() {
                     <div className='post has-post-thumbnail'>
                       <div className='time'>
                         <span></span>
-                        <h3>26</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
+                        <h3>18</h3>
+                        <h5>Feb</h5>
+                        <h5>2022</h5>
                       </div>
                       <div className='img_holder'>
                         <a>
@@ -176,9 +176,9 @@ export default function Blog() {
                     <div className='post has-post-thumbnail'>
                       <div className='time'>
                         <span></span>
-                        <h3>26</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
+                        <h3>09</h3>
+                        <h5>Sep</h5>
+                        <h5>2020</h5>
                       </div>
                       <div className='img_holder'>
                         <a>
@@ -217,9 +217,9 @@ export default function Blog() {
                     <div className='post has-post-thumbnail'>
                       <div className='time'>
                         <span></span>
-                        <h3>26</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
+                        <h3>13</h3>
+                        <h5>April</h5>
+                        <h5>2023</h5>
                       </div>
                       <div className='img_holder'>
                         <a>
@@ -261,9 +261,9 @@ export default function Blog() {
                     <div className='post has-post-thumbnail'>
                       <div className='time'>
                         <span></span>
-                        <h3>26</h3>
-                        <h5>Aug</h5>
-                        <h5>2021</h5>
+                        <h3>15</h3>
+                        <h5>April</h5>
+                        <h5>2023</h5>
                       </div>
                       <div className='img_holder'>
                         <a>

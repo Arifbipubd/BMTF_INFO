@@ -144,7 +144,7 @@ export default function ServiceSingle1() {
                       <img src='http://placehold.it/1000x500' alt='Graphic' />
                     </div>
                   </div>
-                  <div class='demo-card demo-card--step5'>
+                  <div class='demo-card demo-card--step6'>
                     <div class='head'>
                       <div class='number-box'>
                         <span>06</span>

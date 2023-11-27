@@ -347,7 +347,7 @@ export default function Index() {
                 </p>
               </div>
               <div className='link_holder'>
-                <Link href='/about-us'>
+                <Link href='/csr'>
                   <a>Our Responsibility</a>
                 </Link>
               </div>
@@ -568,9 +568,9 @@ export default function Index() {
                       >
                         <div className='time'>
                           <span></span>
-                          <h3>28</h3>
-                          <h5>Aug</h5>
-                          <h5>2018</h5>
+                          <h3>09</h3>
+                          <h5>May</h5>
+                          <h5>2023</h5>
                         </div>
                         <img src='News/BMTF_News_1.jpg' alt='' />
                       </div>
@@ -599,8 +599,8 @@ export default function Index() {
                         <div className='time'>
                           <span></span>
                           <h3>27</h3>
-                          <h5>Aug</h5>
-                          <h5>2018</h5>
+                          <h5>May</h5>
+                          <h5>2021</h5>
                         </div>
                         <img src='News/BMTF_News_2.jpg' alt='' />
                       </div>
@@ -629,9 +629,9 @@ export default function Index() {
                       >
                         <div className='time'>
                           <span></span>
-                          <h3>26</h3>
-                          <h5>Aug</h5>
-                          <h5>2018</h5>
+                          <h3>18</h3>
+                          <h5>Feb</h5>
+                          <h5>2022</h5>
                         </div>
                         <img src='News/BMTF_News_3.jpg' alt='' />
                       </div>
