@@ -10761,6 +10761,7 @@ blockquote {
 .customAboutDiv {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .customAboutDiv h3 {
   margin: 0px;
