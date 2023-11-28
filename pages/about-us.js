@@ -20,7 +20,7 @@ export default function BlogSingle1() {
         {/* /Page Title */}
 
         {/* Sidebar Page */}
-        <div className='industify_fn_sidebarpage'>
+        <div className=''>
           {/* <!-- Who We Are Section --> */}
           <div className='about_section aboutUsSection'>
             {/* <!-- About Shortcode --> */}
@@ -358,6 +358,30 @@ export default function BlogSingle1() {
               </div>
             </div>
           </div>
+          {/* Organogram Start */}
+          <div>
+            <div className='fn_cs_check_list'>
+              <div id='organogram'>
+                <div className='boardDirector'>
+                  <div>
+                    <h3>Board of Directors</h3>
+                  </div>
+                  <div>
+                    <img src='/bmtf-organogram.png' alt='' />
+                  </div>
+                </div>
+                <div className='organogramDiv'>
+                  <div>
+                    <h3>Organogram</h3>
+                  </div>
+                  <div>
+                    <img src='/organogram.png' alt='' />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Organogram End */}
           {/* Check List Shortcode  */}
         </div>
         {/* /Sidebar Page */}

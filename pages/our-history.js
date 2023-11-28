@@ -62,7 +62,7 @@ export default function ServiceSingle1() {
                         crucial role in shaping the nation's industrial
                         landscape since its inception.
                       </p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
+                      <img src='/History/1963.jpg' alt='Graphic' />
                     </div>
                   </div>
 
@@ -83,7 +83,7 @@ export default function ServiceSingle1() {
                         groundwork for BMTF's role as a significant player in
                         Bangladesh's industrial development.
                       </p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
+                      <img src='/History/1967.png' alt='Graphic' />
                     </div>
                   </div>
 
@@ -105,7 +105,6 @@ export default function ServiceSingle1() {
                         performance under the specialized management of a
                         renowned entity.
                       </p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
                     </div>
                   </div>
 
@@ -126,7 +125,7 @@ export default function ServiceSingle1() {
                         (BMTF). This marked a crucial step in the nation's
                         post-independence industrial development.
                       </p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
+                      <img src='/History/1979.jpg' alt='Graphic' />
                     </div>
                   </div>
 
@@ -141,7 +140,7 @@ export default function ServiceSingle1() {
                     </div>
                     <div class='body'>
                       <p>The factory was closed during this tenure.</p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
+                      <img src='/History/1994.png' alt='Graphic' />
                     </div>
                   </div>
                   <div class='demo-card demo-card--step6'>
@@ -161,7 +160,7 @@ export default function ServiceSingle1() {
                         BMTF is officially going under Bangladesh Army and it
                         has been a remarkable journey since then.{" "}
                       </p>
-                      <img src='http://placehold.it/1000x500' alt='Graphic' />
+                      <img src='/History/2000.png' alt='Graphic' />
                     </div>
                   </div>
                 </div>

@@ -98,7 +98,7 @@ export default function DesktopHeader() {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/organogram'>
+                    <Link href='/about-us#organogram'>
                       <a>Organogram</a>
                     </Link>
                   </li>
