@@ -26,14 +26,6 @@ export default function ServiceSingle1() {
                     <span></span>
                   </li>
                   <li>
-                    <Link href='/verticals'>
-                      <a title='verticals'>Verticals</a>
-                    </Link>
-                  </li>
-                  <li className='separator'>
-                    <span></span>
-                  </li>
-                  <li>
                     <span className='bread-current'>
                       Corporate Social Responsibility
                     </span>

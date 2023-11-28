@@ -52,9 +52,7 @@ export default function BlogSingle1() {
                       </div>
                     </div>
                     <div className='customAboutRightSide'>
-                      <div>
-                        <img src='/about-bmtf.png' alt='' />
-                      </div>
+                      <img src='/about-bmtf.png' alt='' />
                     </div>
                   </div>
                 </div>

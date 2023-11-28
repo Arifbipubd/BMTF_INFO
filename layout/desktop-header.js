@@ -233,7 +233,7 @@ export default function DesktopHeader() {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <Link href='/notice-board'>
+                <Link href='/news-tenders'>
                   <a>Notice Board</a>
                 </Link>
                 <ul className='sub-menu'>
