@@ -24,63 +24,36 @@ export default function BlogSingle1() {
           {/* <!-- Who We Are Section --> */}
           <div className='about_section aboutUsSection'>
             {/* <!-- About Shortcode --> */}
-            <div className='fn_cs_about'>
+            <div className=''>
               <div className='container'>
                 <div className='a_inner'>
-                  <div className='leftpart'>
-                    <div className='title_holder'>
-                      <h3 className='title'>Who We Are</h3>
-                      <p>
-                        Bangladesh Machine Tools Factory Limited (BMTF) is a
-                        prominent state-owned entity operating under the
-                        Bangladesh Army's supervision. BMTF located in Gazipur,
-                        spans 260 acres and serves as a leading industrial
-                        conglomerate. BMTF, led by the Chief of Army Staff as
-                        the Board Chairman and a capable Managing Director,
-                        boasts a strong leadership that has propelled it to
-                        global recognition.
-                      </p>
-                      <p>
-                        With a blend of military and civilian officers and a
-                        dedicated workforce, BMTF is committed to contributing
-                        to Bangladesh's economic transformation, aligning with
-                        the 'Delta Plan 2100.' Its consistent revenue generation
-                        plays a pivotal role in shaping the nation's progress
-                        and development.
-                      </p>
+                  <div className='customAboutDiv'>
+                    <div className='customAboutLeftSide'>
+                      <div className='title_holder'>
+                        <h3>Who We Are</h3>
+                        <p>
+                          Bangladesh Machine Tools Factory Limited (BMTF) is a
+                          prominent state-owned entity operating under the
+                          Bangladesh Army's supervision. BMTF located in
+                          Gazipur, spans 260 acres and serves as a leading
+                          industrial conglomerate. BMTF, led by the Chief of
+                          Army Staff as the Board Chairman and a capable
+                          Managing Director, boasts a strong leadership that has
+                          propelled it to global recognition.
+                        </p>
+                        <p>
+                          With a blend of military and civilian officers and a
+                          dedicated workforce, BMTF is committed to contributing
+                          to Bangladesh's economic transformation, aligning with
+                          the 'Delta Plan 2100.' Its consistent revenue
+                          generation plays a pivotal role in shaping the
+                          nation's progress and development.
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className='rightpart'>
-                    <div
-                      className='r_inner'
-                      id='scene'
-                      style={{
-                        transform: "translate3d(0px, 0px, 0px)",
-                        transformStyle: "preserve-3d",
-                        backfaceVisibility: "hidden",
-                      }}
-                    >
-                      <div
-                        className='img_holder layer'
-                        data-depth='0.5'
-                        style={{
-                          position: "absolute",
-                          display: "block",
-                          left: "0px",
-                          top: "0px",
-                          transformStyle: "preserve-3d",
-                          backfaceVisibility: "hidden",
-                          transform: "translate3d(35.4636px, -31.6792px, 0px)",
-                        }}
-                      >
-                        <img src='img/thumb/500-560.jpg' alt='' />
-                        <div
-                          className='abs_img'
-                          data-bg-img='Home/About-BMTF_Web.jpg'
-                          style={{
-                            backgroundImage: "url(Home/About-BMTF_Web.jpg)",
-                          }}
-                        ></div>
+                    <div className='customAboutRightSide'>
+                      <div>
+                        <img src='/about-bmtf.png' alt='' />
                       </div>
                     </div>
                   </div>

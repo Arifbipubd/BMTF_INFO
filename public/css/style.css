@@ -10490,7 +10490,7 @@ blockquote {
 
 /***********About Us******************/
 .aboutUsSection {
-  padding: 30px 0 !important;
+  padding: 60px 0 30px 0 !important;
 }
 .aboutOurCapability {
   margin: 150px 0 !important;
@@ -10760,15 +10760,78 @@ blockquote {
 
 .customAboutDiv {
   display: flex;
+  justify-content: space-between;
 }
-
+.customAboutDiv h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0px;
+  color: #041230;
+  font-weight: 300;
+  padding-bottom: 14px;
+  position: relative;
+  margin-bottom: 32px;
+}
+.customAboutDiv h3:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0px;
+  width: 100px;
+  height: 3px;
+  background-color: #137629;
+}
 .customLeftSide {
   width: 50%;
+  margin-right: 20px;
+}
+.customAboutLeftSide {
+  width: 40%;
   margin-right: 20px;
 }
 .customRightSide {
   width: 50%;
   padding: 0 20px;
+}
+..customRightSide img {
+  width: 100%;
+}
+.customAboutRightSide {
+  width: 50%;
+  padding: 0 20px;
+}
+..customAboutRightSide img {
+  width: 100%;
+}
+
+@media (max-width: 999px) {
+  .customAboutDiv {
+    display: block;
+  }
+  .customLeftSide {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .customAboutLeftSide {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .customRightSide {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .customRightSide img {
+    width: 100%;
+  }
+  .customAboutRightSide {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .customAboutRightSide img {
+    width: 100%;
+  }
 }
 
 #organogram h3 {
