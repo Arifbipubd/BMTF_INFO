@@ -368,7 +368,7 @@ export default function ServiceSingle1() {
                   </div>
                   <div className='list_holder'>
                     <ul>
-                      <li className='active'>
+                      <li>
                         <Link href='/footwear-and-leather'>
                           <a>Footwear & Leather</a>
                         </Link>
@@ -438,7 +438,7 @@ export default function ServiceSingle1() {
                           <a>Machine Shop</a>
                         </Link>
                       </li>
-                      <li>
+                      <li className='active'>
                         <Link href='/army-pharma'>
                           <a>Army Pharma</a>
                         </Link>

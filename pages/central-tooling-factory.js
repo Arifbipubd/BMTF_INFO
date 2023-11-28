@@ -54,13 +54,13 @@ export default function ServiceSingle1() {
                 {/* Single Service  */}
                 <div className='industify_fn_service_single'>
                   <div className='img_holder'>
-                    <img src='img/service/single/1.jpg' alt='' />
-                    {/* <iframe
+                    {/* <img src='img/service/single/1.jpg' alt='' /> */}
+                    <iframe
                       width='100%'
-                      src='https://www.youtube.com/embed/FGOEmtRJOjU'
+                      src='https://www.youtube.com/embed/WiKM8ZKZspw'
                       frameborder='0'
                       allowfullscreen
-                    ></iframe> */}
+                    ></iframe>
                   </div>
                   <div className='desc_holder'>
                     <p>
