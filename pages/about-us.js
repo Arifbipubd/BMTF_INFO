@@ -201,7 +201,9 @@ export default function BlogSingle1() {
                       style={{ height: "310.969px" }}
                     >
                       <div className='tl_inner'>
-                        <span>Business Strategy</span>
+                        <span>
+                          Strategic Framework for BMTF: Navigating the Future.
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -210,7 +212,7 @@ export default function BlogSingle1() {
                   <div
                     className='o_img'
                     style={{
-                      backgroundImage: "url(/img/about/rating_bg.jpg)",
+                      backgroundImage: "url(/bmtf-strategy.png)",
                     }}
                   ></div>
                   <div className='o_color'></div>
@@ -222,7 +224,7 @@ export default function BlogSingle1() {
           {/* Check List Shortcode  */}
           <div className='fn_cs_check_list aboutOurCapability'>
             <div className='container'>
-              <h2>Our Capabilities</h2>
+              <h3>Our Capabilities</h3>
               <div className='list'>
                 <ul>
                   <li>

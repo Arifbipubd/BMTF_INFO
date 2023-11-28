@@ -10495,9 +10495,11 @@ blockquote {
 .aboutOurCapability {
   margin: 150px 0 !important;
 }
-.aboutOurCapability h2 {
+.aboutOurCapability h3 {
+  font-size: 36px;
   text-align: center;
   margin-bottom: 35px;
+  font-weight: 600;
 }
 
 /**********Our History*************/
@@ -10793,4 +10795,24 @@ blockquote {
   text-align: center;
   font-weight: 600;
   margin: 50px 0;
+}
+.commingSoon {
+  cursor: pointer;
+}
+.commingSoonBtn {
+  background: #006a4d;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+.commingSoonPage p {
+  margin-top: 10px !important;
+}
+.commingSoonPage h3 {
+  margin-bottom: 20px !important;
+}
+.commingSoonPage h1 {
+  margin-bottom: 20px !important;
 }

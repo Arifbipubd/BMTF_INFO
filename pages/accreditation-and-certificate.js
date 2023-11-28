@@ -48,10 +48,10 @@ export default function BlogSingle1() {
                     Our <span>Accreditation</span>
                   </h3>
                   <p>
-                    To provide exceptional services to the insurance industry
-                    and thier clients, the property owner. We are committed to
-                    providing the highest level of professionalism, service
-                    response, and quality workmanship.
+                    Dive into our accreditation section to witness the quality
+                    benchmarks and certifications that underscore our dedication
+                    to precision and reliability. Trust in an organization that
+                    prioritizes the highest industry standards.
                   </p>
                 </div>
               </div>
@@ -163,10 +163,11 @@ export default function BlogSingle1() {
                     Our <span>Certificates</span>
                   </h3>
                   <p>
-                    To provide exceptional services to the insurance industry
-                    and thier clients, the property owner. We are committed to
-                    providing the highest level of professionalism, service
-                    response, and quality workmanship.
+                    Step into the world of BMTF's certification section, where
+                    our unwavering commitment to quality and compliance takes
+                    center stage. Explore the recognized industry standards that
+                    validate our precision and reliability. Choose assurance,
+                    choose BMTF.
                   </p>
                 </div>
               </div>

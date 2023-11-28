@@ -11,7 +11,7 @@ import {
   Vk,
 } from "../public/svg/social/IconSocial";
 
-const background = "img/call.png";
+const background = "/shopping.png";
 
 export default function DesktopHeader() {
   const [isActive, setActive] = useState(false);
@@ -310,18 +310,20 @@ export default function DesktopHeader() {
                 </li>
               </ul>
             </div>
-            <div className='toll_free'>
-              <span className='shape1'></span>
-              <span className='shape2'></span>
-              <span className='shape3'></span>
-              <div className='tf_in'>
-                <div
-                  className='img_holder'
-                  style={{ backgroundImage: `url(${background})` }}
-                ></div>
-                <p>Ecommerce</p>
+            <Link href='/commingSoon'>
+              <div className='toll_free commingSoon'>
+                <span className='shape1'></span>
+                <span className='shape2'></span>
+                <span className='shape3'></span>
+                <div className='tf_in'>
+                  <div
+                    className='img_holder'
+                    style={{ backgroundImage: `url(${background})` }}
+                  ></div>
+                  <p>BMTF Shop</p>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         {/* <!-- /Header: Bottom Panel --> */}

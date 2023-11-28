@@ -2,8 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import { FileDoc, FilePdf, FileZip } from "../public/svg/icon";
-
 export default function Sidebar() {
   return (
     <>
@@ -20,59 +18,20 @@ export default function Sidebar() {
                 <span className='helper6'></span>
                 <div
                   className='abs_img'
-                  style={{ backgroundImage: "url(img/widget/1.jpg)" }}
+                  style={{ backgroundImage: "url(/banner.png)" }}
                 ></div>
               </div>
               <div className='bfwe_inner'>
                 <p>
-                  Let's get started! Contact us for a free quote on your next
-                  home improvement project.
+                  Connect with BMTF today to explore strategic collaborations,
+                  innovation, and economic transformation.
                 </p>
-                <Link href='/contact'>
+                <Link href='/contact-us'>
                   <a>Request an Estimate</a>
                 </Link>
               </div>
             </div>
           </div>
-
-          {/* <div className="widget_block widget_brochure">
-                        <div className="wid-title">
-                            <span>Company Presentation</span>
-                        </div>
-                        <div className="industify_fn_widget_brochure">
-                            <div className="fn_brochures">
-                                <ul>
-                                    <li>
-                                        <div className="br_item">
-                                            <Link href="#"><a download=""></a></Link>
-                                            <span className="icon">
-                                                <FilePdf className="fn__svg" />
-                                            </span>
-                                            <span className="text">Download .PDF</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="br_item">
-                                            <Link href="#"><a download=""></a></Link>
-                                            <span className="icon">
-                                            <FileZip className="fn__svg" />
-                                            </span>
-                                            <span className="text">Download .ZIP</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="br_item">
-                                            <Link href="#"><a download=""></a></Link>
-                                            <span className="icon">
-                                            <FileDoc className="fn__svg" />
-                                            </span>
-                                            <span className="text">Download .DOC</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> */}
         </div>
       </div>
     </>
