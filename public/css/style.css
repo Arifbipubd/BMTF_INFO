@@ -10770,7 +10770,7 @@ blockquote {
 }
 
 #organogram h3 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 600;
   text-align: center;
   margin-bottom: 50px;
@@ -10787,4 +10787,10 @@ blockquote {
 }
 #organogram .organogramDiv img {
   width: 100%;
+}
+.historyImage h3 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+  margin: 50px 0;
 }

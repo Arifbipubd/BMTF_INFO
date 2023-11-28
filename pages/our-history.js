@@ -4,8 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Layout from "../layout/layout";
 import Title from "../layout/title";
-import { Arrow_r } from "../public/svg/icon";
-
+import HistoryImage from "../components/Gallery/historyPhotoGallery";
 export default function ServiceSingle1() {
   return (
     <>
@@ -167,6 +166,12 @@ export default function ServiceSingle1() {
               </section>
             </div>
             {/*History Timeline End */}
+            <div className='historyImage'>
+              <div>
+                <h3>Memory Snaps</h3>
+              </div>
+              <HistoryImage />
+            </div>
           </div>
         </div>
         {/* /Sidebar Page  */}

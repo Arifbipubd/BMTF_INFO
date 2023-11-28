@@ -363,14 +363,16 @@ export default function BlogSingle1() {
             <div className='fn_cs_check_list'>
               <div id='organogram'>
                 <div className='boardDirector'>
-                  <div>
-                    <h3>Board of Directors</h3>
-                  </div>
-                  <div>
-                    <img src='/bmtf-organogram.png' alt='' />
+                  <div className=' container '>
+                    <div>
+                      <h3>Board of Directors</h3>
+                    </div>
+                    <div>
+                      <img src='/bmtf-organogram.png' alt='' />
+                    </div>
                   </div>
                 </div>
-                <div className='organogramDiv'>
+                <div className='organogramDiv container'>
                   <div>
                     <h3>Organogram</h3>
                   </div>
