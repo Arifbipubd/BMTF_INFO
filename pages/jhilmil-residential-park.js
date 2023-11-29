@@ -111,6 +111,9 @@ export default function BlogSingle1() {
                       The Ministry of Housing and Public Works welcomed this
                       progress towards the quick implementation of the Project.
                     </p>
+                    <div className='img_holder'>
+                      <img src='/project-image/jhilmil-full.png' alt='' />
+                    </div>
                     <p>
                       Much has been spoken of the delay to get the project off
                       the ground. The two years of pandemic delayed the whole

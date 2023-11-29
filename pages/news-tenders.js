@@ -223,10 +223,7 @@ export default function Blog() {
                       </div>
                       <div className='img_holder'>
                         <a>
-                          <img
-                            src='/project-image/Jhilmil-Residential-Park.jpg'
-                            alt=''
-                          />
+                          <img src='/project-image/jhilmil-card.png' alt='' />
                         </a>
                         <span className='shape1'></span>
                         <span className='shape2'></span>
