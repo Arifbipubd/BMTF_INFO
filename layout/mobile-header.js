@@ -7,7 +7,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
-  Twitter,
+  Youtube,
   Vk,
 } from "../public/svg/social/IconSocial";
 
@@ -25,47 +25,33 @@ export default function MobileHeader() {
         <div className='industify_fn_toppanel'>
           <div className='left_panel'>
             <div className='info'>
-              <Link href='/tel:07787744741'>
-                <a>(0778) 774 - 474 -1</a>
+              <Link href='tel:+880-2-8871150'>
+                <a>+880-2-8871150</a>
               </Link>
             </div>
             <div className='info'>
-              <Link href='/mailto:trendycoder.com@gmail.com'>
-                <a>trendycoder.com@gmail.com</a>
+              <Link href='mailto:mkt@bmtf.com.bd'>
+                <a>mkt@bmtf.com.bd</a>
               </Link>
             </div>
             <div className='industify_fn_social_list'>
               <ul>
                 <li>
-                  <Link href='#'>
+                  <Link href='https://www.facebook.com/BMTF.Bangladesh'>
                     <a target='_blank' rel='noreferrer'>
                       <Facebook className='fn__svg' />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href='#'>
+                  <Link href='https://www.youtube.com/@BMTFofficial/'>
                     <a target='_blank' rel='noreferrer'>
-                      <Twitter className='fn__svg' />
+                      <Youtube className='fn__svg' />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href='#'>
-                    <a target='_blank' rel='noreferrer'>
-                      <Instagram className='fn__svg' />
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#'>
-                    <a target='_blank' rel='noreferrer'>
-                      <Vk className='fn__svg' />
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='#'>
+                  <Link href='https://www.linkedin.com/company/98842722/'>
                     <a target='_blank' rel='noreferrer'>
                       <Linkedin className='fn__svg' />
                     </a>
@@ -76,7 +62,7 @@ export default function MobileHeader() {
           </div>
         </div>
         {/* <!-- TOLL FREE MOBILE --> */}
-        <div className='m_toll_free_lang'>
+        {/* <div className='m_toll_free_lang'>
           <div className='m_toll_free'>
             <span className='shape1'></span>
             <span className='shape2'></span>
@@ -91,7 +77,7 @@ export default function MobileHeader() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- /TOLL FREE MOBILE --> */}
         {/* <!-- LOGO & HAMBURGER --> */}
         <div className='logo_hamb'>
@@ -125,146 +111,33 @@ export default function MobileHeader() {
           <div>
             <nav>
               <ul className='metismenu' id='metismenu'>
-                <li>
+                <li className='menu-item-has-children'>
                   <Link href='/about-us'>
-                    <a className='has-arrow'>About</a>
+                    <a>About</a>
                   </Link>
-                  <ul>
-                    <li>
-                      <Link href='/about-us'>
-                        <a>About Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/our-history'>
-                        <a>Our History</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/organogram'>
-                        <a>Organogram</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/csr'>
-                        <a>Corporate Social Responsibility(CSR)</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/our-client'>
-                        <a>Our CLient</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
-                  <Link href='/all-verticals'>
+                  <Link href='/verticals'>
                     <a>Verticals</a>
                   </Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link href='/all-verticals'>
-                        <a>All Verticals</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/footwear-and-leather'>
-                        <a>Footwear & Leather</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/packaging'>
-                        <a>Packaging</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/furniture'>
-                        <a>Furniture</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/line-hardware'>
-                        <a>Line Hardware / Major Engineering</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/pole-pile'>
-                        <a>Pole & Pile</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/vehicle-assembly'>
-                        <a>Vehicle Assembly</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/steel-structure-manufacturing'>
-                        <a>Steel Structure Manufacturing</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/electronic-assembly'>
-                        <a>Electronic Assembly</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/bmtf-crafties'>
-                        <a>BMTF Crafties</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/cfl-led-bulb'>
-                        <a>CFL & LED Bulb</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/health-care-hygiene'>
-                        <a>Health Care & Hygiene</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
-                  <Link href='/accreditations'>
+                  <Link href='/accreditation-and-certificate'>
                     <a>Accreditations</a>
                   </Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link href='/accreditations'>
-                        <a>Accreditations</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/certifications'>
-                        <a>Certifications</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
-                  <Link href='/notice-board'>
+                  <Link href='/news-tenders'>
                     <a>Notice Board</a>
                   </Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link href='/news-tenders'>
-                        <a>News & Tenders</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/noc'>
-                        <a>NOC & Notices</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
-                  <Link href='/gallery'>
+                  <Link href='/image-gallery'>
                     <a>Gallery</a>
                   </Link>
                   <ul className='sub-menu'>
                     <li>
-                      <Link href='/images'>
+                      <Link href='/image-gallery'>
                         <a>Image Gallery</a>
                       </Link>
                     </li>
@@ -276,7 +149,7 @@ export default function MobileHeader() {
                   </ul>
                 </li>
                 <li className='menu-item-has-children'>
-                  <Link href='/contact'>
+                  <Link href='/contact-us'>
                     <a>Contact</a>
                   </Link>
                   <ul className='sub-menu'>
@@ -286,12 +159,7 @@ export default function MobileHeader() {
                       </Link>
                     </li>
                     <li>
-                      <Link href='/our-location'>
-                        <a>Our Locations</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/careers'>
+                      <Link href='/career'>
                         <a>Career Opportunities</a>
                       </Link>
                     </li>

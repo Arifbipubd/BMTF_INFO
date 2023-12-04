@@ -150,6 +150,15 @@ a:focus {
     padding: 0 10px;
   }
 }
+@media (max-width: 799px) {
+  .padding_mobile {
+    padding: 50px 0 !important;
+  }
+}
+.justify_text {
+  text-align: justify !important;
+}
+
 /*------------------------------------------------------------------*/
 /*	02) Site Structure
 /*------------------------------------------------------------------*/
@@ -1172,7 +1181,7 @@ a:focus {
   bottom: 0px;
   height: 6px;
   width: 70px;
-  background-color: #eee;
+  /* background-color: #eee; */
 }
 .industify_fn_pagetitle .title_holder:before {
   left: 0px;
@@ -1181,7 +1190,7 @@ a:focus {
   bottom: 13px;
   height: 6px;
   width: 150px;
-  background-color: #eee;
+  /* background-color: #eee; */
   border-radius: 10px;
 }
 .industify_fn_pagetitle h3 {
@@ -2714,7 +2723,7 @@ a:focus {
 /*	18) CONTACT PAGE
 /*------------------------------------------------------------------*/
 .industify_fn_contact {
-  padding: 120px 0;
+  padding: 40px 0;
   width: 100%;
   float: left;
   clear: both;

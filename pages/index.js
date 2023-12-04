@@ -43,13 +43,13 @@ export default function Index() {
                 <li>
                   <div className='item'>
                     <div className='title_holder'>
-                      <h3>Mission</h3>
+                      <h3>Vision</h3>
                       <p>
-                        BMTF leads Bangladesh's industrial progress, emphasizing
-                        innovation, sustainability, and social responsibility.
-                        With visionary leadership, we drive economic
-                        transformation and national prosperity, aligning with
-                        critical development initiatives.
+                        BMTF aspire to lead Bangladesh's industry, setting new
+                        manufacturing standards, fostering economic growth, and
+                        global recognition through innovation, diversification,
+                        and strategic partnerships, driving resilience and
+                        prosperity.
                       </p>
                     </div>
                     <div className='number_holder'>01</div>
@@ -58,13 +58,13 @@ export default function Index() {
                 <li>
                   <div className='item'>
                     <div className='title_holder'>
-                      <h3>Vision</h3>
+                      <h3>Mission</h3>
                       <p>
-                        BMTF aspire to lead Bangladesh's industry, setting new
-                        manufacturing standards, fostering economic growth, and
-                        global recognition through innovation, diversification,
-                        and strategic partnerships, driving resilience and
-                        prosperity.
+                        BMTF leads Bangladesh's industrial progress, emphasizing
+                        innovation, sustainability, and social responsibility.
+                        With visionary leadership, we drive economic
+                        transformation and national prosperity, aligning with
+                        critical development initiatives.
                       </p>
                     </div>
                     <div className='number_holder'>02</div>
@@ -92,7 +92,7 @@ export default function Index() {
         {/* <!-- /Principles Modern --> */}
 
         {/* <!-- About Section --> */}
-        <div className='about_section'>
+        <div className='about_section padding_mobile'>
           {/* <!-- About Shortcode --> */}
           <div className='fn_cs_about'>
             <div className='container'>
@@ -100,7 +100,7 @@ export default function Index() {
                 <div className='leftpart'>
                   <div className='title_holder'>
                     <h3 className='title'>About BMTF</h3>
-                    <p>
+                    <p className='justify_text'>
                       Bangladesh Machine Tools Factory Limited (BMTF) is a
                       prominent state-owned entity operating under the
                       Bangladesh Army's supervision. BMTF located in Gazipur,
@@ -110,7 +110,7 @@ export default function Index() {
                       strong leadership that has propelled it to global
                       recognition.
                     </p>
-                    <p>
+                    <p className='justify_text'>
                       With a blend of military and civilian officers and a
                       dedicated workforce, BMTF is committed to contributing to
                       Bangladesh's economic transformation, aligning with the
@@ -211,7 +211,7 @@ export default function Index() {
         <Services />
 
         {/* <!-- Service Section --> */}
-        <div className='service_section'>
+        <div className='service_section padding_mobile'>
           {/* <!-- About with Rating Shortcode --> */}
           <div className='fn_cs_about_with_rating'>
             <div className='container'>
@@ -539,14 +539,14 @@ export default function Index() {
         {/* <!-- /Project Sticky Full --> */}
 
         {/* <!-- Blog Section --> */}
-        <div className='blog_section'>
+        <div className='blog_section padding_mobile'>
           <div
             className='overlay'
             style={{ backgroundImage: `url(${map})` }}
           ></div>
 
           {/* <!-- Main Title --> */}
-          <div className='fn_cs_main_title'>
+          <div className='fn_cs_main_title '>
             <div className='container'>
               <div className='title_holder'>
                 <h3>News</h3>

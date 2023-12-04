@@ -13,7 +13,7 @@ export default function Footer() {
             style={{ background: "url(/Home/footer-bg.jpg)" }}
           ></div>
           {/* <!-- SUBSCRIBE --> */}
-          <div className='subscribe_f'>
+          {/* <div className='subscribe_f'>
             <div className='container'>
               <div className='subscribe_in'>
                 <div className='s_left'>
@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- /SUBSCRIBE --> */}
           {/* <!-- TRIPLE WIDGET --> */}
           <div className='footer_widget'>
