@@ -45,11 +45,10 @@ export default function Index() {
                     <div className='title_holder'>
                       <h3>Vision</h3>
                       <p>
-                        BMTF aspire to lead Bangladesh's industry, setting new
-                        manufacturing standards, fostering economic growth, and
-                        global recognition through innovation, diversification,
-                        and strategic partnerships, driving resilience and
-                        prosperity.
+                        Enhancing in-house production capacity through
+                        innovation, diversification and excellence in
+                        transforming Bangladesh Machine Tools Factory (BMTF)
+                        Limited as mother and defense industry.
                       </p>
                     </div>
                     <div className='number_holder'>01</div>
@@ -60,11 +59,9 @@ export default function Index() {
                     <div className='title_holder'>
                       <h3>Mission</h3>
                       <p>
-                        BMTF leads Bangladesh's industrial progress, emphasizing
-                        innovation, sustainability, and social responsibility.
-                        With visionary leadership, we drive economic
-                        transformation and national prosperity, aligning with
-                        critical development initiatives.
+                        Make Bangladesh Machine Tools Factory (BMTF) Limited a
+                        lead commercially viable organization to contribute in
+                        the national economy.
                       </p>
                     </div>
                     <div className='number_holder'>02</div>

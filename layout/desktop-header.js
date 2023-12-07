@@ -247,6 +247,11 @@ export default function DesktopHeader() {
                       <a>NOC & Notices</a>
                     </Link>
                   </li>
+                  <li>
+                    <a href='https://spc-pile.bmtf.com.bd/' target='_blank'>
+                      Application for SPC-Pile at Jholshiri
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>

@@ -2738,14 +2738,14 @@ a:focus {
 }
 .contact_holder .contact_left {
   width: 40%;
-  background-color: #0d0e13;
+  background-color: #047556;
   border-radius: 5px;
   overflow: hidden;
 }
 .contact_holder .contact_left h3 {
   margin: 0;
   padding: 30px;
-  background: #111422;
+  background: #006a4d;
   color: #fff;
 }
 .contact_holder .contact_right {
@@ -2761,9 +2761,9 @@ a:focus {
   width: 100%;
   display: block;
   border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: white;
   border: 1px solid #222;
-  color: #eee;
+  color: #000000;
   outline: none;
 }
 .contact_left textarea:focus,
@@ -3748,15 +3748,24 @@ blockquote {
 .industify_slider_alpha .owl_control .fn_next > span {
   transform: rotate(180deg);
 }
-.industify_slider_alpha .item {
-  width: 100%;
-  float: left;
-  clear: both;
-  position: relative;
-  height: 100vh;
-  min-height: 590px;
-  overflow: hidden;
+@media (min-width: 768px) {
+  .industify_slider_alpha .item {
+    width: 100%;
+    float: left;
+    clear: both;
+    position: relative;
+    height: 100vh;
+    min-height: 590px;
+    overflow: hidden;
+  }
 }
+
+@media (max-width: 768px) {
+  .industify_slider_alpha .item {
+    min-height: 320px;
+  }
+}
+
 .industify_slider_alpha .img_holder {
   position: absolute;
   left: 0px;
@@ -3772,7 +3781,7 @@ blockquote {
 .industify_slider_alpha .title_holder {
   position: absolute;
   top: 50%;
-  margin-top: -235px;
+  margin-top: -200px;
   width: 480px;
   height: 470px;
   left: 0px;
@@ -3821,6 +3830,7 @@ blockquote {
   border-bottom-color: #fff;
 }
 .industify_slider_alpha .title_holder h3 {
+  text-wrap: wrap;
   margin: 0;
   padding: 0;
   font-size: 36px;
@@ -4070,7 +4080,7 @@ blockquote {
     margin-top: auto;
     bottom: 60px;
     text-align: center;
-    height: 60px;
+    height: auto;
   }
   .industify_slider_alpha .title_holder p {
     display: none !important;
@@ -4078,7 +4088,7 @@ blockquote {
   .industify_slider_alpha .title_holder h3 {
     margin: 0px;
     font-size: 24px;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 40px;
@@ -4280,10 +4290,10 @@ blockquote {
 .fn_cs_principles_modern .inner,
 .fn_cs_principles_modern .inner:before,
 .fn_cs_principles_modern .inner:after {
-  background-color: #0e141f;
+  background-color: #006a4d;
 }
 .fn_cs_principles_modern:after {
-  background-color: #111724;
+  background-color: #006a4d;
 }
 @media (max-width: 1200px) {
   .fn_cs_principles_modern ul li {
@@ -9802,7 +9812,7 @@ blockquote {
   clear: both;
   padding: 21px 80px 21px 30px;
   position: relative;
-  background-color: #111422;
+  background-color: #006a4d;
 }
 .fn_cs_location_list .title_holder h3 {
   margin: 0px;
@@ -9837,7 +9847,7 @@ blockquote {
   float: left;
   clear: both;
   padding: 34px 30px;
-  background-color: #0d0e13;
+  background-color: #047556;
   line-height: 1.5;
 }
 .fn_cs_location_list .content_holder ul {
@@ -9849,13 +9859,13 @@ blockquote {
   margin: 0;
   padding: 0;
   margin-bottom: 8px;
-  color: #999;
+  color: #ffffff;
 }
 .fn_cs_location_list .content_holder li:last-child {
   margin-bottom: 0;
 }
 .fn_cs_location_list .content_holder a {
-  color: #137629;
+  color: #d3aa14;
   text-decoration: none;
 }
 .fn_cs_location_list .content_holder a:hover {
@@ -10888,4 +10898,10 @@ blockquote {
 }
 .commingSoonPage h1 {
   margin-bottom: 20px !important;
+}
+
+.singleVerticalBreadcrumb .privacyTitle {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
 }

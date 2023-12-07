@@ -12,8 +12,8 @@ import "swiper/css/pagination";
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 // Images imported
-const slider1 = "/Home/homeSl1.jpg";
-const slider2 = "/Home/homeSl2.jpg";
+const slider1 = "/Home/homeSl2.jpg";
+const slider2 = "/Home/homeSl1.jpg";
 const slider3 = "/Home/homeSl3.jpg";
 const slider4 = "/Home/homeSl4.jpg";
 const slider5 = "/Home/homeSl5.jpg";
@@ -69,7 +69,7 @@ export default function HomeSlider() {
             nextEl: ".fn_next",
           }}
           autoplay={{
-            delay: 3000,
+            delay: 500000,
             disableOnInteraction: false,
           }}
           className='custom-class'
@@ -84,15 +84,17 @@ export default function HomeSlider() {
                 <div className='inner'>
                   <div className='in'>
                     <p>
-                      <span>Industry</span>
+                      <span>BMTF Ltd</span>
                     </p>
                     <h3>
-                      <span>Production through excellence</span>
+                      <span>A Catalyst for Industrial Growth</span>
                     </h3>
                     <div className='desc'>
                       <span>
-                        Bangladesh Machine Tools Factory Limited A commercial
-                        enterprise under the management of Bangladesh Army
+                        BMTF Ltd in Gazipur, Bangladesh, established in 1967 on
+                        a 260-acre site, is a symbol of industrial progress and
+                        a key driver of engineering enterprises in the nation,
+                        shaping Bangladesh's industrial landscape significantly.
                       </span>
                     </div>
                   </div>
@@ -110,17 +112,15 @@ export default function HomeSlider() {
                 <div className='inner'>
                   <div className='in'>
                     <p>
-                      <span>BMTF Ltd</span>
+                      <span>Industry</span>
                     </p>
                     <h3>
-                      <span>A Catalyst for Industrial Growth</span>
+                      <span>Production through excellence</span>
                     </h3>
                     <div className='desc'>
                       <span>
-                        BMTF Ltd in Gazipur, Bangladesh, established in 1967 on
-                        a 260-acre site, is a symbol of industrial progress and
-                        a key driver of engineering enterprises in the nation,
-                        shaping Bangladesh's industrial landscape significantly.
+                        Bangladesh Machine Tools Factory Limited A commercial
+                        enterprise under the management of Bangladesh Army
                       </span>
                     </div>
                   </div>

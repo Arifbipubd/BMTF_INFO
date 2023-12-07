@@ -1,5 +1,7 @@
 /** @format */
 
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import MetisMenu from "metismenujs";
 import Link from "next/link";
@@ -14,6 +16,11 @@ import {
 export default function MobileHeader() {
   const [isMobileMenu, setMobileMenu] = useState(false);
   const MobileMenuTrueFalse = () => setMobileMenu(!isMobileMenu);
+  const [isSubMenuVisible, setSubMenuVisible] = useState(false);
+
+  const toggleSubMenu = () => {
+    setSubMenuVisible(!isSubMenuVisible);
+  };
 
   useEffect(() => {
     new MetisMenu("#metismenu");
@@ -115,21 +122,173 @@ export default function MobileHeader() {
                   <Link href='/about-us'>
                     <a>About</a>
                   </Link>
+                  <ul className='sub-menu'>
+                    <li>
+                      <Link href='/about-us'>
+                        <a>About Us</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/our-history'>
+                        <a>Our History</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/about-us#organogram'>
+                        <a>Organogram</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/csr'>
+                        <a>Corporate Social Responsibility(CSR)</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/our-client'>
+                        <a>Our Client</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
                   <Link href='/verticals'>
                     <a>Verticals</a>
                   </Link>
+                  <ul className='sub-menu verticalSubmenu'>
+                    <div>
+                      <li>
+                        <Link href='/verticals'>
+                          <a>All Verticals</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/footwear-and-leather'>
+                          <a>Footwear & Leather</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/furniture'>
+                          <a>Furniture</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/pole-pile'>
+                          <a>Pole & Pile</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/vehicle-assembly'>
+                          <a>Vehicle Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/steel-structure-manufacturing'>
+                          <a>Steel Structure Manufacturing</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/electronic-assembly'>
+                          <a>Electronic Assembly</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/bmtf-crafties'>
+                          <a>BMTF Crafties</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/cfl-led-bulb'>
+                          <a>CFL & LED Bulb</a>
+                        </Link>
+                      </li>
+                    </div>
+                    <div>
+                      <li>
+                        <Link href='/central-tooling-factory'>
+                          <a>Central Tooling Department</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/forge-shop'>
+                          <a>Forge Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/foundry-shop'>
+                          <a>Foundry Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/galvanizing-plant'>
+                          <a>Galvanizing Plant</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/heat-and-surface'>
+                          <a>Heat and Surface Treatment</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/machine-shop'>
+                          <a>Machine Shop</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/army-pharma'>
+                          <a>Army Pharma</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/packaging-unit'>
+                          <a>Packaging Unit</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href='/pattern-shop'>
+                          <a>Pattern Shop</a>
+                        </Link>
+                      </li>
+                    </div>
+                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
                   <Link href='/accreditation-and-certificate'>
                     <a>Accreditations</a>
                   </Link>
+                  <ul className='sub-menu'>
+                    <li>
+                      <Link href='/accreditation-and-certificate'>
+                        <a>Accreditations</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/accreditation-and-certificate#certificate'>
+                        <a>Certifications</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
                   <Link href='/news-tenders'>
                     <a>Notice Board</a>
                   </Link>
+                  <ul className='sub-menu'>
+                    <li>
+                      <Link href='/news-tenders'>
+                        <a>News & Tenders</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href='/noc-and-notice'>
+                        <a>NOC & Notices</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <a href='https://spc-pile.bmtf.com.bd/' target='_blank'>
+                        Application for SPC-Pile at Jholshiri
+                      </a>
+                    </li>
+                  </ul>
                 </li>
                 <li className='menu-item-has-children'>
                   <Link href='/image-gallery'>

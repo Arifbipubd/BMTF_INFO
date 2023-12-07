@@ -76,13 +76,12 @@ export default function BlogSingle1() {
                           <span></span>
                           <Learning className='fn__svg' />
                         </span>
-                        <h3>Mission</h3>
+                        <h3>Vision</h3>
                         <p>
-                          BMTF leads Bangladesh's industrial progress,
-                          emphasizing innovation, sustainability, and social
-                          responsibility. With visionary leadership, we drive
-                          economic transformation and national prosperity,
-                          aligning with critical development initiatives.
+                          Enhancing in-house production capacity through
+                          innovation, diversification and excellence in
+                          transforming Bangladesh Machine Tools Factory (BMTF)
+                          Limited as mother and defense industry.
                         </p>
                       </div>
                     </li>
@@ -95,13 +94,11 @@ export default function BlogSingle1() {
                           <Drawing className='fn__svg' />
                           {/* <img className="fn__svg" src="/svg/service/drawing.svg" alt="svg" /> */}
                         </span>
-                        <h3>Vision</h3>
+                        <h3>Mission</h3>
                         <p>
-                          BMTF aspire to lead Bangladesh's industry, setting new
-                          manufacturing standards, fostering economic growth,
-                          and global recognition through innovation,
-                          diversification, and strategic partnerships, driving
-                          resilience and prosperity.
+                          Make Bangladesh Machine Tools Factory (BMTF) Limited a
+                          lead commercially viable organization to contribute in
+                          the national economy.
                         </p>
                       </div>
                     </li>
