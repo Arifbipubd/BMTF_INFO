@@ -174,9 +174,9 @@ export default function Index() {
                       <img src='img/thumb/500-560.jpg' alt='' />
                       <div
                         className='abs_img'
-                        data-bg-img='Home/About-BMTF_Web.jpg'
+                        data-bg-img='/Home/home-intro.png'
                         style={{
-                          backgroundImage: "url(Home/About-BMTF_Web.jpg)",
+                          backgroundImage: "url(/Home/home-intro.png)",
                         }}
                       ></div>
                     </div>

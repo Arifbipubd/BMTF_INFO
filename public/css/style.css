@@ -10905,3 +10905,17 @@ blockquote {
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+.mobileNestedMenu {
+  position: relative !important;
+}
+.mobileNestedMenuSpan:after {
+  content: "";
+  width: 0px;
+  position: absolute;
+  display: block;
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  right: -15px;
+  bottom: 8px;
+}

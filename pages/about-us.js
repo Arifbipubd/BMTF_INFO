@@ -8,8 +8,7 @@ import {
   Drawing,
   Learning,
 } from "../public/svg/service/IconService";
-import { Check, Arrow_r } from "../public/svg/icon";
-import Link from "next/link";
+import { Check } from "../public/svg/icon";
 
 export default function BlogSingle1() {
   return (
@@ -180,7 +179,7 @@ export default function BlogSingle1() {
                   <div
                     className='o_img'
                     style={{
-                      backgroundImage: "url(/bmtf-strategy.png)",
+                      backgroundImage: "url(/bmtf-strategy.jpg)",
                     }}
                   ></div>
                   <div className='o_color'></div>
