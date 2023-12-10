@@ -47,7 +47,7 @@ export default function BlogSingle1() {
                   <h3>
                     Our <span>Accreditation</span>
                   </h3>
-                  <p>
+                  <p className='justify_text'>
                     Dive into our accreditation section to witness the quality
                     benchmarks and certifications that underscore our dedication
                     to precision and reliability. Trust in an organization that
@@ -162,7 +162,7 @@ export default function BlogSingle1() {
                   <h3>
                     Our <span>Certificates</span>
                   </h3>
-                  <p>
+                  <p className='justify_text'>
                     Step into the world of BMTF's certification section, where
                     our unwavering commitment to quality and compliance takes
                     center stage. Explore the recognized industry standards that

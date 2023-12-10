@@ -15,7 +15,9 @@ export default function BlogSingle1() {
         <div className='industify_fn_pagetitle'>
           <div className='container'>
             <div className='title_holder'>
-              <h3>Army chief inaugurates Army Pharma Limited in Gazipur</h3>
+              <h3>
+                Chief of Army Staff inaugurates Army Pharma Limited in Gazipur
+              </h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
                   <li>

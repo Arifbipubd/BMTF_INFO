@@ -134,7 +134,7 @@ export default function BlogSingle1() {
                 <div className='left_part'>
                   <div className='title_holder'>
                     <h3 className='l_title'>Business Strategy</h3>
-                    <p className='l_desc'>
+                    <p className='l_desc justify_text'>
                       Our strategic focus is on expanding our scope in
                       manufacturing, assembly, and fabrication across a wide
                       spectrum of products. This includes military and
@@ -149,7 +149,7 @@ export default function BlogSingle1() {
                       factory while also contributing to reducing Bangladesh's
                       import reliance on these goods.
                     </p>
-                    <p>
+                    <p className='justify_text'>
                       Moreover, we aim to actively engage in government
                       projects, spanning construction, simulation, security,
                       transportation, energy, agriculture, and other viable

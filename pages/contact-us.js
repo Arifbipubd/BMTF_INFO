@@ -168,7 +168,7 @@ export default function Contact() {
                               </span>
                               <span className='shape'></span>
                             </span>
-                            <h3>Factory Office</h3>
+                            <h3>Factory</h3>
                           </div>
                           <div className='content_holder'>
                             <ul>

@@ -105,8 +105,8 @@ export default function Blog() {
                           <h3>
                             <Link href='/news-army-chief'>
                               <a>
-                                Army chief inaugurates Army Pharma Limited in
-                                Gazipur
+                                Chief of Army Staff inaugurates Army Pharma
+                                Limited in Gazipur
                               </a>
                             </Link>
                           </h3>
