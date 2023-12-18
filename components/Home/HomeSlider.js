@@ -8,7 +8,7 @@ import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+// import video from "public/Participant.mp4";
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 // Images imported
@@ -17,6 +17,7 @@ const slider2 = "/Home/homeSl1.jpg";
 const slider3 = "/Home/homeSl3.jpg";
 const slider4 = "/Home/homeSl4.jpg";
 const slider5 = "/Home/homeSl5.jpg";
+const video = "/Machine.mp4";
 
 export default function HomeSlider() {
   return (
@@ -78,14 +79,26 @@ export default function HomeSlider() {
             <div className='item'>
               <div className='img_holder'>
                 {/* Replace video with iframe */}
-                <iframe
+                {/* <iframe
                   width='100%'
                   height='100%'
-                  src='https://www.youtube.com/embed/tPajnKMj7w0?autoplay=1&controls=0&mute=1'
+                  src='https://www.youtube.com/embed/tPajnKMj7w0?autoplay=1&controls=0&mute=1&loop=5'
                   title='YouTube Video'
                   frameBorder='0'
                   allowFullScreen
-                ></iframe>
+                ></iframe> */}
+                <video
+                  width='100%'
+                  height='100%'
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                >
+                  <source src={video} type='video/mp4' />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <div className='title_holder'>
                 <div className='inner'>
