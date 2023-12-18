@@ -469,13 +469,13 @@ export default function Index() {
                       <div className='title_holder'>
                         <h3>
                           <Link href='/jhilmil-residential-park'>
-                            <a>Jhilmil Residential Park</a>
+                            <a>Jhilmil Residential Park Project</a>
                           </Link>
                         </h3>
                         <span className='desc'>
                           SVC Jhilmil Residential BD Limited and Bangladesh
                           Machine Tools Factory Limited (BMTF) have collaborated
-                          for the 'Jhilmil Residential Park Technology
+                          for the 'Jhilmil Residential Park Project Technology
                           Transfer'.
                         </span>
                         <p>

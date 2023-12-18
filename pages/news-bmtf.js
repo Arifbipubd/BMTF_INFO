@@ -114,7 +114,7 @@ export default function BlogSingle1() {
                       </li>
                       <li>
                         <Link href='/jhilmil-residential-park'>
-                          <a>Jhilmil Residential Park</a>
+                          <a>Jhilmil Residential Park Project</a>
                         </Link>
                       </li>
                       <li>

@@ -69,17 +69,24 @@ export default function HomeSlider() {
             nextEl: ".fn_next",
           }}
           autoplay={{
-            delay: 500000,
+            delay: 6000,
             disableOnInteraction: false,
           }}
           className='custom-class'
         >
           <SwiperSlide>
             <div className='item'>
-              <div
-                className='img_holder'
-                style={{ backgroundImage: `url(${slider1})` }}
-              ></div>
+              <div className='img_holder'>
+                {/* Replace video with iframe */}
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/tPajnKMj7w0?autoplay=1&controls=0&mute=1'
+                  title='YouTube Video'
+                  frameBorder='0'
+                  allowFullScreen
+                ></iframe>
+              </div>
               <div className='title_holder'>
                 <div className='inner'>
                   <div className='in'>

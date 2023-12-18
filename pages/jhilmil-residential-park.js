@@ -11,11 +11,11 @@ export default function BlogSingle1() {
     <>
       <Layout>
         {/* Page Title */}
-        <Title title='Jhilmil Residential Park' />
+        <Title title='Jhilmil Residential Park Project' />
         <div className='industify_fn_pagetitle'>
           <div className='container'>
             <div className='title_holder'>
-              <h3>Jhilmil Residential Park</h3>
+              <h3>Jhilmil Residential Park Project</h3>
               <div className='industify_fn_breadcrumbs'>
                 <ul>
                   <li>
@@ -28,7 +28,7 @@ export default function BlogSingle1() {
                   </li>
                   <li>
                     <span className='bread-current'>
-                      Jhilmil Residential Park
+                      Jhilmil Residential Park Project
                     </span>
                   </li>
                 </ul>
@@ -57,7 +57,7 @@ export default function BlogSingle1() {
                     <p>
                       SVC Jhilmil Residential BD Limited and Bangladesh Machine
                       Tools Factory Limited (BMTF) have collaborated for the
-                      'Jhilmil Residential Park Technology Transfer'.
+                      'Jhilmil Residential Park Project Technology Transfer'.
                     </p>
                     <p>
                       An announcement ceremony was held at Pan Pacific Sonargaon
@@ -200,7 +200,7 @@ export default function BlogSingle1() {
                       </li>
                       <li className='active'>
                         <Link href='/jhilmil-residential-park'>
-                          <a>Jhilmil Residential Park</a>
+                          <a>Jhilmil Residential Park Project</a>
                         </Link>
                       </li>
                       <li>
